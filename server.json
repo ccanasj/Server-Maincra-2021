@@ -1,0 +1,9 @@
+{
+    "apps":[
+        {
+            "name":"maincra",
+            "cwd":"/home/ubuntu/MinecraftServer",
+            "script":"sudo java -Xms4024M -Xmx14000M -jar forge-1.16.5-36.2.8.jar nogui"
+        }
+    ]
+}

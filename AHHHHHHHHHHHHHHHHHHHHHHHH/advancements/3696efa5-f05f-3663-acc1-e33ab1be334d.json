@@ -77,6 +77,12 @@
     },
     "done": true
   },
+  "chisel:recipes/chisel/laboratory/wallvents": {
+    "criteria": {
+      "has_the_recipe": "2021-12-07 21:23:55 +0000"
+    },
+    "done": true
+  },
   "immersiveengineering:recipes/immersiveengineering/crafting/concrete": {
     "criteria": {
       "has_the_recipe": "2021-12-02 03:55:36 +0000"
@@ -344,6 +350,12 @@
   "botania:recipes/botania/lens_warp": {
     "criteria": {
       "has_the_recipe": "2021-12-02 03:55:42 +0000"
+    },
+    "done": true
+  },
+  "mutantbeasts:root": {
+    "criteria": {
+      "killed_something": "2021-12-07 22:20:57 +0000"
     },
     "done": true
   },
@@ -767,6 +779,12 @@
     },
     "done": true
   },
+  "chisel:recipes/chisel/futura/controller": {
+    "criteria": {
+      "has_the_recipe": "2021-12-07 21:23:55 +0000"
+    },
+    "done": true
+  },
   "biomesoplenty:recipes/misc/red_dye_from_rose": {
     "criteria": {
       "has_the_recipe": "2021-12-02 03:55:37 +0000"
@@ -812,6 +830,12 @@
   "betterendforge:recipes/betterendforge/thallasium_hammer_smithing": {
     "criteria": {
       "has_the_recipe": "2021-12-02 03:55:36 +0000"
+    },
+    "done": true
+  },
+  "chisel:recipes/chisel/laboratory/wallpanel": {
+    "criteria": {
+      "has_the_recipe": "2021-12-07 21:23:55 +0000"
     },
     "done": true
   },
@@ -1919,6 +1943,12 @@
   "betterendforge:recipes/betterendforge/lacugrove_stripped_bark": {
     "criteria": {
       "has_the_recipe": "2021-12-02 03:55:38 +0000"
+    },
+    "done": true
+  },
+  "chisel:recipes/chisel/diamond_chisel": {
+    "criteria": {
+      "has_the_recipe": "2021-12-07 21:23:55 +0000"
     },
     "done": true
   },
@@ -4146,6 +4176,7 @@
       "minecraft:creeper": "2021-12-02 05:17:33 +0000",
       "minecraft:phantom": "2021-12-07 06:47:25 +0000",
       "minecraft:zombified_piglin": "2021-12-05 05:18:16 +0000",
+      "minecraft:husk": "2021-12-07 22:35:27 +0000",
       "minecraft:silverfish": "2021-12-02 06:11:41 +0000",
       "minecraft:zombie": "2021-12-02 04:13:57 +0000"
     },
@@ -4790,6 +4821,12 @@
   "minecraft:recipes/building_blocks/smooth_sandstone_slab": {
     "criteria": {
       "has_the_recipe": "2021-12-02 03:55:39 +0000"
+    },
+    "done": true
+  },
+  "chisel:recipes/chisel/laboratory/largetile": {
+    "criteria": {
+      "has_the_recipe": "2021-12-07 21:23:55 +0000"
     },
     "done": true
   },
@@ -6398,6 +6435,12 @@
   "betterendforge:recipes/betterendforge/helix_tree_door": {
     "criteria": {
       "has_the_recipe": "2021-12-02 03:55:42 +0000"
+    },
+    "done": true
+  },
+  "chisel:recipes/chisel/futura/screen_cyan": {
+    "criteria": {
+      "has_the_recipe": "2021-12-07 21:23:55 +0000"
     },
     "done": true
   },
@@ -10992,6 +11035,12 @@
     },
     "done": true
   },
+  "chisel:recipes/chisel/futura/wavy": {
+    "criteria": {
+      "has_the_recipe": "2021-12-07 21:23:55 +0000"
+    },
+    "done": true
+  },
   "tconstruct:recipes/tconstruct/smeltery/smeltery/scorched/scorched_bricks_stairs_stonecutter": {
     "criteria": {
       "has_the_recipe": "2021-12-02 03:55:40 +0000"
@@ -11808,6 +11857,12 @@
     },
     "done": true
   },
+  "chisel:recipes/chisel/futura/uber_wavy": {
+    "criteria": {
+      "has_the_recipe": "2021-12-07 21:23:55 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/blue_banner": {
     "criteria": {
       "has_the_recipe": "2021-12-02 03:55:38 +0000"
@@ -12147,6 +12202,12 @@
   "immersiveengineering:recipes/immersiveengineering/crafting/stairs_alu_scaffolding_grate_top": {
     "criteria": {
       "has_the_recipe": "2021-12-02 03:55:38 +0000"
+    },
+    "done": true
+  },
+  "alexsmobs:alexsmobs/kangaroo": {
+    "criteria": {
+      "killed_by": "2021-12-07 22:31:29 +0000"
     },
     "done": true
   },
@@ -12606,6 +12667,12 @@
     },
     "done": true
   },
+  "chisel:recipes/chisel/auto_chisel": {
+    "criteria": {
+      "has_the_recipe": "2021-12-07 21:23:55 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/dark_oak_sign": {
     "criteria": {
       "has_the_recipe": "2021-12-02 03:55:37 +0000"
@@ -12936,6 +13003,12 @@
     },
     "done": true
   },
+  "chisel:recipes/chisel/laboratory/largesteel": {
+    "criteria": {
+      "has_the_recipe": "2021-12-07 21:23:55 +0000"
+    },
+    "done": true
+  },
   "botania:recipes/botania/metamorphic_mesa_cobblestone_stairs": {
     "criteria": {
       "has_the_recipe": "2021-12-02 03:55:39 +0000"
@@ -13113,6 +13186,12 @@
   "mcwbridges:recipes/birch_log_bridge_stair": {
     "criteria": {
       "has_the_recipe": "2021-12-02 03:55:42 +0000"
+    },
+    "done": true
+  },
+  "chisel:recipes/chisel/hitech_chisel": {
+    "criteria": {
+      "has_the_recipe": "2021-12-07 21:23:55 +0000"
     },
     "done": true
   },
@@ -13747,6 +13826,12 @@
     },
     "done": true
   },
+  "chisel:recipes/chisel/antiblock/white": {
+    "criteria": {
+      "has_the_recipe": "2021-12-07 21:23:55 +0000"
+    },
+    "done": true
+  },
   "botania:recipes/botania/cracked_livingrock_bricks": {
     "criteria": {
       "has_the_recipe": "2021-12-02 03:55:42 +0000"
@@ -14374,6 +14459,12 @@
   "immersiveengineering:recipes/immersiveengineering/crafting/thermoelectric_generator": {
     "criteria": {
       "has_the_recipe": "2021-12-02 03:55:41 +0000"
+    },
+    "done": true
+  },
+  "chisel:recipes/chisel/iron_chisel": {
+    "criteria": {
+      "has_the_recipe": "2021-12-07 21:23:55 +0000"
     },
     "done": true
   },
@@ -15367,6 +15458,12 @@
     },
     "done": true
   },
+  "chisel:recipes/chisel/futura/screen_metallic": {
+    "criteria": {
+      "has_the_recipe": "2021-12-07 21:23:55 +0000"
+    },
+    "done": true
+  },
   "botania:recipes/botania/livingrock_bricks_slab": {
     "criteria": {
       "has_the_recipe": "2021-12-02 03:55:38 +0000"
@@ -15721,6 +15818,12 @@
   "minecraft:recipes/decorations/orange_stained_glass_pane": {
     "criteria": {
       "has_the_recipe": "2021-12-02 03:55:40 +0000"
+    },
+    "done": true
+  },
+  "alexsmobs:alexsmobs/rattlesnake": {
+    "criteria": {
+      "killed_by": "2021-12-07 22:21:38 +0000"
     },
     "done": true
   },
@@ -16906,6 +17009,12 @@
     },
     "done": true
   },
+  "chisel:recipes/chisel/laboratory/infocon": {
+    "criteria": {
+      "has_the_recipe": "2021-12-07 21:23:55 +0000"
+    },
+    "done": true
+  },
   "immersiveengineering:recipes/immersiveengineering/crafting/toolupgrade_chemthrower_focus": {
     "criteria": {
       "has_the_recipe": "2021-12-02 03:55:40 +0000"
@@ -17200,6 +17309,12 @@
     },
     "done": true
   },
+  "chisel:recipes/chisel/charcoal/raw": {
+    "criteria": {
+      "has_the_recipe": "2021-12-07 21:23:55 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/red_sandstone": {
     "criteria": {
       "has_the_recipe": "2021-12-02 03:55:42 +0000"
@@ -17317,6 +17432,12 @@
   "botania:recipes/botania/conversions/light_blue_petal_block_deconstruct": {
     "criteria": {
       "has_the_recipe": "2021-12-02 03:55:39 +0000"
+    },
+    "done": true
+  },
+  "chisel:recipes/chisel/laboratory/directionright": {
+    "criteria": {
+      "has_the_recipe": "2021-12-07 21:23:55 +0000"
     },
     "done": true
   },
@@ -17635,6 +17756,12 @@
   "betterendforge:recipes/betterendforge/helix_tree_stripped_bark": {
     "criteria": {
       "has_the_recipe": "2021-12-02 03:55:36 +0000"
+    },
+    "done": true
+  },
+  "alexsmobs:alexsmobs/tarantula_hawk": {
+    "criteria": {
+      "killed_by": "2021-12-07 22:20:55 +0000"
     },
     "done": true
   },
@@ -18460,6 +18587,12 @@
     },
     "done": true
   },
+  "chisel:recipes/chisel/laboratory/checkertile": {
+    "criteria": {
+      "has_the_recipe": "2021-12-07 21:23:55 +0000"
+    },
+    "done": true
+  },
   "undergarden:recipes/undergarden_group/shard_o_lantern": {
     "criteria": {
       "has_the_recipe": "2021-12-02 03:55:42 +0000"
@@ -19279,6 +19412,12 @@
   "betterendforge:recipes/betterendforge/diorite_lantern": {
     "criteria": {
       "has_the_recipe": "2021-12-02 03:55:40 +0000"
+    },
+    "done": true
+  },
+  "chisel:recipes/chisel/laboratory/fuzzscreen": {
+    "criteria": {
+      "has_the_recipe": "2021-12-07 21:23:55 +0000"
     },
     "done": true
   },
@@ -20650,6 +20789,12 @@
     },
     "done": true
   },
+  "chisel:recipes/chisel/laboratory/floortile": {
+    "criteria": {
+      "has_the_recipe": "2021-12-07 21:23:55 +0000"
+    },
+    "done": true
+  },
   "immersiveengineering:recipes/immersiveengineering/crafting/shield": {
     "criteria": {
       "has_the_recipe": "2021-12-02 03:55:35 +0000"
@@ -21322,6 +21467,12 @@
     },
     "done": true
   },
+  "chisel:recipes/chisel/factory/dots": {
+    "criteria": {
+      "has_the_recipe": "2021-12-07 21:23:55 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/cracked_nether_bricks": {
     "criteria": {
       "has_the_recipe": "2021-12-02 03:55:40 +0000"
@@ -21499,6 +21650,12 @@
   "create:recipes/create.palettes/dark_scoria_bricks_slab": {
     "criteria": {
       "has_the_recipe": "2021-12-02 03:55:36 +0000"
+    },
+    "done": true
+  },
+  "chisel:recipes/chisel/tyrian/shining": {
+    "criteria": {
+      "has_the_recipe": "2021-12-07 21:23:55 +0000"
     },
     "done": true
   },
@@ -22003,6 +22160,12 @@
   "create:recipes/create.palettes/polished_dolomite_from_dolomite_stonecutting": {
     "criteria": {
       "has_the_recipe": "2021-12-02 03:55:40 +0000"
+    },
+    "done": true
+  },
+  "chisel:recipes/chisel/laboratory/smallsteel": {
+    "criteria": {
+      "has_the_recipe": "2021-12-07 21:23:55 +0000"
     },
     "done": true
   },
@@ -24299,6 +24462,12 @@
     },
     "done": true
   },
+  "chisel:recipes/chisel/laboratory/directionleft": {
+    "criteria": {
+      "has_the_recipe": "2021-12-07 21:23:55 +0000"
+    },
+    "done": true
+  },
   "biomesoplenty:recipes/building_blocks/white_sandstone_stairs_from_white_sandstone_stonecutting": {
     "criteria": {
       "has_the_recipe": "2021-12-02 03:55:42 +0000"
@@ -24704,6 +24873,12 @@
   "cfm:recipes/cfm/stripped_oak_park_bench": {
     "criteria": {
       "has_the_recipe": "2021-12-02 03:55:38 +0000"
+    },
+    "done": true
+  },
+  "chisel:recipes/chisel/laboratory/dottedpanel": {
+    "criteria": {
+      "has_the_recipe": "2021-12-07 21:23:55 +0000"
     },
     "done": true
   },
@@ -25235,6 +25410,12 @@
     },
     "done": true
   },
+  "artifacts:amateur_archaeologist": {
+    "criteria": {
+      "find_artifact": "2021-12-07 22:32:23 +0000"
+    },
+    "done": true
+  },
   "biomesoplenty:recipes/building_blocks/dead_slab": {
     "criteria": {
       "has_the_recipe": "2021-12-02 03:55:38 +0000"
@@ -25390,9 +25571,12 @@
       "minecraft:jungle_edge": "2021-12-02 18:47:17 +0000",
       "minecraft:forest": "2021-12-02 04:00:58 +0000",
       "minecraft:mountains": "2021-12-02 04:16:32 +0000",
+      "minecraft:desert_hills": "2021-12-07 22:27:00 +0000",
+      "minecraft:desert": "2021-12-07 22:20:52 +0000",
       "minecraft:jungle": "2021-12-02 18:47:21 +0000",
       "minecraft:birch_forest": "2021-12-02 04:02:03 +0000",
       "minecraft:deep_lukewarm_ocean": "2021-12-02 18:51:39 +0000",
+      "minecraft:savanna_plateau": "2021-12-07 22:29:30 +0000",
       "minecraft:beach": "2021-12-02 18:47:35 +0000",
       "minecraft:dark_forest": "2021-12-02 04:11:34 +0000",
       "minecraft:river": "2021-12-02 18:17:58 +0000",
@@ -25401,6 +25585,7 @@
       "minecraft:wooded_mountains": "2021-12-02 05:33:23 +0000",
       "minecraft:wooded_hills": "2021-12-02 04:01:02 +0000",
       "minecraft:swamp": "2021-12-03 04:27:50 +0000",
+      "minecraft:savanna": "2021-12-07 22:27:44 +0000",
       "minecraft:plains": "2021-12-02 03:55:43 +0000"
     },
     "done": false
@@ -26150,6 +26335,12 @@
     },
     "done": true
   },
+  "chisel:recipes/chisel/futura/controller_purple": {
+    "criteria": {
+      "has_the_recipe": "2021-12-07 21:23:55 +0000"
+    },
+    "done": true
+  },
   "botania:recipes/botania/aura_ring_greater": {
     "criteria": {
       "has_the_recipe": "2021-12-02 03:55:35 +0000"
@@ -26495,6 +26686,12 @@
   "botania:recipes/botania/metamorphic_swamp_cobblestone_wall": {
     "criteria": {
       "has_the_recipe": "2021-12-02 03:55:38 +0000"
+    },
+    "done": true
+  },
+  "chisel:recipes/chisel/laboratory/roundel": {
+    "criteria": {
+      "has_the_recipe": "2021-12-07 21:23:55 +0000"
     },
     "done": true
   },
@@ -27335,6 +27532,12 @@
   "botania:recipes/botania/petal_light_blue": {
     "criteria": {
       "has_the_recipe": "2021-12-02 03:55:41 +0000"
+    },
+    "done": true
+  },
+  "chisel:recipes/chisel/laboratory/smalltile": {
+    "criteria": {
+      "has_the_recipe": "2021-12-07 21:23:55 +0000"
     },
     "done": true
   },

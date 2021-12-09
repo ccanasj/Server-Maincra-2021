@@ -1,14 +1,4 @@
 
-[bronze]
-	#Set to true to disable bronze weapons
-	disable = false
-	#Durability for bronze weapons
-	#Range: 1 ~ 100000
-	durability = 320
-	#Base Damage for bronze weapons
-	#Range: 0.1 ~ 100.0
-	base_damage = 2.0
-
 [dagger]
 	#Disables all recipes for all Daggers.
 	disable = false
@@ -322,6 +312,16 @@
 	#Base Damage for tin weapons
 	#Range: 0.1 ~ 100.0
 	base_damage = 1.75
+
+[bronze]
+	#Set to true to disable bronze weapons
+	disable = false
+	#Durability for bronze weapons
+	#Range: 1 ~ 100000
+	durability = 320
+	#Base Damage for bronze weapons
+	#Range: 0.1 ~ 100.0
+	base_damage = 2.0
 
 [steel]
 	#Set to true to disable steel weapons

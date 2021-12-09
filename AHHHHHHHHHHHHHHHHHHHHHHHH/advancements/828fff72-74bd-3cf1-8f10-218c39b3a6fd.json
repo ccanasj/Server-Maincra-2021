@@ -77,6 +77,12 @@
     },
     "done": true
   },
+  "chisel:recipes/chisel/laboratory/wallvents": {
+    "criteria": {
+      "has_the_recipe": "2021-12-07 23:48:59 +0000"
+    },
+    "done": true
+  },
   "immersiveengineering:recipes/immersiveengineering/crafting/concrete": {
     "criteria": {
       "has_the_recipe": "2021-12-02 03:04:23 +0000"
@@ -344,6 +350,12 @@
   "botania:recipes/botania/lens_warp": {
     "criteria": {
       "has_the_recipe": "2021-12-02 03:04:30 +0000"
+    },
+    "done": true
+  },
+  "mutantbeasts:root": {
+    "criteria": {
+      "killed_by_something": "2021-12-08 00:24:24 +0000"
     },
     "done": true
   },
@@ -773,6 +785,12 @@
     },
     "done": true
   },
+  "chisel:recipes/chisel/futura/controller": {
+    "criteria": {
+      "has_the_recipe": "2021-12-07 23:48:59 +0000"
+    },
+    "done": true
+  },
   "biomesoplenty:recipes/misc/red_dye_from_rose": {
     "criteria": {
       "has_the_recipe": "2021-12-02 03:04:24 +0000"
@@ -818,6 +836,12 @@
   "betterendforge:recipes/betterendforge/thallasium_hammer_smithing": {
     "criteria": {
       "has_the_recipe": "2021-12-02 03:04:24 +0000"
+    },
+    "done": true
+  },
+  "chisel:recipes/chisel/laboratory/wallpanel": {
+    "criteria": {
+      "has_the_recipe": "2021-12-07 23:48:59 +0000"
     },
     "done": true
   },
@@ -1537,6 +1561,7 @@
   },
   "minecraft:nether/explore_nether": {
     "criteria": {
+      "minecraft:crimson_forest": "2021-12-09 05:39:32 +0000",
       "minecraft:nether_wastes": "2021-12-07 05:49:46 +0000",
       "minecraft:soul_sand_valley": "2021-12-07 05:45:23 +0000"
     },
@@ -1917,6 +1942,12 @@
   "betterendforge:recipes/betterendforge/lacugrove_stripped_bark": {
     "criteria": {
       "has_the_recipe": "2021-12-02 03:04:26 +0000"
+    },
+    "done": true
+  },
+  "chisel:recipes/chisel/diamond_chisel": {
+    "criteria": {
+      "has_diamond": "2021-12-07 23:48:59 +0000"
     },
     "done": true
   },
@@ -2985,6 +3016,12 @@
   "cfm:recipes/cfm/stripped_dark_oak_desk_cabinet": {
     "criteria": {
       "has_the_recipe": "2021-12-02 03:04:28 +0000"
+    },
+    "done": true
+  },
+  "improvedbackpacks:bound_leather": {
+    "criteria": {
+      "bound_leather": "2021-12-08 22:40:30 +0000"
     },
     "done": true
   },
@@ -4780,6 +4817,12 @@
     },
     "done": true
   },
+  "chisel:recipes/chisel/laboratory/largetile": {
+    "criteria": {
+      "has_the_recipe": "2021-12-07 23:48:59 +0000"
+    },
+    "done": true
+  },
   "immersiveengineering:recipes/immersiveengineering/crafting/connector_probe": {
     "criteria": {
       "has_the_recipe": "2021-12-02 03:04:24 +0000"
@@ -5101,6 +5144,12 @@
   "immersiveengineering:recipes/immersiveengineering/crafting/nugget_lead_to_ingot_lead": {
     "criteria": {
       "has_the_recipe": "2021-12-02 03:04:30 +0000"
+    },
+    "done": true
+  },
+  "improvedbackpacks:sewing_spool": {
+    "criteria": {
+      "sewing_spool": "2021-12-08 22:33:56 +0000"
     },
     "done": true
   },
@@ -6394,6 +6443,12 @@
     },
     "done": true
   },
+  "chisel:recipes/chisel/futura/screen_cyan": {
+    "criteria": {
+      "has_the_recipe": "2021-12-07 23:48:59 +0000"
+    },
+    "done": true
+  },
   "betterendforge:recipes/betterendforge/flavolite_bricks_slab_from_flavolite_stonecutting": {
     "criteria": {
       "has_the_recipe": "2021-12-02 03:04:26 +0000"
@@ -7153,6 +7208,12 @@
   "cfm:recipes/cfm/black_kitchen_counter": {
     "criteria": {
       "has_the_recipe": "2021-12-02 03:04:30 +0000"
+    },
+    "done": true
+  },
+  "create:brass": {
+    "criteria": {
+      "0": "2021-12-09 04:49:51 +0000"
     },
     "done": true
   },
@@ -9756,6 +9817,12 @@
     },
     "done": true
   },
+  "minecraft:story/form_obsidian": {
+    "criteria": {
+      "obsidian": "2021-12-09 05:37:01 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/netherite_ingot_from_netherite_block": {
     "criteria": {
       "has_the_recipe": "2021-12-02 03:04:24 +0000"
@@ -10986,6 +11053,12 @@
     },
     "done": true
   },
+  "chisel:recipes/chisel/futura/wavy": {
+    "criteria": {
+      "has_the_recipe": "2021-12-07 23:48:59 +0000"
+    },
+    "done": true
+  },
   "tconstruct:recipes/tconstruct/smeltery/smeltery/scorched/scorched_bricks_stairs_stonecutter": {
     "criteria": {
       "has_the_recipe": "2021-12-02 03:04:27 +0000"
@@ -11808,6 +11881,12 @@
     },
     "done": true
   },
+  "chisel:recipes/chisel/futura/uber_wavy": {
+    "criteria": {
+      "has_the_recipe": "2021-12-07 23:48:59 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/blue_banner": {
     "criteria": {
       "has_the_recipe": "2021-12-02 03:04:26 +0000"
@@ -12612,6 +12691,12 @@
     },
     "done": true
   },
+  "chisel:recipes/chisel/auto_chisel": {
+    "criteria": {
+      "has_iron": "2021-12-07 23:48:59 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/dark_oak_sign": {
     "criteria": {
       "has_the_recipe": "2021-12-02 03:04:25 +0000"
@@ -12942,6 +13027,12 @@
     },
     "done": true
   },
+  "chisel:recipes/chisel/laboratory/largesteel": {
+    "criteria": {
+      "has_the_recipe": "2021-12-07 23:48:59 +0000"
+    },
+    "done": true
+  },
   "botania:recipes/botania/metamorphic_mesa_cobblestone_stairs": {
     "criteria": {
       "has_the_recipe": "2021-12-02 03:04:26 +0000"
@@ -13119,6 +13210,12 @@
   "mcwbridges:recipes/birch_log_bridge_stair": {
     "criteria": {
       "has_the_recipe": "2021-12-02 03:04:29 +0000"
+    },
+    "done": true
+  },
+  "chisel:recipes/chisel/hitech_chisel": {
+    "criteria": {
+      "has_the_recipe": "2021-12-07 23:48:59 +0000"
     },
     "done": true
   },
@@ -13749,6 +13846,12 @@
   "minecraft:recipes/building_blocks/smooth_red_sandstone_stairs_from_smooth_red_sandstone_stonecutting": {
     "criteria": {
       "has_the_recipe": "2021-12-02 03:04:29 +0000"
+    },
+    "done": true
+  },
+  "chisel:recipes/chisel/antiblock/white": {
+    "criteria": {
+      "has_the_recipe": "2021-12-07 23:48:59 +0000"
     },
     "done": true
   },
@@ -14386,6 +14489,12 @@
   "immersiveengineering:recipes/immersiveengineering/crafting/thermoelectric_generator": {
     "criteria": {
       "has_the_recipe": "2021-12-02 03:04:28 +0000"
+    },
+    "done": true
+  },
+  "chisel:recipes/chisel/iron_chisel": {
+    "criteria": {
+      "has_iron": "2021-12-07 23:48:59 +0000"
     },
     "done": true
   },
@@ -15386,6 +15495,12 @@
     },
     "done": true
   },
+  "chisel:recipes/chisel/futura/screen_metallic": {
+    "criteria": {
+      "has_the_recipe": "2021-12-07 23:48:59 +0000"
+    },
+    "done": true
+  },
   "botania:recipes/botania/livingrock_bricks_slab": {
     "criteria": {
       "has_the_recipe": "2021-12-02 03:04:25 +0000"
@@ -16220,6 +16335,12 @@
     },
     "done": true
   },
+  "improvedbackpacks:backpack": {
+    "criteria": {
+      "backpack": "2021-12-08 22:47:22 +0000"
+    },
+    "done": true
+  },
   "create:recipes/create.palettes/scoria_cobblestone_wall": {
     "criteria": {
       "has_the_recipe": "2021-12-02 03:04:29 +0000"
@@ -16916,6 +17037,12 @@
     },
     "done": true
   },
+  "chisel:recipes/chisel/laboratory/infocon": {
+    "criteria": {
+      "has_the_recipe": "2021-12-07 23:48:59 +0000"
+    },
+    "done": true
+  },
   "immersiveengineering:recipes/immersiveengineering/crafting/toolupgrade_chemthrower_focus": {
     "criteria": {
       "has_the_recipe": "2021-12-02 03:04:28 +0000"
@@ -16991,6 +17118,12 @@
   "immersiveengineering:recipes/immersiveengineering/crafting/nugget_aluminum_recycle_faraday_feet": {
     "criteria": {
       "has_the_recipe": "2021-12-02 03:04:30 +0000"
+    },
+    "done": true
+  },
+  "improvedbackpacks:root": {
+    "criteria": {
+      "crafting_table": "2021-12-08 22:40:38 +0000"
     },
     "done": true
   },
@@ -17210,6 +17343,12 @@
     },
     "done": true
   },
+  "chisel:recipes/chisel/charcoal/raw": {
+    "criteria": {
+      "has_the_recipe": "2021-12-07 23:48:59 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/red_sandstone": {
     "criteria": {
       "has_the_recipe": "2021-12-02 03:04:29 +0000"
@@ -17327,6 +17466,12 @@
   "botania:recipes/botania/conversions/light_blue_petal_block_deconstruct": {
     "criteria": {
       "has_the_recipe": "2021-12-02 03:04:26 +0000"
+    },
+    "done": true
+  },
+  "chisel:recipes/chisel/laboratory/directionright": {
+    "criteria": {
+      "has_the_recipe": "2021-12-07 23:48:59 +0000"
     },
     "done": true
   },
@@ -18476,6 +18621,12 @@
     },
     "done": true
   },
+  "chisel:recipes/chisel/laboratory/checkertile": {
+    "criteria": {
+      "has_the_recipe": "2021-12-07 23:48:59 +0000"
+    },
+    "done": true
+  },
   "undergarden:recipes/undergarden_group/shard_o_lantern": {
     "criteria": {
       "has_the_recipe": "2021-12-02 03:04:29 +0000"
@@ -19304,6 +19455,12 @@
     },
     "done": true
   },
+  "chisel:recipes/chisel/laboratory/fuzzscreen": {
+    "criteria": {
+      "has_the_recipe": "2021-12-07 23:48:59 +0000"
+    },
+    "done": true
+  },
   "cfm:recipes/cfm/stripped_acacia_desk": {
     "criteria": {
       "has_the_recipe": "2021-12-02 03:04:26 +0000"
@@ -20012,6 +20169,12 @@
     },
     "done": true
   },
+  "improvedbackpacks:tanned_leather": {
+    "criteria": {
+      "tanned_leather": "2021-12-08 22:46:20 +0000"
+    },
+    "done": true
+  },
   "betterendforge:recipes/betterendforge/violecite_bricks_slab_from_violecite_stonecutting": {
     "criteria": {
       "has_the_recipe": "2021-12-02 03:04:23 +0000"
@@ -20663,6 +20826,12 @@
   "create:recipes/create.palettes/andesite_cobblestone_stairs_from_andesite_cobblestone_stonecutting": {
     "criteria": {
       "has_the_recipe": "2021-12-02 03:04:25 +0000"
+    },
+    "done": true
+  },
+  "chisel:recipes/chisel/laboratory/floortile": {
+    "criteria": {
+      "has_the_recipe": "2021-12-07 23:48:59 +0000"
     },
     "done": true
   },
@@ -21332,6 +21501,12 @@
     },
     "done": true
   },
+  "chisel:recipes/chisel/factory/dots": {
+    "criteria": {
+      "has_iron": "2021-12-07 23:48:59 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/cracked_nether_bricks": {
     "criteria": {
       "has_the_recipe": "2021-12-02 03:04:28 +0000"
@@ -21512,6 +21687,12 @@
     },
     "done": true
   },
+  "chisel:recipes/chisel/tyrian/shining": {
+    "criteria": {
+      "has_iron": "2021-12-07 23:48:59 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/cooked_salmon_from_smoking": {
     "criteria": {
       "has_the_recipe": "2021-12-02 03:04:26 +0000"
@@ -21587,6 +21768,12 @@
   "botania:recipes/botania/floating_exoflame": {
     "criteria": {
       "has_the_recipe": "2021-12-02 03:04:30 +0000"
+    },
+    "done": true
+  },
+  "improvedbackpacks:sewing_table": {
+    "criteria": {
+      "sewing_table": "2021-12-08 22:32:07 +0000"
     },
     "done": true
   },
@@ -22007,6 +22194,12 @@
   "create:recipes/create.palettes/polished_dolomite_from_dolomite_stonecutting": {
     "criteria": {
       "has_the_recipe": "2021-12-02 03:04:28 +0000"
+    },
+    "done": true
+  },
+  "chisel:recipes/chisel/laboratory/smallsteel": {
+    "criteria": {
+      "has_the_recipe": "2021-12-07 23:48:59 +0000"
     },
     "done": true
   },
@@ -24296,6 +24489,12 @@
     },
     "done": true
   },
+  "chisel:recipes/chisel/laboratory/directionleft": {
+    "criteria": {
+      "has_the_recipe": "2021-12-07 23:48:59 +0000"
+    },
+    "done": true
+  },
   "biomesoplenty:recipes/building_blocks/white_sandstone_stairs_from_white_sandstone_stonecutting": {
     "criteria": {
       "has_the_recipe": "2021-12-02 03:04:30 +0000"
@@ -24695,6 +24894,12 @@
   "cfm:recipes/cfm/stripped_oak_park_bench": {
     "criteria": {
       "has_the_recipe": "2021-12-02 03:04:25 +0000"
+    },
+    "done": true
+  },
+  "chisel:recipes/chisel/laboratory/dottedpanel": {
+    "criteria": {
+      "has_the_recipe": "2021-12-07 23:48:59 +0000"
     },
     "done": true
   },
@@ -26115,6 +26320,7 @@
   },
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
+      "baked_potato": "2021-12-08 08:54:43 +0000",
       "apple": "2021-12-02 03:36:14 +0000",
       "poisonous_potato": "2021-12-03 16:40:07 +0000",
       "bread": "2021-12-03 00:57:32 +0000"
@@ -26142,6 +26348,12 @@
   "minecraft:recipes/tools/netherite_pickaxe_smithing": {
     "criteria": {
       "has_the_recipe": "2021-12-02 03:04:25 +0000"
+    },
+    "done": true
+  },
+  "chisel:recipes/chisel/futura/controller_purple": {
+    "criteria": {
+      "has_the_recipe": "2021-12-07 23:48:59 +0000"
     },
     "done": true
   },
@@ -26502,6 +26714,12 @@
   "botania:recipes/botania/metamorphic_swamp_cobblestone_wall": {
     "criteria": {
       "has_the_recipe": "2021-12-02 03:04:26 +0000"
+    },
+    "done": true
+  },
+  "chisel:recipes/chisel/laboratory/roundel": {
+    "criteria": {
+      "has_the_recipe": "2021-12-07 23:48:59 +0000"
     },
     "done": true
   },
@@ -27342,6 +27560,12 @@
   "undergarden:recipes/undergarden_group/forgotten_sword_smithing": {
     "criteria": {
       "has_the_recipe": "2021-12-02 03:04:28 +0000"
+    },
+    "done": true
+  },
+  "chisel:recipes/chisel/laboratory/smalltile": {
+    "criteria": {
+      "has_the_recipe": "2021-12-07 23:48:59 +0000"
     },
     "done": true
   },

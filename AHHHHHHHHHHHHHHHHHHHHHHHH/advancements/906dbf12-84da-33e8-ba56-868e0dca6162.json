@@ -2452,7 +2452,8 @@
   "tconstruct:smeltery/melter": {
     "criteria": {
       "seared_table": "2021-12-09 04:37:32 +0000",
-      "seared_basin": "2021-12-09 04:45:02 +0000"
+      "seared_basin": "2021-12-09 04:45:02 +0000",
+      "seared_faucet": "2021-12-10 04:38:43 +0000"
     },
     "done": false
   },
@@ -2966,6 +2967,12 @@
     },
     "done": true
   },
+  "theabyss:quest_unknown_diamond_start": {
+    "criteria": {
+      "quest_unknown_diamond_start": "2021-12-09 22:54:18 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/pink_glazed_terracotta": {
     "criteria": {
       "has_the_recipe": "2021-12-09 00:12:51 +0000"
@@ -2987,6 +2994,12 @@
   "cfm:recipes/cfm/stripped_dark_oak_desk_cabinet": {
     "criteria": {
       "has_the_recipe": "2021-12-09 00:12:51 +0000"
+    },
+    "done": true
+  },
+  "improvedbackpacks:bound_leather": {
+    "criteria": {
+      "bound_leather": "2021-12-10 04:23:46 +0000"
     },
     "done": true
   },
@@ -4120,13 +4133,19 @@
   },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
+      "minecraft:blaze": "2021-12-09 17:42:31 +0000",
       "minecraft:skeleton": "2021-12-09 02:03:08 +0000",
       "minecraft:magma_cube": "2021-12-09 04:04:02 +0000",
       "minecraft:spider": "2021-12-09 00:53:41 +0000",
       "minecraft:piglin_brute": "2021-12-09 03:45:32 +0000",
+      "minecraft:creeper": "2021-12-10 02:54:07 +0000",
+      "minecraft:phantom": "2021-12-10 03:11:21 +0000",
+      "minecraft:zombified_piglin": "2021-12-10 04:36:59 +0000",
       "minecraft:witch": "2021-12-09 02:30:45 +0000",
+      "minecraft:wither_skeleton": "2021-12-09 17:31:39 +0000",
       "minecraft:piglin": "2021-12-09 03:51:01 +0000",
       "minecraft:enderman": "2021-12-09 03:38:55 +0000",
+      "minecraft:silverfish": "2021-12-09 22:11:55 +0000",
       "minecraft:zombie": "2021-12-09 02:32:58 +0000"
     },
     "done": false
@@ -5091,6 +5110,12 @@
     },
     "done": true
   },
+  "improvedbackpacks:sewing_spool": {
+    "criteria": {
+      "sewing_spool": "2021-12-10 04:23:34 +0000"
+    },
+    "done": true
+  },
   "biomesoplenty:recipes/redstone/magic_trapdoor": {
     "criteria": {
       "has_the_recipe": "2021-12-09 00:12:49 +0000"
@@ -5328,6 +5353,12 @@
   "botania:recipes/botania/chiseled_red_quartz": {
     "criteria": {
       "has_the_recipe": "2021-12-09 00:12:48 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/obtain_ancient_debris": {
+    "criteria": {
+      "ancient_debris": "2021-12-09 21:29:31 +0000"
     },
     "done": true
   },
@@ -9807,6 +9838,12 @@
     },
     "done": true
   },
+  "immersiveengineering:main/craft_hammer": {
+    "criteria": {
+      "hammer": "2021-12-10 04:43:45 +0000"
+    },
+    "done": true
+  },
   "betterendforge:recipes/misc/stick_from_needlegrass": {
     "criteria": {
       "has_the_recipe": "2021-12-09 00:12:53 +0000"
@@ -12780,6 +12817,12 @@
   "betterendforge:recipes/betterendforge/sulphuric_rock_slab_from_sulphuric_rock_stonecutting": {
     "criteria": {
       "has_the_recipe": "2021-12-09 00:12:48 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/find_fortress": {
+    "criteria": {
+      "fortress": "2021-12-09 17:30:23 +0000"
     },
     "done": true
   },
@@ -16068,6 +16111,12 @@
   "minecraft:story/enter_the_nether": {
     "criteria": {
       "entered_nether": "2021-12-09 02:13:28 +0000"
+    },
+    "done": true
+  },
+  "immersiveengineering:main/craft_pump": {
+    "criteria": {
+      "pump": "2021-12-10 04:49:42 +0000"
     },
     "done": true
   },
@@ -19407,6 +19456,12 @@
     },
     "done": true
   },
+  "tconstruct:smeltery/abilities": {
+    "criteria": {
+      "luck": "2021-12-09 19:18:53 +0000"
+    },
+    "done": false
+  },
   "botania:recipes/botania/conversions/elementium_block_deconstruct": {
     "criteria": {
       "has_the_recipe": "2021-12-09 00:12:52 +0000"
@@ -20025,6 +20080,12 @@
     },
     "done": true
   },
+  "improvedbackpacks:tanned_leather": {
+    "criteria": {
+      "tanned_leather": "2021-12-10 04:25:01 +0000"
+    },
+    "done": true
+  },
   "betterendforge:recipes/betterendforge/violecite_bricks_slab_from_violecite_stonecutting": {
     "criteria": {
       "has_the_recipe": "2021-12-09 00:12:54 +0000"
@@ -20268,6 +20329,12 @@
   "tconstruct:recipes/tconstruct/general/common/glass/white_clear_stained_glass_pane": {
     "criteria": {
       "has_the_recipe": "2021-12-09 00:12:53 +0000"
+    },
+    "done": true
+  },
+  "improvedbackpacks:tiny_upgrade": {
+    "criteria": {
+      "upgrade_backpack": "2021-12-10 04:26:52 +0000"
     },
     "done": true
   },
@@ -22713,6 +22780,12 @@
   "create:recipes/create.palettes/gabbro_bricks_wall_from_gabbro_bricks_stonecutting": {
     "criteria": {
       "has_the_recipe": "2021-12-09 00:12:53 +0000"
+    },
+    "done": true
+  },
+  "alexsmobs:alexsmobs/grizzly_bear": {
+    "criteria": {
+      "killed_by": "2021-12-09 23:05:55 +0000"
     },
     "done": true
   },
@@ -25425,10 +25498,12 @@
       "minecraft:taiga_hills": "2021-12-09 02:52:00 +0000",
       "minecraft:jungle": "2021-12-09 02:40:59 +0000",
       "minecraft:birch_forest": "2021-12-09 00:15:53 +0000",
+      "minecraft:dark_forest": "2021-12-09 23:08:53 +0000",
       "minecraft:river": "2021-12-09 00:15:39 +0000",
       "minecraft:birch_forest_hills": "2021-12-09 00:16:24 +0000",
       "minecraft:wooded_mountains": "2021-12-09 00:16:54 +0000",
       "minecraft:wooded_hills": "2021-12-09 00:18:47 +0000",
+      "minecraft:swamp": "2021-12-09 23:09:46 +0000",
       "minecraft:plains": "2021-12-09 00:12:55 +0000"
     },
     "done": false

@@ -497,6 +497,12 @@
     },
     "done": true
   },
+  "botania:challenge/root": {
+    "criteria": {
+      "flower": "2021-12-09 23:19:54 +0000"
+    },
+    "done": true
+  },
   "cfm:recipes/cfm/jungle_cabinet": {
     "criteria": {
       "has_the_recipe": "2021-12-03 04:16:12 +0000"
@@ -1549,6 +1555,7 @@
   },
   "minecraft:nether/explore_nether": {
     "criteria": {
+      "minecraft:crimson_forest": "2021-12-10 06:22:57 +0000",
       "minecraft:nether_wastes": "2021-12-08 21:21:45 +0000",
       "minecraft:soul_sand_valley": "2021-12-08 21:18:10 +0000"
     },
@@ -2063,6 +2070,12 @@
       "has_the_recipe": "2021-12-03 04:16:11 +0000"
     },
     "done": true
+  },
+  "twilightforest:arborist": {
+    "criteria": {
+      "twilight_oak_door": "2021-12-09 21:57:59 +0000"
+    },
+    "done": false
   },
   "create:recipes/create.base/crafting/kinetics/whisk": {
     "criteria": {
@@ -4139,6 +4152,7 @@
       "minecraft:pillager": "2021-12-08 21:58:20 +0000",
       "minecraft:skeleton": "2021-12-03 04:49:51 +0000",
       "minecraft:spider": "2021-12-07 06:08:00 +0000",
+      "minecraft:phantom": "2021-12-10 01:57:50 +0000",
       "minecraft:zombified_piglin": "2021-12-09 04:03:25 +0000",
       "minecraft:zombie": "2021-12-07 06:06:02 +0000"
     },
@@ -5347,6 +5361,12 @@
   "botania:recipes/botania/chiseled_red_quartz": {
     "criteria": {
       "has_the_recipe": "2021-12-03 04:16:11 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/obtain_ancient_debris": {
+    "criteria": {
+      "ancient_debris": "2021-12-10 05:04:54 +0000"
     },
     "done": true
   },
@@ -6673,6 +6693,12 @@
   "undergarden:recipes/undergarden_group/smogstem_wood": {
     "criteria": {
       "has_the_recipe": "2021-12-03 04:16:12 +0000"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/breed_an_animal": {
+    "criteria": {
+      "bred": "2021-12-09 06:08:12 +0000"
     },
     "done": true
   },
@@ -8939,6 +8965,12 @@
       "has_the_recipe": "2021-12-03 04:16:10 +0000"
     },
     "done": true
+  },
+  "minecraft:husbandry/bred_all_animals": {
+    "criteria": {
+      "minecraft:sheep": "2021-12-09 06:08:12 +0000"
+    },
+    "done": false
   },
   "immersiveengineering:recipes/immersiveengineering/crafting/hammer": {
     "criteria": {
@@ -14734,6 +14766,12 @@
   "immersiveengineering:recipes/immersiveengineering/crafting/storage_nickel_to_ingot_nickel": {
     "criteria": {
       "has_the_recipe": "2021-12-03 04:16:16 +0000"
+    },
+    "done": true
+  },
+  "botania:main/root": {
+    "criteria": {
+      "flower": "2021-12-09 23:19:54 +0000"
     },
     "done": true
   },
@@ -22143,6 +22181,7 @@
   },
   "tconstruct:tools/material_master": {
     "criteria": {
+      "cobalt": "2021-12-09 23:32:57 +0000",
       "copper": "2021-12-09 00:05:07 +0000",
       "stone": "2021-12-09 03:16:31 +0000"
     },
@@ -23015,6 +23054,12 @@
   "minecraft:recipes/misc/lapis_lazuli": {
     "criteria": {
       "has_the_recipe": "2021-12-03 04:16:15 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/upgrade_tools": {
+    "criteria": {
+      "stone_pickaxe": "2021-12-09 22:33:52 +0000"
     },
     "done": true
   },
@@ -25447,12 +25492,22 @@
       "minecraft:jungle_edge": "2021-12-07 21:22:20 +0000",
       "minecraft:forest": "2021-12-03 04:18:03 +0000",
       "minecraft:mountains": "2021-12-03 04:24:43 +0000",
+      "minecraft:taiga": "2021-12-09 17:47:35 +0000",
+      "minecraft:desert_hills": "2021-12-09 21:42:43 +0000",
+      "minecraft:taiga_hills": "2021-12-09 17:49:01 +0000",
+      "minecraft:desert": "2021-12-09 21:42:42 +0000",
+      "minecraft:jungle": "2021-12-09 21:45:16 +0000",
       "minecraft:birch_forest": "2021-12-03 04:18:37 +0000",
+      "minecraft:jungle_hills": "2021-12-09 21:45:34 +0000",
+      "minecraft:deep_lukewarm_ocean": "2021-12-09 21:42:22 +0000",
+      "minecraft:beach": "2021-12-09 21:41:57 +0000",
       "minecraft:dark_forest": "2021-12-03 05:15:42 +0000",
       "minecraft:river": "2021-12-03 04:18:00 +0000",
+      "minecraft:lukewarm_ocean": "2021-12-09 21:42:25 +0000",
       "minecraft:birch_forest_hills": "2021-12-03 04:21:35 +0000",
       "minecraft:wooded_mountains": "2021-12-03 04:26:27 +0000",
       "minecraft:wooded_hills": "2021-12-08 20:43:36 +0000",
+      "minecraft:stone_shore": "2021-12-09 21:46:46 +0000",
       "minecraft:swamp": "2021-12-07 06:22:27 +0000",
       "minecraft:plains": "2021-12-03 04:16:17 +0000"
     },
@@ -26169,7 +26224,8 @@
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
       "baked_potato": "2021-12-07 16:29:11 +0000",
-      "potato": "2021-12-07 06:06:18 +0000"
+      "potato": "2021-12-07 06:06:18 +0000",
+      "carrot": "2021-12-09 05:58:04 +0000"
     },
     "done": false
   },
@@ -26932,6 +26988,12 @@
   "cfm:recipes/cfm/andesite_coffee_table": {
     "criteria": {
       "has_the_recipe": "2021-12-03 04:16:14 +0000"
+    },
+    "done": true
+  },
+  "botania:main/flower_pickup": {
+    "criteria": {
+      "flower": "2021-12-09 23:19:54 +0000"
     },
     "done": true
   },

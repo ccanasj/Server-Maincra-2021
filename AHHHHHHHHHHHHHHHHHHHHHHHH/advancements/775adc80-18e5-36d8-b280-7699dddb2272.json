@@ -497,6 +497,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/blue_wool": {
+    "criteria": {
+      "has_white_wool": "2021-12-11 17:21:40 +0000"
+    },
+    "done": true
+  },
   "cfm:recipes/cfm/jungle_cabinet": {
     "criteria": {
       "has_the_recipe": "2021-12-08 20:12:31 +0000"
@@ -1049,6 +1055,12 @@
     },
     "done": true
   },
+  "minecraft:story/deflect_arrow": {
+    "criteria": {
+      "deflected_projectile": "2021-12-10 19:05:50 +0000"
+    },
+    "done": true
+  },
   "betterendforge:recipes/betterendforge/amber_gem_from_amber_block": {
     "criteria": {
       "has_the_recipe": "2021-12-08 20:12:33 +0000"
@@ -1064,6 +1076,12 @@
   "immersiveengineering:recipes/misc/crafting/gold_ingot_from_dust_from_blasting": {
     "criteria": {
       "has_the_recipe": "2021-12-08 20:12:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/light_blue_wool": {
+    "criteria": {
+      "has_white_wool": "2021-12-11 17:21:40 +0000"
     },
     "done": true
   },
@@ -1612,6 +1630,12 @@
   "create:recipes/create.base/crafting/curiosities/minecart_coupling": {
     "criteria": {
       "has_the_recipe": "2021-12-08 20:12:33 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/red_wool": {
+    "criteria": {
+      "has_white_wool": "2021-12-11 17:21:40 +0000"
     },
     "done": true
   },
@@ -3191,6 +3215,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/pink_wool": {
+    "criteria": {
+      "has_white_wool": "2021-12-11 17:21:40 +0000"
+    },
+    "done": true
+  },
   "botania:recipes/botania/dreamwood_planks": {
     "criteria": {
       "has_the_recipe": "2021-12-08 20:12:37 +0000"
@@ -3506,6 +3536,12 @@
   "undergarden:recipes/undergarden_group/blast_froststeel_ore": {
     "criteria": {
       "has_the_recipe": "2021-12-08 20:12:32 +0000"
+    },
+    "done": true
+  },
+  "improvedbackpacks:large_upgrade": {
+    "criteria": {
+      "upgrade_backpack": "2021-12-10 18:25:44 +0000"
     },
     "done": true
   },
@@ -4171,7 +4207,10 @@
       "minecraft:witch": "2021-12-08 20:48:17 +0000",
       "minecraft:cave_spider": "2021-12-09 00:47:04 +0000",
       "minecraft:piglin": "2021-12-09 03:44:56 +0000",
-      "minecraft:zombie": "2021-12-08 20:15:14 +0000"
+      "minecraft:stray": "2021-12-12 05:22:37 +0000",
+      "minecraft:zombie": "2021-12-08 20:15:14 +0000",
+      "minecraft:drowned": "2021-12-12 03:47:14 +0000",
+      "minecraft:zombie_villager": "2021-12-10 21:59:08 +0000"
     },
     "done": false
   },
@@ -4778,6 +4817,12 @@
   "tconstruct:recipes/tconstruct/general/common/glass/magenta_clear_stained_glass_pane": {
     "criteria": {
       "has_the_recipe": "2021-12-08 20:12:36 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/yellow_wool": {
+    "criteria": {
+      "has_white_wool": "2021-12-11 17:21:40 +0000"
     },
     "done": true
   },
@@ -6140,6 +6185,12 @@
   "cfm:recipes/cfm/white_picket_fence": {
     "criteria": {
       "has_the_recipe": "2021-12-08 20:12:32 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/brown_wool": {
+    "criteria": {
+      "has_white_wool": "2021-12-11 17:21:40 +0000"
     },
     "done": true
   },
@@ -7582,6 +7633,12 @@
   "botania:recipes/botania/super_travel_belt": {
     "criteria": {
       "has_the_recipe": "2021-12-08 20:12:32 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:greatsword": {
+    "criteria": {
+      "craft": "2021-12-10 21:45:21 +0000"
     },
     "done": true
   },
@@ -9805,6 +9862,12 @@
     },
     "done": true
   },
+  "alexsmobs:alexsmobs/crocodile": {
+    "criteria": {
+      "killed_by": "2021-12-12 02:30:45 +0000"
+    },
+    "done": true
+  },
   "create:recipes/create.palettes/scoria_bricks_stairs": {
     "criteria": {
       "has_the_recipe": "2021-12-08 20:12:35 +0000"
@@ -11053,6 +11116,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/black_wool": {
+    "criteria": {
+      "has_white_wool": "2021-12-11 17:21:40 +0000"
+    },
+    "done": true
+  },
   "create:recipes/create.base/crafting/logistics/adjustable_crate": {
     "criteria": {
       "has_the_recipe": "2021-12-08 20:12:34 +0000"
@@ -11752,6 +11821,12 @@
   "minecraft:recipes/decorations/yellow_carpet": {
     "criteria": {
       "has_the_recipe": "2021-12-08 20:12:32 +0000"
+    },
+    "done": true
+  },
+  "astralsorcery:find_weak_constellation": {
+    "criteria": {
+      "weak_constellation_discovered": "2021-12-10 20:56:07 +0000"
     },
     "done": true
   },
@@ -15351,6 +15426,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/light_gray_wool": {
+    "criteria": {
+      "has_white_wool": "2021-12-11 17:21:40 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/cooked_chicken": {
     "criteria": {
       "has_the_recipe": "2021-12-08 20:12:32 +0000"
@@ -15390,6 +15471,12 @@
   "biomesoplenty:recipes/building_blocks/magic_wood": {
     "criteria": {
       "has_the_recipe": "2021-12-08 20:12:32 +0000"
+    },
+    "done": true
+  },
+  "tconstruct:tools/modified": {
+    "criteria": {
+      "crafted_tool": "2021-12-12 00:50:10 +0000"
     },
     "done": true
   },
@@ -17469,6 +17556,12 @@
     },
     "done": true
   },
+  "astralsorcery:craft_t4_altar": {
+    "criteria": {
+      "altar_craft_t3_altar": "2021-12-12 03:41:25 +0000"
+    },
+    "done": true
+  },
   "cfm:recipes/cfm/gray_kitchen_drawer": {
     "criteria": {
       "has_the_recipe": "2021-12-08 20:12:37 +0000"
@@ -17478,6 +17571,12 @@
   "immersiveengineering:recipes/immersiveengineering/crafting/toolupgrade_drill_capacity": {
     "criteria": {
       "has_the_recipe": "2021-12-08 20:12:36 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/trapped_chest": {
+    "criteria": {
+      "has_tripwire_hook": "2021-12-10 19:54:46 +0000"
     },
     "done": true
   },
@@ -19059,6 +19158,12 @@
     },
     "done": true
   },
+  "astralsorcery:attune_crystal": {
+    "criteria": {
+      "attune_crystal": "2021-12-12 04:47:53 +0000"
+    },
+    "done": true
+  },
   "biomesoplenty:recipes/building_blocks/smooth_white_sandstone_stairs_from_smooth_white_sandstone_stonecutting": {
     "criteria": {
       "has_the_recipe": "2021-12-08 20:12:35 +0000"
@@ -19212,6 +19317,12 @@
   "biomesoplenty:recipes/misc/pink_dye_from_pink_hibiscus": {
     "criteria": {
       "has_the_recipe": "2021-12-08 20:12:32 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/gray_wool": {
+    "criteria": {
+      "has_white_wool": "2021-12-11 17:21:40 +0000"
     },
     "done": true
   },
@@ -19506,6 +19617,18 @@
   "betterendforge:recipes/betterendforge/neon_cactus_block": {
     "criteria": {
       "has_the_recipe": "2021-12-08 20:12:34 +0000"
+    },
+    "done": true
+  },
+  "tconstruct:smeltery/abilities": {
+    "criteria": {
+      "luck": "2021-12-12 00:50:10 +0000"
+    },
+    "done": false
+  },
+  "astralsorcery:perk_level_small": {
+    "criteria": {
+      "gain_perk_level_small": "2021-12-10 19:34:13 +0000"
     },
     "done": true
   },
@@ -20844,6 +20967,12 @@
   "create:recipes/building_blocks/blasting/ingot_lead_compat_mekanism": {
     "criteria": {
       "has_the_recipe": "2021-12-08 20:12:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/magenta_wool": {
+    "criteria": {
+      "has_white_wool": "2021-12-11 17:21:40 +0000"
     },
     "done": true
   },
@@ -22398,6 +22527,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/purple_wool": {
+    "criteria": {
+      "has_white_wool": "2021-12-11 17:21:40 +0000"
+    },
+    "done": true
+  },
   "botania:recipes/botania/slab_recombine/white_pavement": {
     "criteria": {
       "has_the_recipe": "2021-12-08 20:12:33 +0000"
@@ -22569,6 +22704,12 @@
   "minecraft:recipes/decorations/purple_carpet_from_white_carpet": {
     "criteria": {
       "has_the_recipe": "2021-12-08 20:12:31 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cyan_wool": {
+    "criteria": {
+      "has_white_wool": "2021-12-11 17:21:40 +0000"
     },
     "done": true
   },
@@ -22842,6 +22983,12 @@
     },
     "done": true
   },
+  "alexsmobs:alexsmobs/grizzly_bear": {
+    "criteria": {
+      "killed_by": "2021-12-10 20:16:34 +0000"
+    },
+    "done": true
+  },
   "tconstruct:foundry/encyclopedia": {
     "criteria": {
       "crafted_book": "2021-12-09 04:40:48 +0000"
@@ -22851,6 +22998,12 @@
   "betterendforge:recipes/betterendforge/iron_bulb_lantern_black": {
     "criteria": {
       "has_the_recipe": "2021-12-08 20:12:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/orange_wool": {
+    "criteria": {
+      "has_white_wool": "2021-12-11 17:21:40 +0000"
     },
     "done": true
   },
@@ -25552,25 +25705,32 @@
     "criteria": {
       "minecraft:jungle_edge": "2021-12-08 20:43:02 +0000",
       "minecraft:cold_ocean": "2021-12-09 23:03:23 +0000",
+      "minecraft:snowy_mountains": "2021-12-12 05:23:06 +0000",
       "minecraft:forest": "2021-12-08 20:16:53 +0000",
       "minecraft:mountains": "2021-12-08 20:19:23 +0000",
       "minecraft:taiga": "2021-12-09 00:42:08 +0000",
       "minecraft:desert_hills": "2021-12-09 23:25:56 +0000",
       "minecraft:giant_tree_taiga": "2021-12-09 23:22:23 +0000",
+      "minecraft:snowy_tundra": "2021-12-12 05:20:11 +0000",
       "minecraft:taiga_hills": "2021-12-09 23:19:25 +0000",
       "minecraft:desert": "2021-12-09 23:25:14 +0000",
+      "minecraft:frozen_river": "2021-12-12 05:19:53 +0000",
       "minecraft:deep_frozen_ocean": "2021-12-09 23:10:38 +0000",
       "minecraft:jungle": "2021-12-09 22:04:36 +0000",
       "minecraft:birch_forest": "2021-12-08 20:17:51 +0000",
+      "minecraft:jungle_hills": "2021-12-12 05:18:18 +0000",
+      "minecraft:snowy_beach": "2021-12-12 05:19:09 +0000",
       "minecraft:beach": "2021-12-09 22:26:25 +0000",
       "minecraft:dark_forest": "2021-12-08 20:22:31 +0000",
       "minecraft:river": "2021-12-08 20:16:46 +0000",
+      "minecraft:snowy_taiga": "2021-12-12 05:19:12 +0000",
       "minecraft:birch_forest_hills": "2021-12-08 20:18:24 +0000",
       "minecraft:wooded_mountains": "2021-12-08 20:32:56 +0000",
       "minecraft:wooded_hills": "2021-12-08 20:43:39 +0000",
       "minecraft:stone_shore": "2021-12-09 00:58:03 +0000",
       "minecraft:giant_tree_taiga_hills": "2021-12-09 23:22:51 +0000",
       "minecraft:swamp": "2021-12-09 22:47:28 +0000",
+      "minecraft:snowy_taiga_hills": "2021-12-12 05:19:20 +0000",
       "minecraft:savanna": "2021-12-09 23:24:01 +0000",
       "minecraft:plains": "2021-12-08 20:12:38 +0000"
     },
@@ -25657,6 +25817,12 @@
   "cfm:recipes/cfm/stripped_dark_oak_crate": {
     "criteria": {
       "has_the_recipe": "2021-12-08 20:12:35 +0000"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/plant_seed": {
+    "criteria": {
+      "nether_wart": "2021-12-10 21:09:18 +0000"
     },
     "done": true
   },
@@ -26287,10 +26453,12 @@
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
       "cooked_porkchop": "2021-12-08 22:22:17 +0000",
+      "cooked_beef": "2021-12-10 22:20:03 +0000",
       "beef": "2021-12-08 20:19:36 +0000",
       "baked_potato": "2021-12-08 20:30:31 +0000",
       "apple": "2021-12-09 22:53:33 +0000",
       "potato": "2021-12-09 01:16:42 +0000",
+      "rabbit": "2021-12-12 05:29:22 +0000",
       "bread": "2021-12-09 21:51:52 +0000",
       "golden_apple": "2021-12-09 21:54:36 +0000",
       "rotten_flesh": "2021-12-08 20:15:23 +0000",
@@ -26905,6 +27073,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/lime_wool": {
+    "criteria": {
+      "has_white_wool": "2021-12-11 17:21:40 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/mossy_stone_brick_wall_from_mossy_stone_brick_stonecutting": {
     "criteria": {
       "has_the_recipe": "2021-12-08 20:12:36 +0000"
@@ -26950,6 +27124,12 @@
   "mcwbridges:recipes/rope_birch_bridge": {
     "criteria": {
       "has_the_recipe": "2021-12-08 20:12:30 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/green_wool": {
+    "criteria": {
+      "has_white_wool": "2021-12-11 17:21:40 +0000"
     },
     "done": true
   },
@@ -27016,6 +27196,12 @@
   "betterendforge:recipes/misc/ender_eye_from_amber_gem": {
     "criteria": {
       "has_the_recipe": "2021-12-08 20:12:34 +0000"
+    },
+    "done": true
+  },
+  "astralsorcery:celestial_crystals": {
+    "criteria": {
+      "celestial_crystal_in_inventory": "2021-12-11 23:43:29 +0000"
     },
     "done": true
   },

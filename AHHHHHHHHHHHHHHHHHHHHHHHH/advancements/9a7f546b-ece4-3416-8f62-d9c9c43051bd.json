@@ -365,6 +365,12 @@
     },
     "done": true
   },
+  "twilightforest:alt/biomes/dense_twilight_forest": {
+    "criteria": {
+      "discover": "2021-12-12 02:05:58 +0000"
+    },
+    "done": true
+  },
   "betterendforge:recipes/betterendforge/missing_tile": {
     "criteria": {
       "has_the_recipe": "2021-12-03 04:16:12 +0000"
@@ -1367,6 +1373,12 @@
     },
     "done": true
   },
+  "tconstruct:world/earth_island": {
+    "criteria": {
+      "found_island": "2021-12-12 00:09:06 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/brewing/magma_cream": {
     "criteria": {
       "has_the_recipe": "2021-12-03 04:16:14 +0000"
@@ -2073,7 +2085,9 @@
   },
   "twilightforest:arborist": {
     "criteria": {
-      "twilight_oak_door": "2021-12-09 21:57:59 +0000"
+      "twilight_oak_door": "2021-12-09 21:57:59 +0000",
+      "twilight_oak_wood": "2021-12-10 22:11:55 +0000",
+      "robust_oak_sapling": "2021-12-12 04:52:33 +0000"
     },
     "done": false
   },
@@ -5514,6 +5528,12 @@
     },
     "done": true
   },
+  "twilightforest:alt/biomes/general_biomes": {
+    "criteria": {
+      "4": "2021-12-12 02:05:58 +0000"
+    },
+    "done": true
+  },
   "tconstruct:recipes/tconstruct/general/common/glass/red_clear_stained_glass_pane": {
     "criteria": {
       "has_the_recipe": "2021-12-03 04:16:09 +0000"
@@ -8486,6 +8506,12 @@
     },
     "done": true
   },
+  "alexsmobs:alexsmobs/void_worm_split": {
+    "criteria": {
+      "ex": "2021-12-12 04:27:37 +0000"
+    },
+    "done": true
+  },
   "botania:recipes/botania/green_pavement_slab": {
     "criteria": {
       "has_the_recipe": "2021-12-03 04:16:16 +0000"
@@ -8873,6 +8899,12 @@
   "minecraft:recipes/decorations/granite_wall": {
     "criteria": {
       "has_the_recipe": "2021-12-03 04:16:14 +0000"
+    },
+    "done": true
+  },
+  "twilightforest:alt/biomes/dark_forest": {
+    "criteria": {
+      "0": "2021-12-12 02:06:38 +0000"
     },
     "done": true
   },
@@ -12422,6 +12454,12 @@
     },
     "done": true
   },
+  "twilightforest:alt/entities/animals": {
+    "criteria": {
+      "3": "2021-12-12 02:07:01 +0000"
+    },
+    "done": true
+  },
   "botania:recipes/botania/blue_petal_block": {
     "criteria": {
       "has_the_recipe": "2021-12-03 04:16:14 +0000"
@@ -12839,6 +12877,12 @@
   "betterendforge:recipes/betterendforge/sulphuric_rock_slab_from_sulphuric_rock_stonecutting": {
     "criteria": {
       "has_the_recipe": "2021-12-03 04:16:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/find_fortress": {
+    "criteria": {
+      "fortress": "2021-12-12 00:10:48 +0000"
     },
     "done": true
   },
@@ -18831,6 +18875,12 @@
     },
     "done": true
   },
+  "alexsmobs:alexsmobs/void_worm_kill": {
+    "criteria": {
+      "ex": "2021-12-12 04:29:08 +0000"
+    },
+    "done": true
+  },
   "botania:recipes/botania/petal_black_double": {
     "criteria": {
       "has_the_recipe": "2021-12-03 04:16:10 +0000"
@@ -21489,6 +21539,12 @@
     },
     "done": true
   },
+  "twilightforest:alt/entities/raven": {
+    "criteria": {
+      "hurt": "2021-12-12 02:07:01 +0000"
+    },
+    "done": true
+  },
   "create:recipes/create.palettes/paved_scoria_stairs": {
     "criteria": {
       "has_the_recipe": "2021-12-03 04:16:10 +0000"
@@ -22394,6 +22450,12 @@
   "botania:recipes/botania/terrasteel_helmet": {
     "criteria": {
       "has_the_recipe": "2021-12-03 04:16:09 +0000"
+    },
+    "done": true
+  },
+  "astralsorcery:find_constellation": {
+    "criteria": {
+      "any_constellation_discovered": "2021-12-10 22:16:25 +0000"
     },
     "done": true
   },
@@ -25337,6 +25399,12 @@
     },
     "done": true
   },
+  "artifacts:amateur_archaeologist": {
+    "criteria": {
+      "find_artifact": "2021-12-12 05:10:27 +0000"
+    },
+    "done": true
+  },
   "biomesoplenty:recipes/building_blocks/dead_slab": {
     "criteria": {
       "has_the_recipe": "2021-12-03 04:16:12 +0000"
@@ -25490,20 +25558,24 @@
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:jungle_edge": "2021-12-07 21:22:20 +0000",
+      "minecraft:cold_ocean": "2021-12-12 00:01:00 +0000",
       "minecraft:forest": "2021-12-03 04:18:03 +0000",
       "minecraft:mountains": "2021-12-03 04:24:43 +0000",
       "minecraft:taiga": "2021-12-09 17:47:35 +0000",
       "minecraft:desert_hills": "2021-12-09 21:42:43 +0000",
+      "minecraft:deep_cold_ocean": "2021-12-12 00:01:51 +0000",
       "minecraft:taiga_hills": "2021-12-09 17:49:01 +0000",
       "minecraft:desert": "2021-12-09 21:42:42 +0000",
       "minecraft:jungle": "2021-12-09 21:45:16 +0000",
       "minecraft:birch_forest": "2021-12-03 04:18:37 +0000",
       "minecraft:jungle_hills": "2021-12-09 21:45:34 +0000",
+      "minecraft:snowy_beach": "2021-12-12 00:01:50 +0000",
       "minecraft:deep_lukewarm_ocean": "2021-12-09 21:42:22 +0000",
       "minecraft:beach": "2021-12-09 21:41:57 +0000",
       "minecraft:dark_forest": "2021-12-03 05:15:42 +0000",
       "minecraft:river": "2021-12-03 04:18:00 +0000",
       "minecraft:lukewarm_ocean": "2021-12-09 21:42:25 +0000",
+      "minecraft:snowy_taiga": "2021-12-12 00:05:27 +0000",
       "minecraft:birch_forest_hills": "2021-12-03 04:21:35 +0000",
       "minecraft:wooded_mountains": "2021-12-03 04:26:27 +0000",
       "minecraft:wooded_hills": "2021-12-08 20:43:36 +0000",

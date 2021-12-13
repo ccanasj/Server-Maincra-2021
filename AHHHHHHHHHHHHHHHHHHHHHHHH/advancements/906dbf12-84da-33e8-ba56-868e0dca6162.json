@@ -1349,6 +1349,12 @@
     },
     "done": true
   },
+  "tconstruct:world/earth_island": {
+    "criteria": {
+      "found_island": "2021-12-12 00:25:36 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/brewing/magma_cream": {
     "criteria": {
       "has_the_recipe": "2021-12-09 00:12:55 +0000"
@@ -1400,6 +1406,12 @@
   "create:recipes/create.palettes/limestone_pillar": {
     "criteria": {
       "has_the_recipe": "2021-12-09 00:12:49 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/brew_potion": {
+    "criteria": {
+      "potion": "2021-12-12 05:41:55 +0000"
     },
     "done": true
   },
@@ -3063,6 +3075,12 @@
     },
     "done": true
   },
+  "minecraft:nether/obtain_blaze_rod": {
+    "criteria": {
+      "blaze_rod": "2021-12-12 05:45:12 +0000"
+    },
+    "done": true
+  },
   "botania:recipes/botania/lens_magnet": {
     "criteria": {
       "has_the_recipe": "2021-12-09 00:12:49 +0000"
@@ -4146,6 +4164,7 @@
       "minecraft:piglin": "2021-12-09 03:51:01 +0000",
       "minecraft:enderman": "2021-12-09 03:38:55 +0000",
       "minecraft:silverfish": "2021-12-09 22:11:55 +0000",
+      "minecraft:stray": "2021-12-12 05:23:54 +0000",
       "minecraft:zombie": "2021-12-09 02:32:58 +0000"
     },
     "done": false
@@ -9775,6 +9794,12 @@
   "immersiveengineering:recipes/immersiveengineering/crafting/gunpowder_barrel": {
     "criteria": {
       "has_the_recipe": "2021-12-09 00:12:54 +0000"
+    },
+    "done": true
+  },
+  "alexsmobs:alexsmobs/crocodile": {
+    "criteria": {
+      "killed_by": "2021-12-12 05:23:15 +0000"
     },
     "done": true
   },
@@ -15634,8 +15659,12 @@
     "criteria": {
       "large_plate": "2021-12-09 00:30:51 +0000",
       "tough_handle": "2021-12-09 04:33:51 +0000",
+      "tool_binding": "2021-12-12 04:17:54 +0000",
+      "broad_axe_head": "2021-12-12 04:11:13 +0000",
       "repair_kit": "2021-12-09 00:36:13 +0000",
       "hammer_head": "2021-12-09 04:42:26 +0000",
+      "tool_handle": "2021-12-12 04:18:03 +0000",
+      "pickaxe_head": "2021-12-12 04:11:38 +0000",
       "ingot": "2021-12-09 00:28:54 +0000"
     },
     "done": false
@@ -19458,6 +19487,7 @@
   },
   "tconstruct:smeltery/abilities": {
     "criteria": {
+      "silky": "2021-12-11 23:53:50 +0000",
       "luck": "2021-12-09 19:18:53 +0000"
     },
     "done": false
@@ -19615,6 +19645,12 @@
   "botania:recipes/botania/apothecary_mountain": {
     "criteria": {
       "has_the_recipe": "2021-12-09 00:12:53 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/trade": {
+    "criteria": {
+      "traded": "2021-12-12 06:04:22 +0000"
     },
     "done": true
   },
@@ -22196,6 +22232,7 @@
     "criteria": {
       "cobalt": "2021-12-09 04:49:38 +0000",
       "copper": "2021-12-09 00:20:31 +0000",
+      "rose_gold": "2021-12-12 04:20:15 +0000",
       "stone": "2021-12-09 00:34:07 +0000",
       "iron": "2021-12-09 00:34:07 +0000"
     },
@@ -22402,6 +22439,12 @@
   "botania:recipes/botania/terrasteel_helmet": {
     "criteria": {
       "has_the_recipe": "2021-12-09 00:12:52 +0000"
+    },
+    "done": true
+  },
+  "astralsorcery:find_constellation": {
+    "criteria": {
+      "any_constellation_discovered": "2021-12-13 03:27:19 +0000"
     },
     "done": true
   },
@@ -23296,6 +23339,12 @@
   "cfm:recipes/cfm/stripped_crimson_desk": {
     "criteria": {
       "has_the_recipe": "2021-12-09 00:12:51 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/cure_zombie_villager": {
+    "criteria": {
+      "cured_zombie": "2021-12-12 05:50:30 +0000"
     },
     "done": true
   },
@@ -25492,18 +25541,28 @@
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:jungle_edge": "2021-12-09 01:12:46 +0000",
+      "minecraft:cold_ocean": "2021-12-12 00:01:00 +0000",
+      "minecraft:snowy_mountains": "2021-12-12 05:23:02 +0000",
       "minecraft:forest": "2021-12-09 00:15:41 +0000",
       "minecraft:mountains": "2021-12-09 00:16:57 +0000",
       "minecraft:taiga": "2021-12-09 01:19:02 +0000",
+      "minecraft:snowy_tundra": "2021-12-12 05:20:40 +0000",
       "minecraft:taiga_hills": "2021-12-09 02:52:00 +0000",
+      "minecraft:frozen_river": "2021-12-12 05:19:50 +0000",
       "minecraft:jungle": "2021-12-09 02:40:59 +0000",
       "minecraft:birch_forest": "2021-12-09 00:15:53 +0000",
+      "minecraft:jungle_hills": "2021-12-12 05:18:17 +0000",
+      "minecraft:snowy_beach": "2021-12-12 00:04:13 +0000",
+      "minecraft:beach": "2021-12-11 23:57:24 +0000",
       "minecraft:dark_forest": "2021-12-09 23:08:53 +0000",
       "minecraft:river": "2021-12-09 00:15:39 +0000",
+      "minecraft:snowy_taiga": "2021-12-12 05:19:07 +0000",
       "minecraft:birch_forest_hills": "2021-12-09 00:16:24 +0000",
       "minecraft:wooded_mountains": "2021-12-09 00:16:54 +0000",
       "minecraft:wooded_hills": "2021-12-09 00:18:47 +0000",
+      "minecraft:stone_shore": "2021-12-11 23:56:42 +0000",
       "minecraft:swamp": "2021-12-09 23:09:46 +0000",
+      "minecraft:snowy_taiga_hills": "2021-12-12 05:19:16 +0000",
       "minecraft:plains": "2021-12-09 00:12:55 +0000"
     },
     "done": false
@@ -26219,7 +26278,9 @@
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
       "baked_potato": "2021-12-09 00:16:48 +0000",
-      "golden_carrot": "2021-12-09 04:18:01 +0000"
+      "bread": "2021-12-12 06:12:33 +0000",
+      "golden_carrot": "2021-12-09 04:18:01 +0000",
+      "carrot": "2021-12-12 00:35:06 +0000"
     },
     "done": false
   },
@@ -26928,6 +26989,12 @@
   "betterendforge:recipes/misc/ender_eye_from_amber_gem": {
     "criteria": {
       "has_the_recipe": "2021-12-09 00:12:52 +0000"
+    },
+    "done": true
+  },
+  "astralsorcery:celestial_crystals": {
+    "criteria": {
+      "celestial_crystal_in_inventory": "2021-12-12 01:56:47 +0000"
     },
     "done": true
   },

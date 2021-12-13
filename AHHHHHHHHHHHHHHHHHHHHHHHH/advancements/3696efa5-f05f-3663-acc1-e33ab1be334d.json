@@ -1145,6 +1145,12 @@
     },
     "done": true
   },
+  "twilightforest:alt/entities/skeleton_druid": {
+    "criteria": {
+      "hurt_by_indirect": "2021-12-10 14:56:16 +0000"
+    },
+    "done": true
+  },
   "create:recipes/create.base/crafting/kinetics/stressometerfrom_conversion": {
     "criteria": {
       "has_the_recipe": "2021-12-02 03:55:41 +0000"
@@ -2092,6 +2098,8 @@
   },
   "twilightforest:arborist": {
     "criteria": {
+      "twilight_oak_planks": "2021-12-10 15:57:20 +0000",
+      "twilight_oak_log": "2021-12-10 15:57:11 +0000",
       "twilight_oak_sapling": "2021-12-10 05:09:01 +0000"
     },
     "done": false
@@ -2935,6 +2943,12 @@
     },
     "done": true
   },
+  "twilightforest:alt/biomes/fire_swamp": {
+    "criteria": {
+      "discover": "2021-12-10 16:46:28 +0000"
+    },
+    "done": true
+  },
   "create:recipes/create.palettes/paved_weathered_limestone_wall": {
     "criteria": {
       "has_the_recipe": "2021-12-02 03:55:41 +0000"
@@ -3067,6 +3081,12 @@
     },
     "done": true
   },
+  "twilightforest:twilight_dinner": {
+    "criteria": {
+      "meef_stroganoff": "2021-12-10 19:23:44 +0000"
+    },
+    "done": false
+  },
   "tconstruct:recipes/tconstruct/smeltery/smeltery/seared/melter": {
     "criteria": {
       "has_the_recipe": "2021-12-02 03:55:41 +0000"
@@ -3130,6 +3150,12 @@
   "betterendforge:recipes/betterendforge/mossy_glowshroom_planks": {
     "criteria": {
       "has_the_recipe": "2021-12-02 03:55:39 +0000"
+    },
+    "done": true
+  },
+  "twilightforest:alt/biomes/twilight_swamp": {
+    "criteria": {
+      "0": "2021-12-10 16:06:32 +0000"
     },
     "done": true
   },
@@ -4197,7 +4223,9 @@
       "minecraft:witch": "2021-12-09 23:15:33 +0000",
       "minecraft:wither_skeleton": "2021-12-09 17:53:14 +0000",
       "minecraft:husk": "2021-12-07 22:35:27 +0000",
+      "minecraft:cave_spider": "2021-12-10 16:14:26 +0000",
       "minecraft:silverfish": "2021-12-02 06:11:41 +0000",
+      "minecraft:enderman": "2021-12-10 15:11:52 +0000",
       "minecraft:zombie": "2021-12-02 04:13:57 +0000"
     },
     "done": false
@@ -4409,6 +4437,12 @@
   "create:recipes/create.palettes/paved_gabbro_stairs_from_paved_gabbro_stonecutting": {
     "criteria": {
       "has_the_recipe": "2021-12-02 03:55:38 +0000"
+    },
+    "done": true
+  },
+  "twilightforest:alt/entities/minoshroom": {
+    "criteria": {
+      "hurt": "2021-12-10 16:31:39 +0000"
     },
     "done": true
   },
@@ -4871,6 +4905,12 @@
   "immersiveengineering:recipes/immersiveengineering/crafting/ingot_aluminum_to_nugget_aluminum": {
     "criteria": {
       "has_the_recipe": "2021-12-02 03:55:38 +0000"
+    },
+    "done": true
+  },
+  "twilightforest:alt/entities/pinch_beetle": {
+    "criteria": {
+      "hurt": "2021-12-10 16:11:59 +0000"
     },
     "done": true
   },
@@ -5669,6 +5709,12 @@
   "botania:recipes/botania/cocoon": {
     "criteria": {
       "has_the_recipe": "2021-12-02 03:55:41 +0000"
+    },
+    "done": true
+  },
+  "twilightforest:alt/entities/swarm_spider": {
+    "criteria": {
+      "slay": "2021-12-10 14:58:39 +0000"
     },
     "done": true
   },
@@ -6590,6 +6636,12 @@
     },
     "done": true
   },
+  "twilightforest:alt/treasures/foods/any": {
+    "criteria": {
+      "2": "2021-12-10 16:08:44 +0000"
+    },
+    "done": true
+  },
   "twilightforest:alt/treasures/armors": {
     "criteria": {
       "1": "2021-12-10 05:09:13 +0000"
@@ -6874,9 +6926,10 @@
   },
   "twilightforest:progress_lich": {
     "criteria": {
+      "kill_lich": "2021-12-10 15:38:35 +0000",
       "kill_naga": "2021-12-10 05:09:09 +0000"
     },
-    "done": false
+    "done": true
   },
   "botania:recipes/botania/ender_dagger": {
     "criteria": {
@@ -7511,7 +7564,8 @@
   "tconstruct:world/slime_collector": {
     "criteria": {
       "sky": "2021-12-02 18:42:52 +0000",
-      "magma_cream": "2021-12-05 05:14:54 +0000"
+      "magma_cream": "2021-12-05 05:14:54 +0000",
+      "earth": "2021-12-10 16:08:06 +0000"
     },
     "done": false
   },
@@ -8106,6 +8160,12 @@
   "tconstruct:recipes/tconstruct/general/common/glass/pink_clear_stained_glass_pane_from_panes": {
     "criteria": {
       "has_the_recipe": "2021-12-02 03:55:37 +0000"
+    },
+    "done": true
+  },
+  "twilightforest:alt/biomes/mushroom_forest": {
+    "criteria": {
+      "discover": "2021-12-10 14:56:50 +0000"
     },
     "done": true
   },
@@ -9063,6 +9123,12 @@
     },
     "done": false
   },
+  "twilightforest:alt/biomes/twilight_forest": {
+    "criteria": {
+      "discover": "2021-12-10 14:53:11 +0000"
+    },
+    "done": true
+  },
   "immersiveengineering:recipes/immersiveengineering/crafting/hammer": {
     "criteria": {
       "has_the_recipe": "2021-12-02 03:55:36 +0000"
@@ -9084,6 +9150,12 @@
   "undergarden:recipes/undergarden_group/gloom_o_lantern": {
     "criteria": {
       "has_the_recipe": "2021-12-02 03:55:42 +0000"
+    },
+    "done": true
+  },
+  "twilightforest:alt/biomes/twilight_clearing": {
+    "criteria": {
+      "discover": "2021-12-10 14:52:01 +0000"
     },
     "done": true
   },
@@ -9249,6 +9321,12 @@
     },
     "done": true
   },
+  "twilightforest:alt/entities/death_tome": {
+    "criteria": {
+      "hurt": "2021-12-10 15:19:13 +0000"
+    },
+    "done": true
+  },
   "betterendforge:recipes/betterendforge/jellyshroom_pressure_plate": {
     "criteria": {
       "has_the_recipe": "2021-12-02 03:55:42 +0000"
@@ -9294,6 +9372,12 @@
   "botania:recipes/botania/pattern_framed_dreamwood": {
     "criteria": {
       "has_the_recipe": "2021-12-02 03:55:36 +0000"
+    },
+    "done": true
+  },
+  "twilightforest:alt/entities/minotaur": {
+    "criteria": {
+      "hurt_by_indirect": "2021-12-10 16:08:35 +0000"
     },
     "done": true
   },
@@ -9909,6 +9993,12 @@
     },
     "done": true
   },
+  "twilightforest:alt/major_landmarks/medium_hollow_hill": {
+    "criteria": {
+      "discover": "2021-12-10 16:35:56 +0000"
+    },
+    "done": true
+  },
   "botania:recipes/botania/lens_normal": {
     "criteria": {
       "has_the_recipe": "2021-12-02 03:55:41 +0000"
@@ -10158,6 +10248,12 @@
   "tconstruct:recipes/tconstruct/general/common/glass/gray_clear_stained_glass_pane_from_panes": {
     "criteria": {
       "has_the_recipe": "2021-12-02 03:55:36 +0000"
+    },
+    "done": true
+  },
+  "twilightforest:alt/biomes/twilight_highlands": {
+    "criteria": {
+      "discover": "2021-12-10 16:05:19 +0000"
     },
     "done": true
   },
@@ -10672,6 +10768,12 @@
     },
     "done": true
   },
+  "twilightforest:alt/treasures/scepters": {
+    "criteria": {
+      "0": "2021-12-10 15:38:35 +0000"
+    },
+    "done": true
+  },
   "immersiveengineering:recipes/immersiveengineering/crafting/conveyor_splittercovered": {
     "criteria": {
       "has_the_recipe": "2021-12-02 03:55:41 +0000"
@@ -11083,6 +11185,12 @@
   "immersiveengineering:recipes/immersiveengineering/crafting/stairs_alu_scaffolding_standard": {
     "criteria": {
       "has_the_recipe": "2021-12-02 03:55:42 +0000"
+    },
+    "done": true
+  },
+  "twilightforest:alt/treasures/foods/meef": {
+    "criteria": {
+      "raw": "2021-12-10 16:08:44 +0000"
     },
     "done": true
   },
@@ -13336,6 +13444,12 @@
     },
     "done": true
   },
+  "twilightforest:alt/treasures/steeleaf_armor_set": {
+    "criteria": {
+      "helmet": "2021-12-10 19:24:37 +0000"
+    },
+    "done": true
+  },
   "cfm:recipes/cfm/pink_kitchen_counter": {
     "criteria": {
       "has_the_recipe": "2021-12-02 03:55:38 +0000"
@@ -13659,6 +13773,12 @@
   "immersiveengineering:recipes/immersiveengineering/crafting/workbench": {
     "criteria": {
       "has_the_recipe": "2021-12-02 03:55:42 +0000"
+    },
+    "done": true
+  },
+  "twilightforest:alt/entities/slime_beetle": {
+    "criteria": {
+      "hurt": "2021-12-10 16:11:08 +0000"
     },
     "done": true
   },
@@ -14346,6 +14466,12 @@
     },
     "done": true
   },
+  "twilightforest:progress_trophy_pedestal": {
+    "criteria": {
+      "kill_lich": "2021-12-10 15:38:35 +0000"
+    },
+    "done": false
+  },
   "minecraft:recipes/decorations/gray_stained_glass_pane": {
     "criteria": {
       "has_the_recipe": "2021-12-02 03:55:38 +0000"
@@ -14748,6 +14874,12 @@
     },
     "done": true
   },
+  "twilightforest:alt/entities/undead": {
+    "criteria": {
+      "0": "2021-12-10 14:56:16 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/cooked_chicken_from_grill_cooking": {
     "criteria": {
       "has_the_recipe": "2021-12-02 03:55:38 +0000"
@@ -14775,6 +14907,12 @@
   "undergarden:recipes/undergarden_group/depthrock_brick_stairs": {
     "criteria": {
       "has_the_recipe": "2021-12-02 03:55:40 +0000"
+    },
+    "done": true
+  },
+  "twilightforest:alt/treasures/smoking_block": {
+    "criteria": {
+      "fire_swamp": "2021-12-10 16:46:28 +0000"
     },
     "done": true
   },
@@ -15054,6 +15192,12 @@
     },
     "done": true
   },
+  "twilightforest:alt/major_landmarks/hollow_hills": {
+    "criteria": {
+      "1": "2021-12-10 16:35:56 +0000"
+    },
+    "done": true
+  },
   "mcwbridges:recipes/birch_rail_bridge": {
     "criteria": {
       "has_the_recipe": "2021-12-02 03:55:39 +0000"
@@ -15159,6 +15303,13 @@
   "create:recipes/create.palettes/polished_limestone_stairs_from_polished_limestone_stonecutting": {
     "criteria": {
       "has_the_recipe": "2021-12-02 03:55:39 +0000"
+    },
+    "done": true
+  },
+  "twilightforest:progress_labyrinth": {
+    "criteria": {
+      "meef": "2021-12-10 19:23:44 +0000",
+      "kill_lich": "2021-12-10 15:38:35 +0000"
     },
     "done": true
   },
@@ -15465,6 +15616,12 @@
   "minecraft:recipes/building_blocks/light_gray_wool": {
     "criteria": {
       "has_white_wool": "2021-12-02 04:32:20 +0000"
+    },
+    "done": true
+  },
+  "twilightforest:alt/treasures/charm_of_keeping": {
+    "criteria": {
+      "1": "2021-12-10 19:17:40 +0000"
     },
     "done": true
   },
@@ -16011,6 +16168,12 @@
     },
     "done": true
   },
+  "twilightforest:progress_hydra": {
+    "criteria": {
+      "stroganoff": "2021-12-10 19:23:44 +0000"
+    },
+    "done": false
+  },
   "cfm:recipes/cfm/white_sofa": {
     "criteria": {
       "has_the_recipe": "2021-12-02 03:55:38 +0000"
@@ -16122,6 +16285,12 @@
   "botania:recipes/botania/slab_recombine/red_pavement": {
     "criteria": {
       "has_the_recipe": "2021-12-02 03:55:39 +0000"
+    },
+    "done": true
+  },
+  "twilightforest:alt/entities/hedge_spider": {
+    "criteria": {
+      "hurt_by_indirect": "2021-12-10 15:20:24 +0000"
     },
     "done": true
   },
@@ -16272,6 +16441,12 @@
   "minecraft:story/enter_the_nether": {
     "criteria": {
       "entered_nether": "2021-12-04 06:14:16 +0000"
+    },
+    "done": true
+  },
+  "twilightforest:alt/entities/tiny_bird": {
+    "criteria": {
+      "hurt": "2021-12-10 15:17:01 +0000"
     },
     "done": true
   },
@@ -16848,6 +17023,12 @@
   "botania:recipes/botania/mossy_dreamwood_planks": {
     "criteria": {
       "has_the_recipe": "2021-12-02 03:55:43 +0000"
+    },
+    "done": true
+  },
+  "twilightforest:alt/entities/arthopods": {
+    "criteria": {
+      "1": "2021-12-10 14:58:39 +0000"
     },
     "done": true
   },
@@ -17589,6 +17770,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/trapped_chest": {
+    "criteria": {
+      "has_tripwire_hook": "2021-12-10 16:21:08 +0000"
+    },
+    "done": true
+  },
   "cfm:recipes/cfm/birch_crate": {
     "criteria": {
       "has_the_recipe": "2021-12-02 03:55:37 +0000"
@@ -18273,6 +18460,12 @@
     },
     "done": true
   },
+  "twilightforest:alt/treasures/minotaur_axe_gold": {
+    "criteria": {
+      "axe": "2021-12-10 19:14:00 +0000"
+    },
+    "done": true
+  },
   "immersiveengineering:recipes/immersiveengineering/crafting/pickaxe_steel": {
     "criteria": {
       "has_the_recipe": "2021-12-02 03:55:39 +0000"
@@ -18378,6 +18571,12 @@
   "cfm:recipes/cfm/blue_cooler": {
     "criteria": {
       "has_the_recipe": "2021-12-02 03:55:39 +0000"
+    },
+    "done": true
+  },
+  "twilightforest:alt/entities/lich": {
+    "criteria": {
+      "hurt": "2021-12-10 15:38:28 +0000"
     },
     "done": true
   },
@@ -19374,6 +19573,12 @@
   "cfm:recipes/cfm/purple_picket_gate": {
     "criteria": {
       "has_the_recipe": "2021-12-02 03:55:41 +0000"
+    },
+    "done": true
+  },
+  "twilightforest:alt/treasures/charms": {
+    "criteria": {
+      "0": "2021-12-10 15:24:23 +0000"
     },
     "done": true
   },
@@ -20499,6 +20704,12 @@
     },
     "done": true
   },
+  "twilightforest:alt/major_landmarks/lich_tower": {
+    "criteria": {
+      "discover": "2021-12-10 14:58:19 +0000"
+    },
+    "done": true
+  },
   "tconstruct:recipes/tconstruct/general/common/glass/white_clear_stained_glass_pane": {
     "criteria": {
       "has_the_recipe": "2021-12-02 03:55:42 +0000"
@@ -21192,6 +21403,12 @@
   "immersiveengineering:recipes/immersiveengineering/crafting/treated_wood_packaged_to_slab": {
     "criteria": {
       "has_the_recipe": "2021-12-02 03:55:37 +0000"
+    },
+    "done": true
+  },
+  "twilightforest:alt/treasures/twilight_scepter": {
+    "criteria": {
+      "scepter": "2021-12-10 15:38:35 +0000"
     },
     "done": true
   },
@@ -22065,6 +22282,12 @@
     },
     "done": true
   },
+  "twilightforest:alt/treasures/charm_of_life": {
+    "criteria": {
+      "1": "2021-12-10 15:24:23 +0000"
+    },
+    "done": true
+  },
   "create:recipes/create.palettes/limestone": {
     "criteria": {
       "has_the_recipe": "2021-12-02 03:55:37 +0000"
@@ -22433,6 +22656,12 @@
     },
     "done": true
   },
+  "twilightforest:alt/major_landmarks/labyrinth": {
+    "criteria": {
+      "discover": "2021-12-10 16:06:56 +0000"
+    },
+    "done": true
+  },
   "botania:recipes/botania/corporea_crystal_cube": {
     "criteria": {
       "has_the_recipe": "2021-12-02 03:55:37 +0000"
@@ -22679,9 +22908,21 @@
     },
     "done": true
   },
+  "twilightforest:alt/treasures/fire_jet": {
+    "criteria": {
+      "fire_swamp": "2021-12-10 16:46:28 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/stone_slab_from_stone_stonecutting": {
     "criteria": {
       "has_the_recipe": "2021-12-02 03:55:38 +0000"
+    },
+    "done": true
+  },
+  "twilightforest:alt/entities/maze_slime": {
+    "criteria": {
+      "hurt": "2021-12-10 16:07:55 +0000"
     },
     "done": true
   },
@@ -22961,9 +23202,21 @@
     },
     "done": true
   },
+  "twilightforest:alt/entities/fire_beetle": {
+    "criteria": {
+      "hurt_by_indirect": "2021-12-10 16:10:06 +0000"
+    },
+    "done": true
+  },
   "botania:recipes/botania/slab_recombine/metamorphic_mesa_bricks": {
     "criteria": {
       "has_the_recipe": "2021-12-02 03:55:37 +0000"
+    },
+    "done": true
+  },
+  "twilightforest:alt/biomes/oak_savannah": {
+    "criteria": {
+      "discover": "2021-12-10 14:57:32 +0000"
     },
     "done": true
   },
@@ -23986,6 +24239,12 @@
       "has_the_recipe": "2021-12-02 03:55:41 +0000"
     },
     "done": true
+  },
+  "twilightforest:progress_yeti": {
+    "criteria": {
+      "previous_progression": "2021-12-10 15:38:35 +0000"
+    },
+    "done": false
   },
   "tconstruct:recipes/tconstruct/general/common/slime/sky/slimeball_from_block": {
     "criteria": {
@@ -25145,6 +25404,12 @@
     },
     "done": true
   },
+  "twilightforest:alt/treasures/minotaur_axe_diamond": {
+    "criteria": {
+      "axe": "2021-12-10 19:22:40 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/polished_blackstone_brick_slab_from_polished_blackstone_stonecutting": {
     "criteria": {
       "has_the_recipe": "2021-12-02 03:55:41 +0000"
@@ -25202,6 +25467,12 @@
   "cfm:recipes/cfm/fridge_dark": {
     "criteria": {
       "has_the_recipe": "2021-12-02 03:55:39 +0000"
+    },
+    "done": true
+  },
+  "twilightforest:alt/treasures/minotaur_axes": {
+    "criteria": {
+      "gold": "2021-12-10 19:14:00 +0000"
     },
     "done": true
   },
@@ -25460,6 +25731,12 @@
   "minecraft:recipes/tconstruct/general/tools/modifiers/slime_crystal/ender": {
     "criteria": {
       "has_the_recipe": "2021-12-02 03:55:39 +0000"
+    },
+    "done": true
+  },
+  "twilightforest:alt/biomes/firefly_forest": {
+    "criteria": {
+      "discover": "2021-12-10 14:50:54 +0000"
     },
     "done": true
   },
@@ -26444,6 +26721,7 @@
       "tropical_fish": "2021-12-02 18:53:09 +0000",
       "mutton": "2021-12-02 04:32:26 +0000",
       "bread": "2021-12-03 02:57:25 +0000",
+      "golden_apple": "2021-12-10 15:33:05 +0000",
       "melon_slice": "2021-12-02 18:48:18 +0000",
       "enchanted_golden_apple": "2021-12-09 18:37:03 +0000",
       "carrot": "2021-12-09 18:10:51 +0000"
@@ -27398,6 +27676,12 @@
     },
     "done": true
   },
+  "twilightforest:alt/major_landmarks/hedge_maze": {
+    "criteria": {
+      "discover": "2021-12-10 16:05:59 +0000"
+    },
+    "done": true
+  },
   "cfm:recipes/cfm/stripped_birch_crate": {
     "criteria": {
       "has_the_recipe": "2021-12-02 03:55:42 +0000"
@@ -27680,6 +27964,12 @@
     },
     "done": true
   },
+  "twilightforest:alt/biomes/enchanted_forest": {
+    "criteria": {
+      "discover": "2021-12-10 16:05:28 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/transportation/dark_oak_boat": {
     "criteria": {
       "has_the_recipe": "2021-12-02 03:55:38 +0000"
@@ -27851,6 +28141,12 @@
   "minecraft:recipes/decorations/polished_blackstone_brick_wall_from_polished_blackstone_stonecutting": {
     "criteria": {
       "has_the_recipe": "2021-12-02 03:55:42 +0000"
+    },
+    "done": true
+  },
+  "twilightforest:hedge": {
+    "criteria": {
+      "swarm_spider": "2021-12-10 14:58:39 +0000"
     },
     "done": true
   },

@@ -1,117 +1,696 @@
-[13Dec2021 02:58:41.246] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.advancements.PlayerAdvancements@79acfb4f
-[13Dec2021 02:58:41.354] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: Perderas[/181.51.32.123:10099] logged in with entity id 330405 at (-753.219829580306, 35.125, 1829.949999988079)
-[13Dec2021 02:58:41.363] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Perderas joined the game
-[13Dec2021 02:58:41.384] [Server thread/INFO] [Waila/]: Syncing config to Perderas (906dbf12-84da-33e8-ba56-868e0dca6162)
-[13Dec2021 02:58:41.390] [Server thread/INFO] [Scaling Health/]: Sending login packet to player ServerPlayerEntity['Perderas'/330405, l='ServerLevel[AHHHHHHHHHHHHHHHHHHHHHHHH]', x=-753.22, y=35.13, z=1829.95]
-[13Dec2021 02:58:41.390] [Server thread/INFO] [Scaling Health/]: Updating stats for null
-[13Dec2021 03:01:00.891] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.WhenDieInAbyssHandlerProcedure:executeProcedure:66]: java.io.FileNotFoundException: config/TheAbyss2.json (No such file or directory)
-[13Dec2021 03:01:00.891] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.WhenDieInAbyssHandlerProcedure:executeProcedure:66]: 	at java.io.FileInputStream.open0(Native Method)
-[13Dec2021 03:01:00.891] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.WhenDieInAbyssHandlerProcedure:executeProcedure:66]: 	at java.io.FileInputStream.open(FileInputStream.java:195)
-[13Dec2021 03:01:00.891] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.WhenDieInAbyssHandlerProcedure:executeProcedure:66]: 	at java.io.FileInputStream.<init>(FileInputStream.java:138)
-[13Dec2021 03:01:00.891] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.WhenDieInAbyssHandlerProcedure:executeProcedure:66]: 	at java.io.FileReader.<init>(FileReader.java:72)
-[13Dec2021 03:01:00.892] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.WhenDieInAbyssHandlerProcedure:executeProcedure:66]: 	at net.yezon.theabyss.procedures.WhenDieInAbyssHandlerProcedure.executeProcedure(WhenDieInAbyssHandlerProcedure.java:56)
-[13Dec2021 03:01:00.892] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.WhenDieInAbyssHandlerProcedure:executeProcedure:66]: 	at net.yezon.theabyss.procedures.WhenDieInAbyssHandlerProcedure.onPlayerInBed(WhenDieInAbyssHandlerProcedure.java:114)
-[13Dec2021 03:01:00.892] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.WhenDieInAbyssHandlerProcedure:executeProcedure:66]: 	at net.minecraftforge.eventbus.ASMEventHandler_1318_WhenDieInAbyssHandlerProcedure_onPlayerInBed_PlayerSleepInBedEvent.invoke(.dynamic)
-[13Dec2021 03:01:00.892] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.WhenDieInAbyssHandlerProcedure:executeProcedure:66]: 	at net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:85)
-[13Dec2021 03:01:00.892] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.WhenDieInAbyssHandlerProcedure:executeProcedure:66]: 	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:302)
-[13Dec2021 03:01:00.892] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.WhenDieInAbyssHandlerProcedure:executeProcedure:66]: 	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:283)
-[13Dec2021 03:01:00.892] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.WhenDieInAbyssHandlerProcedure:executeProcedure:66]: 	at net.minecraftforge.event.ForgeEventFactory.onPlayerSleepInBed(ForgeEventFactory.java:475)
-[13Dec2021 03:01:00.892] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.WhenDieInAbyssHandlerProcedure:executeProcedure:66]: 	at net.minecraft.entity.player.ServerPlayerEntity.func_213819_a(ServerPlayerEntity.java:755)
-[13Dec2021 03:01:00.892] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.WhenDieInAbyssHandlerProcedure:executeProcedure:66]: 	at net.minecraft.block.BedBlock.func_225533_a_(SourceFile:115)
-[13Dec2021 03:01:00.892] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.WhenDieInAbyssHandlerProcedure:executeProcedure:66]: 	at net.minecraft.block.AbstractBlock$AbstractBlockState.func_227031_a_(AbstractBlock.java:640)
-[13Dec2021 03:01:00.892] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.WhenDieInAbyssHandlerProcedure:executeProcedure:66]: 	at net.minecraft.server.management.PlayerInteractionManager.func_219441_a(PlayerInteractionManager.java:338)
-[13Dec2021 03:01:00.892] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.WhenDieInAbyssHandlerProcedure:executeProcedure:66]: 	at net.minecraft.network.play.ServerPlayNetHandler.func_184337_a(ServerPlayNetHandler.java:958)
-[13Dec2021 03:01:00.892] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.WhenDieInAbyssHandlerProcedure:executeProcedure:66]: 	at net.minecraft.network.play.client.CPlayerTryUseItemOnBlockPacket.func_148833_a(SourceFile:36)
-[13Dec2021 03:01:00.892] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.WhenDieInAbyssHandlerProcedure:executeProcedure:66]: 	at net.minecraft.network.play.client.CPlayerTryUseItemOnBlockPacket.func_148833_a(SourceFile:10)
-[13Dec2021 03:01:00.893] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.WhenDieInAbyssHandlerProcedure:executeProcedure:66]: 	at net.minecraft.network.PacketThreadUtil.func_225383_a(SourceFile:21)
-[13Dec2021 03:01:00.893] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.WhenDieInAbyssHandlerProcedure:executeProcedure:66]: 	at net.minecraft.util.concurrent.TickDelayedTask.run(SourceFile:18)
-[13Dec2021 03:01:00.893] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.WhenDieInAbyssHandlerProcedure:executeProcedure:66]: 	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213166_h(SourceFile:144)
-[13Dec2021 03:01:00.893] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.WhenDieInAbyssHandlerProcedure:executeProcedure:66]: 	at net.minecraft.util.concurrent.RecursiveEventLoop.func_213166_h(SourceFile:23)
-[13Dec2021 03:01:00.893] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.WhenDieInAbyssHandlerProcedure:executeProcedure:66]: 	at net.minecraft.server.MinecraftServer.func_213166_h(MinecraftServer.java:734)
-[13Dec2021 03:01:00.893] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.WhenDieInAbyssHandlerProcedure:executeProcedure:66]: 	at net.minecraft.server.MinecraftServer.func_213166_h(MinecraftServer.java:159)
-[13Dec2021 03:01:00.893] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.WhenDieInAbyssHandlerProcedure:executeProcedure:66]: 	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213168_p(SourceFile:118)
-[13Dec2021 03:01:00.893] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.WhenDieInAbyssHandlerProcedure:executeProcedure:66]: 	at net.minecraft.server.MinecraftServer.func_213205_aW(MinecraftServer.java:717)
-[13Dec2021 03:01:00.893] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.WhenDieInAbyssHandlerProcedure:executeProcedure:66]: 	at net.minecraft.server.MinecraftServer.func_213168_p(MinecraftServer.java:711)
-[13Dec2021 03:01:00.893] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.WhenDieInAbyssHandlerProcedure:executeProcedure:66]: 	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213161_c(SourceFile:127)
-[13Dec2021 03:01:00.893] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.WhenDieInAbyssHandlerProcedure:executeProcedure:66]: 	at net.minecraft.server.MinecraftServer.func_213202_o(MinecraftServer.java:697)
-[13Dec2021 03:01:00.893] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.WhenDieInAbyssHandlerProcedure:executeProcedure:66]: 	at net.minecraft.server.MinecraftServer.func_240802_v_(MinecraftServer.java:646)
-[13Dec2021 03:01:00.893] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.WhenDieInAbyssHandlerProcedure:executeProcedure:66]: 	at net.minecraft.server.MinecraftServer.func_240783_a_(MinecraftServer.java:232)
-[13Dec2021 03:01:00.893] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.WhenDieInAbyssHandlerProcedure:executeProcedure:66]: 	at java.lang.Thread.run(Thread.java:748)
-[13Dec2021 03:01:03.084] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.WhenDieInAbyssHandlerProcedure:executeProcedure:66]: java.io.FileNotFoundException: config/TheAbyss2.json (No such file or directory)
-[13Dec2021 03:01:03.084] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.WhenDieInAbyssHandlerProcedure:executeProcedure:66]: 	at java.io.FileInputStream.open0(Native Method)
-[13Dec2021 03:01:03.084] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.WhenDieInAbyssHandlerProcedure:executeProcedure:66]: 	at java.io.FileInputStream.open(FileInputStream.java:195)
-[13Dec2021 03:01:03.084] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.WhenDieInAbyssHandlerProcedure:executeProcedure:66]: 	at java.io.FileInputStream.<init>(FileInputStream.java:138)
-[13Dec2021 03:01:03.084] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.WhenDieInAbyssHandlerProcedure:executeProcedure:66]: 	at java.io.FileReader.<init>(FileReader.java:72)
-[13Dec2021 03:01:03.084] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.WhenDieInAbyssHandlerProcedure:executeProcedure:66]: 	at net.yezon.theabyss.procedures.WhenDieInAbyssHandlerProcedure.executeProcedure(WhenDieInAbyssHandlerProcedure.java:56)
-[13Dec2021 03:01:03.084] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.WhenDieInAbyssHandlerProcedure:executeProcedure:66]: 	at net.yezon.theabyss.procedures.WhenDieInAbyssHandlerProcedure.onPlayerInBed(WhenDieInAbyssHandlerProcedure.java:114)
-[13Dec2021 03:01:03.084] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.WhenDieInAbyssHandlerProcedure:executeProcedure:66]: 	at net.minecraftforge.eventbus.ASMEventHandler_1318_WhenDieInAbyssHandlerProcedure_onPlayerInBed_PlayerSleepInBedEvent.invoke(.dynamic)
-[13Dec2021 03:01:03.084] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.WhenDieInAbyssHandlerProcedure:executeProcedure:66]: 	at net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:85)
-[13Dec2021 03:01:03.084] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.WhenDieInAbyssHandlerProcedure:executeProcedure:66]: 	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:302)
-[13Dec2021 03:01:03.084] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.WhenDieInAbyssHandlerProcedure:executeProcedure:66]: 	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:283)
-[13Dec2021 03:01:03.084] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.WhenDieInAbyssHandlerProcedure:executeProcedure:66]: 	at net.minecraftforge.event.ForgeEventFactory.onPlayerSleepInBed(ForgeEventFactory.java:475)
-[13Dec2021 03:01:03.084] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.WhenDieInAbyssHandlerProcedure:executeProcedure:66]: 	at net.minecraft.entity.player.ServerPlayerEntity.func_213819_a(ServerPlayerEntity.java:755)
-[13Dec2021 03:01:03.085] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.WhenDieInAbyssHandlerProcedure:executeProcedure:66]: 	at net.minecraft.block.BedBlock.func_225533_a_(SourceFile:115)
-[13Dec2021 03:01:03.085] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.WhenDieInAbyssHandlerProcedure:executeProcedure:66]: 	at net.minecraft.block.AbstractBlock$AbstractBlockState.func_227031_a_(AbstractBlock.java:640)
-[13Dec2021 03:01:03.085] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.WhenDieInAbyssHandlerProcedure:executeProcedure:66]: 	at net.minecraft.server.management.PlayerInteractionManager.func_219441_a(PlayerInteractionManager.java:338)
-[13Dec2021 03:01:03.085] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.WhenDieInAbyssHandlerProcedure:executeProcedure:66]: 	at net.minecraft.network.play.ServerPlayNetHandler.func_184337_a(ServerPlayNetHandler.java:958)
-[13Dec2021 03:01:03.085] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.WhenDieInAbyssHandlerProcedure:executeProcedure:66]: 	at net.minecraft.network.play.client.CPlayerTryUseItemOnBlockPacket.func_148833_a(SourceFile:36)
-[13Dec2021 03:01:03.085] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.WhenDieInAbyssHandlerProcedure:executeProcedure:66]: 	at net.minecraft.network.play.client.CPlayerTryUseItemOnBlockPacket.func_148833_a(SourceFile:10)
-[13Dec2021 03:01:03.085] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.WhenDieInAbyssHandlerProcedure:executeProcedure:66]: 	at net.minecraft.network.PacketThreadUtil.func_225383_a(SourceFile:21)
-[13Dec2021 03:01:03.085] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.WhenDieInAbyssHandlerProcedure:executeProcedure:66]: 	at net.minecraft.util.concurrent.TickDelayedTask.run(SourceFile:18)
-[13Dec2021 03:01:03.085] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.WhenDieInAbyssHandlerProcedure:executeProcedure:66]: 	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213166_h(SourceFile:144)
-[13Dec2021 03:01:03.085] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.WhenDieInAbyssHandlerProcedure:executeProcedure:66]: 	at net.minecraft.util.concurrent.RecursiveEventLoop.func_213166_h(SourceFile:23)
-[13Dec2021 03:01:03.085] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.WhenDieInAbyssHandlerProcedure:executeProcedure:66]: 	at net.minecraft.server.MinecraftServer.func_213166_h(MinecraftServer.java:734)
-[13Dec2021 03:01:03.085] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.WhenDieInAbyssHandlerProcedure:executeProcedure:66]: 	at net.minecraft.server.MinecraftServer.func_213166_h(MinecraftServer.java:159)
-[13Dec2021 03:01:03.085] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.WhenDieInAbyssHandlerProcedure:executeProcedure:66]: 	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213168_p(SourceFile:118)
-[13Dec2021 03:01:03.085] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.WhenDieInAbyssHandlerProcedure:executeProcedure:66]: 	at net.minecraft.server.MinecraftServer.func_213205_aW(MinecraftServer.java:717)
-[13Dec2021 03:01:03.085] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.WhenDieInAbyssHandlerProcedure:executeProcedure:66]: 	at net.minecraft.server.MinecraftServer.func_213168_p(MinecraftServer.java:711)
-[13Dec2021 03:01:03.086] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.WhenDieInAbyssHandlerProcedure:executeProcedure:66]: 	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213161_c(SourceFile:127)
-[13Dec2021 03:01:03.086] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.WhenDieInAbyssHandlerProcedure:executeProcedure:66]: 	at net.minecraft.server.MinecraftServer.func_213202_o(MinecraftServer.java:697)
-[13Dec2021 03:01:03.086] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.WhenDieInAbyssHandlerProcedure:executeProcedure:66]: 	at net.minecraft.server.MinecraftServer.func_240802_v_(MinecraftServer.java:646)
-[13Dec2021 03:01:03.086] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.WhenDieInAbyssHandlerProcedure:executeProcedure:66]: 	at net.minecraft.server.MinecraftServer.func_240783_a_(MinecraftServer.java:232)
-[13Dec2021 03:01:03.086] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.WhenDieInAbyssHandlerProcedure:executeProcedure:66]: 	at java.lang.Thread.run(Thread.java:748)
-[13Dec2021 03:02:06.700] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.advancements.PlayerAdvancements@346e7647
-[13Dec2021 03:02:06.800] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: DavidSoonLee[/177.254.4.115:56676] logged in with entity id 331096 at (292.388665222489, 46.18187038724775, -32.308293955026755)
-[13Dec2021 03:02:06.807] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: DavidSoonLee joined the game
-[13Dec2021 03:02:06.850] [Server thread/INFO] [Waila/]: Syncing config to DavidSoonLee (34e2e122-557c-30fe-8e71-dd90a2449fe6)
-[13Dec2021 03:02:06.854] [Server thread/INFO] [Scaling Health/]: Sending login packet to player ServerPlayerEntity['DavidSoonLee'/331096, l='ServerLevel[AHHHHHHHHHHHHHHHHHHHHHHHH]', x=292.39, y=46.18, z=-32.31]
-[13Dec2021 03:02:06.855] [Server thread/INFO] [Scaling Health/]: Updating stats for null
-[13Dec2021 03:03:44.265] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Perderas> hey
-[13Dec2021 03:04:00.616] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <DavidSoonLee> hola
-[13Dec2021 03:13:44.064] [Server thread/INFO] [Scaling Health/]: Blight Spider was killed by Perderas
-[13Dec2021 03:15:04.613] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: DavidSoonLee lost connection: Disconnected
-[13Dec2021 03:15:04.614] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: DavidSoonLee left the game
-[13Dec2021 03:27:19.708] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Perderas has made the advancement [I can see clearly now]
-[13Dec2021 03:31:35.469] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.WhenDieInAbyssHandlerProcedure:executeProcedure:66]: java.io.FileNotFoundException: config/TheAbyss2.json (No such file or directory)
-[13Dec2021 03:31:35.470] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.WhenDieInAbyssHandlerProcedure:executeProcedure:66]: 	at java.io.FileInputStream.open0(Native Method)
-[13Dec2021 03:31:35.470] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.WhenDieInAbyssHandlerProcedure:executeProcedure:66]: 	at java.io.FileInputStream.open(FileInputStream.java:195)
-[13Dec2021 03:31:35.470] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.WhenDieInAbyssHandlerProcedure:executeProcedure:66]: 	at java.io.FileInputStream.<init>(FileInputStream.java:138)
-[13Dec2021 03:31:35.470] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.WhenDieInAbyssHandlerProcedure:executeProcedure:66]: 	at java.io.FileReader.<init>(FileReader.java:72)
-[13Dec2021 03:31:35.470] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.WhenDieInAbyssHandlerProcedure:executeProcedure:66]: 	at net.yezon.theabyss.procedures.WhenDieInAbyssHandlerProcedure.executeProcedure(WhenDieInAbyssHandlerProcedure.java:56)
-[13Dec2021 03:31:35.470] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.WhenDieInAbyssHandlerProcedure:executeProcedure:66]: 	at net.yezon.theabyss.procedures.WhenDieInAbyssHandlerProcedure.onPlayerInBed(WhenDieInAbyssHandlerProcedure.java:114)
-[13Dec2021 03:31:35.470] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.WhenDieInAbyssHandlerProcedure:executeProcedure:66]: 	at net.minecraftforge.eventbus.ASMEventHandler_1318_WhenDieInAbyssHandlerProcedure_onPlayerInBed_PlayerSleepInBedEvent.invoke(.dynamic)
-[13Dec2021 03:31:35.470] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.WhenDieInAbyssHandlerProcedure:executeProcedure:66]: 	at net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:85)
-[13Dec2021 03:31:35.470] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.WhenDieInAbyssHandlerProcedure:executeProcedure:66]: 	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:302)
-[13Dec2021 03:31:35.470] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.WhenDieInAbyssHandlerProcedure:executeProcedure:66]: 	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:283)
-[13Dec2021 03:31:35.471] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.WhenDieInAbyssHandlerProcedure:executeProcedure:66]: 	at net.minecraftforge.event.ForgeEventFactory.onPlayerSleepInBed(ForgeEventFactory.java:475)
-[13Dec2021 03:31:35.471] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.WhenDieInAbyssHandlerProcedure:executeProcedure:66]: 	at net.minecraft.entity.player.ServerPlayerEntity.func_213819_a(ServerPlayerEntity.java:755)
-[13Dec2021 03:31:35.471] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.WhenDieInAbyssHandlerProcedure:executeProcedure:66]: 	at net.minecraft.block.BedBlock.func_225533_a_(SourceFile:115)
-[13Dec2021 03:31:35.471] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.WhenDieInAbyssHandlerProcedure:executeProcedure:66]: 	at net.minecraft.block.AbstractBlock$AbstractBlockState.func_227031_a_(AbstractBlock.java:640)
-[13Dec2021 03:31:35.471] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.WhenDieInAbyssHandlerProcedure:executeProcedure:66]: 	at net.minecraft.server.management.PlayerInteractionManager.func_219441_a(PlayerInteractionManager.java:338)
-[13Dec2021 03:31:35.471] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.WhenDieInAbyssHandlerProcedure:executeProcedure:66]: 	at net.minecraft.network.play.ServerPlayNetHandler.func_184337_a(ServerPlayNetHandler.java:958)
-[13Dec2021 03:31:35.471] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.WhenDieInAbyssHandlerProcedure:executeProcedure:66]: 	at net.minecraft.network.play.client.CPlayerTryUseItemOnBlockPacket.func_148833_a(SourceFile:36)
-[13Dec2021 03:31:35.471] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.WhenDieInAbyssHandlerProcedure:executeProcedure:66]: 	at net.minecraft.network.play.client.CPlayerTryUseItemOnBlockPacket.func_148833_a(SourceFile:10)
-[13Dec2021 03:31:35.471] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.WhenDieInAbyssHandlerProcedure:executeProcedure:66]: 	at net.minecraft.network.PacketThreadUtil.func_225383_a(SourceFile:21)
-[13Dec2021 03:31:35.471] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.WhenDieInAbyssHandlerProcedure:executeProcedure:66]: 	at net.minecraft.util.concurrent.TickDelayedTask.run(SourceFile:18)
-[13Dec2021 03:31:35.471] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.WhenDieInAbyssHandlerProcedure:executeProcedure:66]: 	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213166_h(SourceFile:144)
-[13Dec2021 03:31:35.471] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.WhenDieInAbyssHandlerProcedure:executeProcedure:66]: 	at net.minecraft.util.concurrent.RecursiveEventLoop.func_213166_h(SourceFile:23)
-[13Dec2021 03:31:35.471] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.WhenDieInAbyssHandlerProcedure:executeProcedure:66]: 	at net.minecraft.server.MinecraftServer.func_213166_h(MinecraftServer.java:734)
-[13Dec2021 03:31:35.472] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.WhenDieInAbyssHandlerProcedure:executeProcedure:66]: 	at net.minecraft.server.MinecraftServer.func_213166_h(MinecraftServer.java:159)
-[13Dec2021 03:31:35.472] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.WhenDieInAbyssHandlerProcedure:executeProcedure:66]: 	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213168_p(SourceFile:118)
-[13Dec2021 03:31:35.472] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.WhenDieInAbyssHandlerProcedure:executeProcedure:66]: 	at net.minecraft.server.MinecraftServer.func_213205_aW(MinecraftServer.java:717)
-[13Dec2021 03:31:35.472] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.WhenDieInAbyssHandlerProcedure:executeProcedure:66]: 	at net.minecraft.server.MinecraftServer.func_213168_p(MinecraftServer.java:711)
-[13Dec2021 03:31:35.472] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.WhenDieInAbyssHandlerProcedure:executeProcedure:66]: 	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213161_c(SourceFile:127)
-[13Dec2021 03:31:35.472] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.WhenDieInAbyssHandlerProcedure:executeProcedure:66]: 	at net.minecraft.server.MinecraftServer.func_213202_o(MinecraftServer.java:697)
-[13Dec2021 03:31:35.472] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.WhenDieInAbyssHandlerProcedure:executeProcedure:66]: 	at net.minecraft.server.MinecraftServer.func_240802_v_(MinecraftServer.java:646)
-[13Dec2021 03:31:35.472] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.WhenDieInAbyssHandlerProcedure:executeProcedure:66]: 	at net.minecraft.server.MinecraftServer.func_240783_a_(MinecraftServer.java:232)
-[13Dec2021 03:31:35.472] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.WhenDieInAbyssHandlerProcedure:executeProcedure:66]: 	at java.lang.Thread.run(Thread.java:748)
+[13Dec2021 03:49:01.791] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--gameDir, ., --launchTarget, fmlserver, --fml.forgeVersion, 36.2.8, --fml.mcpVersion, 20210115.111550, --fml.mcVersion, 1.16.5, --fml.forgeGroup, net.minecraftforge, nogui]
+[13Dec2021 03:49:01.809] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 8.0.9+86+master.3cf110c starting: java version 1.8.0_292 by Private Build
+[13Dec2021 03:49:02.663] [main/INFO] [net.minecraftforge.fml.loading.FixSSL/CORE]: Added Lets Encrypt root certificates as additional trust
+[13Dec2021 03:49:02.800] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.4 Source=file:/home/ubuntu/MinecraftServer/libraries/org/spongepowered/mixin/0.8.4/mixin-0.8.4.jar Service=ModLauncher Env=SERVER
+[13Dec2021 03:49:06.327] [main/INFO] [STDERR/]: [org.antlr.v4.runtime.ConsoleErrorListener:syntaxError:38]: line 1:0 token recognition error at: '~'
+[13Dec2021 03:49:08.407] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [vazkii.botania.common.MixinConnector]
+[13Dec2021 03:49:08.410] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [vazkii.patchouli.common.MixinConnector]
+[13Dec2021 03:49:08.420] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [com.performant.coremod.mixin.Connector]
+[13Dec2021 03:49:08.429] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'fmlserver' with arguments [--gameDir, ., nogui]
+[13Dec2021 03:49:08.476] [main/WARN] [mixin/]: Reference map 'boss_tools.refmap.json' for boss_tools.mixins.json could not be read. If this is a development environment you can ignore this message
+[13Dec2021 03:49:08.767] [main/INFO] [com.performant.coremod.Performant/]: Performant configs loaded
+[13Dec2021 03:49:08.893] [main/INFO] [net.minecraftforge.coremod.CoreMod.astralsorcery/COREMODLOG]: Adding 'set_player_field' ASM patch...
+[13Dec2021 03:49:08.999] [main/INFO] [net.minecraftforge.coremod.CoreMod.astralsorcery/COREMODLOG]: Added 'set_player_field' ASM patch!
+[13Dec2021 03:49:09.005] [main/INFO] [net.minecraftforge.coremod.CoreMod.astralsorcery/COREMODLOG]: Adding 'water_movement_slowdown_prevention' ASM patch...
+[13Dec2021 03:49:09.019] [main/INFO] [net.minecraftforge.coremod.CoreMod.astralsorcery/COREMODLOG]: Added 'water_movement_slowdown_prevention' ASM patch!
+[13Dec2021 03:49:09.098] [main/INFO] [net.minecraftforge.coremod.CoreMod.astralsorcery/COREMODLOG]: Adding 'add_custom_entity_collision' ASM patch...
+[13Dec2021 03:49:09.116] [main/INFO] [net.minecraftforge.coremod.CoreMod.astralsorcery/COREMODLOG]: Added 'add_custom_entity_collision' ASM patch!
+[13Dec2021 03:49:09.841] [main/INFO] [net.minecraftforge.coremod.CoreMod.astralsorcery/COREMODLOG]: Adding 'add_custom_entity_collision' ASM patch...
+[13Dec2021 03:49:09.842] [main/INFO] [net.minecraftforge.coremod.CoreMod.astralsorcery/COREMODLOG]: Added 'add_custom_entity_collision' ASM patch!
+[13Dec2021 03:49:10.153] [main/INFO] [net.minecraftforge.coremod.CoreMod.astralsorcery/COREMODLOG]: Adding 'reach_set_server_entity_interact' ASM patch...
+[13Dec2021 03:49:10.179] [main/INFO] [net.minecraftforge.coremod.CoreMod.astralsorcery/COREMODLOG]: Added 'reach_set_server_entity_interact' ASM patch!
+[13Dec2021 03:49:10.189] [main/INFO] [net.minecraftforge.coremod.CoreMod.astralsorcery/COREMODLOG]: Adding 'allow_entity_interaction' ASM patch...
+[13Dec2021 03:49:10.237] [main/INFO] [net.minecraftforge.coremod.CoreMod.astralsorcery/COREMODLOG]: Added 'allow_entity_interaction' ASM patch!
+[13Dec2021 03:49:10.762] [main/INFO] [net.minecraftforge.coremod.CoreMod.astralsorcery/COREMODLOG]: Adding 'add_enchantment_helper_levels' ASM patch...
+[13Dec2021 03:49:10.772] [main/INFO] [net.minecraftforge.coremod.CoreMod.astralsorcery/COREMODLOG]: Added 'add_enchantment_helper_levels' ASM patch!
+[13Dec2021 03:49:10.783] [main/INFO] [net.minecraftforge.coremod.CoreMod.astralsorcery/COREMODLOG]: Adding 'add_enchantment_helper_enchantments' ASM patch...
+[13Dec2021 03:49:10.791] [main/INFO] [net.minecraftforge.coremod.CoreMod.astralsorcery/COREMODLOG]: Added 'add_enchantment_helper_enchantments' ASM patch!
+[13Dec2021 03:49:10.802] [main/INFO] [net.minecraftforge.coremod.CoreMod.astralsorcery/COREMODLOG]: Adding 'add_enchantment_helper_apply_modifier' ASM patch...
+[13Dec2021 03:49:10.828] [main/INFO] [net.minecraftforge.coremod.CoreMod.astralsorcery/COREMODLOG]: Added 'add_enchantment_helper_apply_modifier' ASM patch!
+[13Dec2021 03:49:10.857] [main/INFO] [net.minecraftforge.coremod.CoreMod.astralsorcery/COREMODLOG]: Adding 'add_missing_tag_enchantment_tooltip' ASM patch...
+[13Dec2021 03:49:10.906] [main/INFO] [net.minecraftforge.coremod.CoreMod.astralsorcery/COREMODLOG]: Added 'add_missing_tag_enchantment_tooltip' ASM patch!
+[13Dec2021 03:49:10.917] [main/INFO] [net.minecraftforge.coremod.CoreMod.astralsorcery/COREMODLOG]: Adding 'add_enchantment_tooltip' ASM patch...
+[13Dec2021 03:49:10.928] [main/INFO] [net.minecraftforge.coremod.CoreMod.astralsorcery/COREMODLOG]: Added 'add_enchantment_tooltip' ASM patch!
+[13Dec2021 03:49:11.365] [main/FATAL] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/entity/player/ClientPlayerEntity for invalid dist DEDICATED_SERVER
+[13Dec2021 03:49:11.365] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/entity/player/ClientPlayerEntity (java.lang.RuntimeException: Attempted to load class net/minecraft/client/entity/player/ClientPlayerEntity for invalid dist DEDICATED_SERVER)
+[13Dec2021 03:49:11.366] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.entity.player.ClientPlayerEntity was not found ars_nouveau.mixins.json:ClientElytraMixin
+[13Dec2021 03:49:12.052] [main/INFO] [com.performant.coremod.Performant/]: Not enabling mixin forcom.performant.coremod.mixin.forge.BasicEventHooksMixin as config disables it.
+[13Dec2021 03:49:12.055] [main/INFO] [com.performant.coremod.Performant/]: Not enabling mixin forcom.performant.coremod.mixin.world.WorldMixin as config disables it.
+[13Dec2021 03:49:12.094] [main/INFO] [com.performant.coremod.Performant/]: Not enabling mixin forcom.performant.coremod.mixin.entity.LivingEntityUpdateEventMixin as config disables it.
+[13Dec2021 03:49:12.238] [main/INFO] [net.minecraftforge.coremod.CoreMod.astralsorcery/COREMODLOG]: Adding 'post_process_vanilla' ASM patch...
+[13Dec2021 03:49:12.240] [main/INFO] [net.minecraftforge.coremod.CoreMod.astralsorcery/COREMODLOG]: Added 'post_process_vanilla' ASM patch!
+[13Dec2021 03:49:13.187] [main/INFO] [net.minecraftforge.coremod.CoreMod.observerlib/COREMODLOG]: Adding 'on_block_change' ASM patch...
+[13Dec2021 03:49:13.218] [main/INFO] [net.minecraftforge.coremod.CoreMod.observerlib/COREMODLOG]: Added 'on_block_change' ASM patch!
+[13Dec2021 03:49:13.235] [main/INFO] [net.minecraftforge.coremod.CoreMod.astralsorcery/COREMODLOG]: Adding 'sun_brightness_server' ASM patch...
+[13Dec2021 03:49:13.246] [main/INFO] [net.minecraftforge.coremod.CoreMod.astralsorcery/COREMODLOG]: Added 'sun_brightness_server' ASM patch!
+[13Dec2021 03:49:14.972] [main/INFO] [net.minecraftforge.coremod.CoreMod.astralsorcery/COREMODLOG]: Adding 'add_custom_entity_collision' ASM patch...
+[13Dec2021 03:49:14.973] [main/INFO] [net.minecraftforge.coremod.CoreMod.astralsorcery/COREMODLOG]: Added 'add_custom_entity_collision' ASM patch!
+[13Dec2021 03:49:15.483] [main/INFO] [net.minecraftforge.coremod.CoreMod.astralsorcery/COREMODLOG]: Adding 'set_player_field' ASM patch...
+[13Dec2021 03:49:15.484] [main/INFO] [net.minecraftforge.coremod.CoreMod.astralsorcery/COREMODLOG]: Added 'set_player_field' ASM patch!
+[13Dec2021 03:49:15.485] [main/INFO] [net.minecraftforge.coremod.CoreMod.astralsorcery/COREMODLOG]: Adding 'water_movement_slowdown_prevention' ASM patch...
+[13Dec2021 03:49:15.486] [main/INFO] [net.minecraftforge.coremod.CoreMod.astralsorcery/COREMODLOG]: Added 'water_movement_slowdown_prevention' ASM patch!
+[13Dec2021 03:49:16.166] [main/INFO] [net.minecraftforge.coremod.CoreMod.observerlib/COREMODLOG]: Adding 'on_block_change' ASM patch...
+[13Dec2021 03:49:16.179] [main/INFO] [net.minecraftforge.coremod.CoreMod.observerlib/COREMODLOG]: Added 'on_block_change' ASM patch!
+[13Dec2021 03:49:16.180] [main/INFO] [net.minecraftforge.coremod.CoreMod.astralsorcery/COREMODLOG]: Adding 'sun_brightness_server' ASM patch...
+[13Dec2021 03:49:16.191] [main/INFO] [net.minecraftforge.coremod.CoreMod.astralsorcery/COREMODLOG]: Added 'sun_brightness_server' ASM patch!
+[13Dec2021 03:49:16.279] [main/INFO] [net.minecraftforge.coremod.CoreMod.observerlib/COREMODLOG]: Adding 'on_block_change' ASM patch...
+[13Dec2021 03:49:16.279] [main/INFO] [net.minecraftforge.coremod.CoreMod.observerlib/COREMODLOG]: Added 'on_block_change' ASM patch!
+[13Dec2021 03:49:16.280] [main/INFO] [net.minecraftforge.coremod.CoreMod.astralsorcery/COREMODLOG]: Adding 'sun_brightness_server' ASM patch...
+[13Dec2021 03:49:16.280] [main/INFO] [net.minecraftforge.coremod.CoreMod.astralsorcery/COREMODLOG]: Added 'sun_brightness_server' ASM patch!
+[13Dec2021 03:49:17.311] [main/INFO] [FerriteCore - class definer/]: Using Java 8 class definer
+[13Dec2021 03:49:22.055] [main/INFO] [net.minecraftforge.coremod.CoreMod.astralsorcery/COREMODLOG]: Adding 'add_missing_tag_enchantment_tooltip' ASM patch...
+[13Dec2021 03:49:22.057] [main/INFO] [net.minecraftforge.coremod.CoreMod.astralsorcery/COREMODLOG]: Added 'add_missing_tag_enchantment_tooltip' ASM patch!
+[13Dec2021 03:49:22.057] [main/INFO] [net.minecraftforge.coremod.CoreMod.astralsorcery/COREMODLOG]: Adding 'add_enchantment_tooltip' ASM patch...
+[13Dec2021 03:49:22.058] [main/INFO] [net.minecraftforge.coremod.CoreMod.astralsorcery/COREMODLOG]: Added 'add_enchantment_tooltip' ASM patch!
+[13Dec2021 03:49:29.290] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `citadel` for name `debug`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[13Dec2021 03:49:29.293] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `citadel` for name `citadel_book`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[13Dec2021 03:49:29.293] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `citadel` for name `effect_item`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[13Dec2021 03:49:29.303] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `citadel` for name `fancy_item`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[13Dec2021 03:49:31.843] [modloading-worker-0/WARN] [mixin/]: @Final field field_187234_c:Ljava/util/Map; in performant.mixins.json:entity.EntityDataManagerMixin should be final
+[13Dec2021 03:49:33.759] [modloading-worker-3/INFO] [net.minecraftforge.coremod.CoreMod.astralsorcery/COREMODLOG]: Adding 'post_process_vanilla' ASM patch...
+[13Dec2021 03:49:33.760] [modloading-worker-3/INFO] [net.minecraftforge.coremod.CoreMod.astralsorcery/COREMODLOG]: Added 'post_process_vanilla' ASM patch!
+[13Dec2021 03:49:34.405] [modloading-worker-3/INFO] [Dungeon Crawl/]: Here we go! Launching Dungeon Crawl 2.3.4...
+[13Dec2021 03:49:35.360] [modloading-worker-2/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 36.2.8, for MC 1.16.5 with MCP 20210115.111550
+[13Dec2021 03:49:35.361] [modloading-worker-2/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v36.2.8 Initialized
+[13Dec2021 03:49:37.904] [modloading-worker-3/INFO] [STDOUT/]: [wayoftime.bloodmagic.structures.DungeonRoomLoader:loadDungeons:217]: Loading schematic: bloodmagic:t_corridor
+[13Dec2021 03:49:37.927] [modloading-worker-3/INFO] [STDOUT/]: [wayoftime.bloodmagic.structures.DungeonRoomLoader:loadDungeons:219]: Resulting dungeon: wayoftime.bloodmagic.structures.DungeonRoom@d14ff3f
+[13Dec2021 03:49:37.928] [modloading-worker-3/INFO] [STDOUT/]: [wayoftime.bloodmagic.structures.DungeonRoomLoader:loadDungeons:217]: Loading schematic: bloodmagic:four_way_corridor_loot
+[13Dec2021 03:49:37.931] [modloading-worker-3/INFO] [STDOUT/]: [wayoftime.bloodmagic.structures.DungeonRoomLoader:loadDungeons:219]: Resulting dungeon: wayoftime.bloodmagic.structures.DungeonRoom@2e379e4a
+[13Dec2021 03:49:37.931] [modloading-worker-3/INFO] [STDOUT/]: [wayoftime.bloodmagic.structures.DungeonRoomLoader:loadDungeons:217]: Loading schematic: bloodmagic:four_way_corridor
+[13Dec2021 03:49:37.932] [modloading-worker-3/INFO] [STDOUT/]: [wayoftime.bloodmagic.structures.DungeonRoomLoader:loadDungeons:219]: Resulting dungeon: wayoftime.bloodmagic.structures.DungeonRoom@5084e045
+[13Dec2021 03:49:37.933] [modloading-worker-3/INFO] [STDOUT/]: [wayoftime.bloodmagic.structures.DungeonRoomLoader:loadDungeons:217]: Loading schematic: bloodmagic:ore_hold_1
+[13Dec2021 03:49:37.933] [modloading-worker-3/INFO] [STDOUT/]: [wayoftime.bloodmagic.structures.DungeonRoomLoader:loadDungeons:219]: Resulting dungeon: wayoftime.bloodmagic.structures.DungeonRoom@41d1053c
+[13Dec2021 03:49:37.934] [modloading-worker-3/INFO] [STDOUT/]: [wayoftime.bloodmagic.structures.DungeonRoomLoader:loadDungeons:217]: Loading schematic: bloodmagic:straight_corridor
+[13Dec2021 03:49:37.943] [modloading-worker-3/INFO] [STDOUT/]: [wayoftime.bloodmagic.structures.DungeonRoomLoader:loadDungeons:219]: Resulting dungeon: wayoftime.bloodmagic.structures.DungeonRoom@60addfc8
+[13Dec2021 03:49:37.944] [modloading-worker-3/INFO] [STDOUT/]: [wayoftime.bloodmagic.structures.DungeonRoomLoader:loadDungeons:217]: Loading schematic: bloodmagic:spiral_staircase
+[13Dec2021 03:49:37.944] [modloading-worker-3/INFO] [STDOUT/]: [wayoftime.bloodmagic.structures.DungeonRoomLoader:loadDungeons:219]: Resulting dungeon: wayoftime.bloodmagic.structures.DungeonRoom@7553893b
+[13Dec2021 03:49:37.945] [modloading-worker-3/INFO] [STDOUT/]: [wayoftime.bloodmagic.structures.DungeonRoomLoader:loadDungeons:217]: Loading schematic: bloodmagic:t3_entrance
+[13Dec2021 03:49:37.946] [modloading-worker-3/INFO] [STDOUT/]: [wayoftime.bloodmagic.structures.DungeonRoomLoader:loadDungeons:219]: Resulting dungeon: wayoftime.bloodmagic.structures.DungeonRoom@a62753b
+[13Dec2021 03:49:37.946] [modloading-worker-3/INFO] [STDOUT/]: [wayoftime.bloodmagic.structures.DungeonRoomLoader:loadDungeons:217]: Loading schematic: bloodmagic:mini_dungeon/library
+[13Dec2021 03:49:37.955] [modloading-worker-3/INFO] [STDOUT/]: [wayoftime.bloodmagic.structures.DungeonRoomLoader:loadDungeons:219]: Resulting dungeon: wayoftime.bloodmagic.structures.DungeonRoom@295fd4ff
+[13Dec2021 03:49:37.956] [modloading-worker-3/INFO] [STDOUT/]: [wayoftime.bloodmagic.structures.DungeonRoomLoader:loadDungeons:217]: Loading schematic: bloodmagic:mini_dungeon/armoury
+[13Dec2021 03:49:37.957] [modloading-worker-3/INFO] [STDOUT/]: [wayoftime.bloodmagic.structures.DungeonRoomLoader:loadDungeons:219]: Resulting dungeon: wayoftime.bloodmagic.structures.DungeonRoom@308f361c
+[13Dec2021 03:49:37.957] [modloading-worker-3/INFO] [STDOUT/]: [wayoftime.bloodmagic.structures.DungeonRoomLoader:loadDungeons:217]: Loading schematic: bloodmagic:mini_dungeon/farm
+[13Dec2021 03:49:37.958] [modloading-worker-3/INFO] [STDOUT/]: [wayoftime.bloodmagic.structures.DungeonRoomLoader:loadDungeons:219]: Resulting dungeon: wayoftime.bloodmagic.structures.DungeonRoom@49dbb3e9
+[13Dec2021 03:49:37.959] [modloading-worker-3/INFO] [STDOUT/]: [wayoftime.bloodmagic.structures.DungeonRoomLoader:loadDungeons:217]: Loading schematic: bloodmagic:mini_dungeon/portal_nether
+[13Dec2021 03:49:37.959] [modloading-worker-3/INFO] [STDOUT/]: [wayoftime.bloodmagic.structures.DungeonRoomLoader:loadDungeons:219]: Resulting dungeon: wayoftime.bloodmagic.structures.DungeonRoom@21337fee
+[13Dec2021 03:49:37.960] [modloading-worker-3/INFO] [STDOUT/]: [wayoftime.bloodmagic.structures.DungeonRoomLoader:loadDungeons:217]: Loading schematic: bloodmagic:mini_dungeon/crypt
+[13Dec2021 03:49:37.961] [modloading-worker-3/INFO] [STDOUT/]: [wayoftime.bloodmagic.structures.DungeonRoomLoader:loadDungeons:219]: Resulting dungeon: wayoftime.bloodmagic.structures.DungeonRoom@654353b4
+[13Dec2021 03:49:37.961] [modloading-worker-3/INFO] [STDOUT/]: [wayoftime.bloodmagic.structures.DungeonRoomLoader:loadDungeons:223]: # schematics: 12
+[13Dec2021 03:49:38.172] [modloading-worker-3/INFO] [STDOUT/]: [cofh.core.init.CoreConfig:genClientConfig:110]: Client config gen
+[13Dec2021 03:49:38.323] [modloading-worker-2/INFO] [twilightforest/]: Loaded compatibility for mod immersiveengineering.
+[13Dec2021 03:49:40.433] [modloading-worker-0/INFO] [com.simibubi.create.repack.registrate.AbstractRegistrate/]: Detected new forge version, registering events reflectively.
+[13Dec2021 03:49:42.141] [modloading-worker-2/INFO] [Spartan Weaponry/]: Constructing Mod: Spartan Weaponry
+[13Dec2021 03:49:42.141] [modloading-worker-2/INFO] [Spartan Weaponry/]: Initialising API! Version: 5
+[13Dec2021 03:49:44.523] [modloading-worker-0/INFO] [net.minecraftforge.coremod.CoreMod.astralsorcery/COREMODLOG]: Adding 'cooldown_tracker_set' ASM patch...
+[13Dec2021 03:49:44.617] [modloading-worker-0/INFO] [net.minecraftforge.coremod.CoreMod.astralsorcery/COREMODLOG]: Added 'cooldown_tracker_set' ASM patch!
+[13Dec2021 03:49:44.722] [modloading-worker-0/INFO] [net.minecraftforge.coremod.CoreMod.astralsorcery/COREMODLOG]: Adding 'reach_set_server_entity_interact' ASM patch...
+[13Dec2021 03:49:44.724] [modloading-worker-0/INFO] [net.minecraftforge.coremod.CoreMod.astralsorcery/COREMODLOG]: Added 'reach_set_server_entity_interact' ASM patch!
+[13Dec2021 03:49:44.725] [modloading-worker-0/INFO] [net.minecraftforge.coremod.CoreMod.astralsorcery/COREMODLOG]: Adding 'allow_entity_interaction' ASM patch...
+[13Dec2021 03:49:44.726] [modloading-worker-0/INFO] [net.minecraftforge.coremod.CoreMod.astralsorcery/COREMODLOG]: Added 'allow_entity_interaction' ASM patch!
+[13Dec2021 03:49:45.248] [modloading-worker-0/INFO] [net.minecraftforge.coremod.CoreMod.astralsorcery/COREMODLOG]: Adding 'add_player_field' ASM patch...
+[13Dec2021 03:49:45.283] [modloading-worker-0/INFO] [net.minecraftforge.coremod.CoreMod.astralsorcery/COREMODLOG]: Added 'add_player_field' ASM patch!
+[13Dec2021 03:49:45.446] [modloading-worker-0/INFO] [team.chisel.repack.registrate.AbstractRegistrate/]: Detected new forge version, registering events reflectively.
+[13Dec2021 03:49:46.388] [modloading-worker-1/INFO] [net.silentchaos512.utils.config.ConfigSpecWrapper/]: Loading config file /home/ubuntu/MinecraftServer/config/scaling-health/game_settings.toml
+[13Dec2021 03:49:46.399] [modloading-worker-1/INFO] [net.silentchaos512.utils.config.ConfigSpecWrapper/]: Loading config file /home/ubuntu/MinecraftServer/config/scaling-health/client.toml
+[13Dec2021 03:49:46.411] [modloading-worker-1/INFO] [net.silentchaos512.utils.config.ConfigSpecWrapper/]: Loading config file /home/ubuntu/MinecraftServer/config/scaling-health/common.toml
+[13Dec2021 03:49:46.483] [modloading-worker-0/INFO] [expandability/]: ExpandAbility here, who dis?
+[13Dec2021 03:49:46.711] [modloading-worker-1/WARN] [Scaling Health/]: Expression for 'difficulty.mutators.onPlayerDeath' does not contain the 'PLAYER_DIFFICULTY' variable. This could be intended, but seems odd.
+[13Dec2021 03:49:57.386] [main/INFO] [patchouli/]: Loaded book jsons on Thread[main,5,main] in 334 ms
+[13Dec2021 03:49:57.757] [main/INFO] [Spartan Weaponry/]: Registering items...
+[13Dec2021 03:49:57.758] [main/INFO] [Spartan Weaponry/]: Items Registered!
+[13Dec2021 03:49:58.106] [main/INFO] [STDOUT/]: [wayoftime.bloodmagic.core.AnointmentRegistrar:parseDefinition:126]: Attempting to load Anointment: modjar://bloodmagic/data/bloodmagic/anointment/melee_damage.json, path: /data/bloodmagic/anointment/melee_damage.json
+[13Dec2021 03:49:58.129] [main/INFO] [STDOUT/]: [wayoftime.bloodmagic.core.AnointmentRegistrar:parseDefinition:126]: Attempting to load Anointment: modjar://bloodmagic/data/bloodmagic/anointment/holy_water.json, path: /data/bloodmagic/anointment/holy_water.json
+[13Dec2021 03:49:58.130] [main/INFO] [STDOUT/]: [wayoftime.bloodmagic.core.AnointmentRegistrar:parseDefinition:126]: Attempting to load Anointment: modjar://bloodmagic/data/bloodmagic/anointment/hidden_knowledge.json, path: /data/bloodmagic/anointment/hidden_knowledge.json
+[13Dec2021 03:49:58.130] [main/INFO] [STDOUT/]: [wayoftime.bloodmagic.core.AnointmentRegistrar:parseDefinition:126]: Attempting to load Anointment: modjar://bloodmagic/data/bloodmagic/anointment/quick_draw.json, path: /data/bloodmagic/anointment/quick_draw.json
+[13Dec2021 03:49:58.143] [main/INFO] [STDOUT/]: [wayoftime.bloodmagic.core.AnointmentRegistrar:parseDefinition:126]: Attempting to load Anointment: modjar://bloodmagic/data/bloodmagic/anointment/bow_power.json, path: /data/bloodmagic/anointment/bow_power.json
+[13Dec2021 03:49:58.144] [main/INFO] [STDOUT/]: [wayoftime.bloodmagic.core.AnointmentRegistrar:parseDefinition:126]: Attempting to load Anointment: modjar://bloodmagic/data/bloodmagic/anointment/bow_velocity.json, path: /data/bloodmagic/anointment/bow_velocity.json
+[13Dec2021 03:49:58.149] [main/INFO] [STDOUT/]: [wayoftime.bloodmagic.core.LivingArmorRegistrar:parseDefinition:188]: Attempting to load Living Armour Upgrade: modjar://bloodmagic/data/bloodmagic/living_armor/arrow_protect.json, path: /data/bloodmagic/living_armor/arrow_protect.json
+[13Dec2021 03:49:58.167] [main/INFO] [STDOUT/]: [wayoftime.bloodmagic.core.LivingArmorRegistrar:parseDefinition:188]: Attempting to load Living Armour Upgrade: modjar://bloodmagic/data/bloodmagic/living_armor/fall_protect.json, path: /data/bloodmagic/living_armor/fall_protect.json
+[13Dec2021 03:49:58.168] [main/INFO] [STDOUT/]: [wayoftime.bloodmagic.core.LivingArmorRegistrar:parseDefinition:188]: Attempting to load Living Armour Upgrade: modjar://bloodmagic/data/bloodmagic/living_armor/physical_protect.json, path: /data/bloodmagic/living_armor/physical_protect.json
+[13Dec2021 03:49:58.172] [main/INFO] [STDOUT/]: [wayoftime.bloodmagic.core.LivingArmorRegistrar:parseDefinition:188]: Attempting to load Living Armour Upgrade: modjar://bloodmagic/data/bloodmagic/living_armor/jump.json, path: /data/bloodmagic/living_armor/jump.json
+[13Dec2021 03:49:58.173] [main/INFO] [STDOUT/]: [wayoftime.bloodmagic.core.LivingArmorRegistrar:parseDefinition:188]: Attempting to load Living Armour Upgrade: modjar://bloodmagic/data/bloodmagic/living_armor/health.json, path: /data/bloodmagic/living_armor/health.json
+[13Dec2021 03:49:58.175] [main/INFO] [STDOUT/]: [wayoftime.bloodmagic.core.LivingArmorRegistrar:parseDefinition:188]: Attempting to load Living Armour Upgrade: modjar://bloodmagic/data/bloodmagic/living_armor/experienced.json, path: /data/bloodmagic/living_armor/experienced.json
+[13Dec2021 03:49:58.176] [main/INFO] [STDOUT/]: [wayoftime.bloodmagic.core.LivingArmorRegistrar:parseDefinition:188]: Attempting to load Living Armour Upgrade: modjar://bloodmagic/data/bloodmagic/living_armor/sprint_attack.json, path: /data/bloodmagic/living_armor/sprint_attack.json
+[13Dec2021 03:49:58.178] [main/INFO] [STDOUT/]: [wayoftime.bloodmagic.core.LivingArmorRegistrar:parseDefinition:188]: Attempting to load Living Armour Upgrade: modjar://bloodmagic/data/bloodmagic/living_armor/self_sacrifice.json, path: /data/bloodmagic/living_armor/self_sacrifice.json
+[13Dec2021 03:49:58.191] [main/INFO] [STDOUT/]: [wayoftime.bloodmagic.core.LivingArmorRegistrar:parseDefinition:188]: Attempting to load Living Armour Upgrade: modjar://bloodmagic/data/bloodmagic/living_armor/speed.json, path: /data/bloodmagic/living_armor/speed.json
+[13Dec2021 03:49:58.193] [main/INFO] [STDOUT/]: [wayoftime.bloodmagic.core.LivingArmorRegistrar:parseDefinition:188]: Attempting to load Living Armour Upgrade: modjar://bloodmagic/data/bloodmagic/living_armor/poison_resist.json, path: /data/bloodmagic/living_armor/poison_resist.json
+[13Dec2021 03:49:58.193] [main/INFO] [STDOUT/]: [wayoftime.bloodmagic.core.LivingArmorRegistrar:parseDefinition:188]: Attempting to load Living Armour Upgrade: modjar://bloodmagic/data/bloodmagic/living_armor/fire_resist.json, path: /data/bloodmagic/living_armor/fire_resist.json
+[13Dec2021 03:49:58.194] [main/INFO] [STDOUT/]: [wayoftime.bloodmagic.core.LivingArmorRegistrar:parseDefinition:188]: Attempting to load Living Armour Upgrade: modjar://bloodmagic/data/bloodmagic/living_armor/digging.json, path: /data/bloodmagic/living_armor/digging.json
+[13Dec2021 03:49:58.195] [main/INFO] [STDOUT/]: [wayoftime.bloodmagic.core.LivingArmorRegistrar:parseDefinition:188]: Attempting to load Living Armour Upgrade: modjar://bloodmagic/data/bloodmagic/living_armor/knockback_resist.json, path: /data/bloodmagic/living_armor/knockback_resist.json
+[13Dec2021 03:49:58.196] [main/INFO] [STDOUT/]: [wayoftime.bloodmagic.core.LivingArmorRegistrar:parseDefinition:188]: Attempting to load Living Armour Upgrade: modjar://bloodmagic/data/bloodmagic/living_armor/elytra.json, path: /data/bloodmagic/living_armor/elytra.json
+[13Dec2021 03:49:58.197] [main/INFO] [STDOUT/]: [wayoftime.bloodmagic.core.LivingArmorRegistrar:parseDefinition:188]: Attempting to load Living Armour Upgrade: modjar://bloodmagic/data/bloodmagic/living_armor/curios_socket.json, path: /data/bloodmagic/living_armor/curios_socket.json
+[13Dec2021 03:49:58.198] [main/INFO] [STDOUT/]: [wayoftime.bloodmagic.core.LivingArmorRegistrar:parseDefinition:188]: Attempting to load Living Armour Upgrade: modjar://bloodmagic/data/bloodmagic/living_armor/downgrade/quenched.json, path: /data/bloodmagic/living_armor/downgrade/quenched.json
+[13Dec2021 03:49:58.341] [main/INFO] [wayoftime.bloodmagic.BloodMagic/]: Attempting to register Tile Entities
+[13Dec2021 03:49:58.704] [main/INFO] [Spartan Weaponry/]: Registering Entities
+[13Dec2021 03:49:58.804] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `milk`, expected `forge`. This could be a intended override, but in most cases indicates a broken mod.
+[13Dec2021 03:49:58.804] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `flowing_milk`, expected `forge`. This could be a intended override, but in most cases indicates a broken mod.
+[13Dec2021 03:49:59.061] [main/INFO] [STDOUT/]: [com.hollingsworth.arsnouveau.client.particle.ModParticles:registerParticles:23]: Rendering particles
+[13Dec2021 03:49:59.371] [main/INFO] [net.minecraftforge.coremod.CoreMod.astralsorcery/COREMODLOG]: Adding 'add_enchantment_condition' ASM patch...
+[13Dec2021 03:49:59.380] [main/INFO] [net.minecraftforge.coremod.CoreMod.astralsorcery/COREMODLOG]: Added 'add_enchantment_condition' ASM patch!
+[13Dec2021 03:50:00.355] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:worldgen/biome: The object minecraft:the_end has been registered twice for the same name minecraft:the_end.
+[13Dec2021 03:50:00.355] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:worldgen/biome: The object minecraft:end_barrens has been registered twice for the same name minecraft:end_barrens.
+[13Dec2021 03:50:00.355] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:worldgen/biome: The object minecraft:small_end_islands has been registered twice for the same name minecraft:small_end_islands.
+[13Dec2021 03:50:00.355] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:worldgen/biome: The object minecraft:end_midlands has been registered twice for the same name minecraft:end_midlands.
+[13Dec2021 03:50:00.356] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:worldgen/biome: The object minecraft:end_highlands has been registered twice for the same name minecraft:end_highlands.
+[13Dec2021 03:50:01.815] [main/INFO] [quark/]: Loading Module Chain Linkage
+[13Dec2021 03:50:01.816] [main/INFO] [quark/]: Loading Module Chains Connect Blocks
+[13Dec2021 03:50:01.817] [main/INFO] [quark/]: Loading Module Chute
+[13Dec2021 03:50:01.817] [main/INFO] [quark/]: Loading Module Color Slime
+[13Dec2021 03:50:01.817] [main/INFO] [quark/]: Loading Module Dispensers Place Blocks
+[13Dec2021 03:50:01.817] [main/INFO] [quark/]: Loading Module Ender Watcher
+[13Dec2021 03:50:01.817] [main/INFO] [quark/]: Loading Module Endermites Form Shulkers
+[13Dec2021 03:50:01.818] [main/INFO] [quark/]: Loading Module Feeding Trough
+[13Dec2021 03:50:01.827] [main/INFO] [quark/]: Loading Module Gravisand
+[13Dec2021 03:50:01.827] [main/INFO] [quark/]: Loading Module Iron Rod
+[13Dec2021 03:50:01.827] [main/INFO] [quark/]: Loading Module Jukebox Automation
+[13Dec2021 03:50:01.834] [main/INFO] [quark/]: Loading Module Metal Buttons
+[13Dec2021 03:50:01.834] [main/INFO] [quark/]: Loading Module Obsidian Plate
+[13Dec2021 03:50:01.834] [main/INFO] [quark/]: Loading Module Pistons Move Tile Entities
+[13Dec2021 03:50:01.838] [main/INFO] [quark/]: Loading Module Redstone Circuit
+[13Dec2021 03:50:01.838] [main/INFO] [quark/]: Loading Module Weather Sensor
+[13Dec2021 03:50:01.839] [main/INFO] [quark/]: Loading Module Bamboo Mat
+[13Dec2021 03:50:01.839] [main/INFO] [quark/]: Loading Module Burn Vines
+[13Dec2021 03:50:01.840] [main/INFO] [quark/]: Loading Module Celebratory Lamps
+[13Dec2021 03:50:01.840] [main/INFO] [quark/]: Loading Module Cobblestone Bricks
+[13Dec2021 03:50:01.840] [main/INFO] [quark/]: Loading Module Compressed Blocks
+[13Dec2021 03:50:01.841] [main/INFO] [quark/]: Loading Module Duskbound Blocks
+[13Dec2021 03:50:01.841] [main/INFO] [quark/]: Loading Module Framed Glass
+[13Dec2021 03:50:01.841] [main/INFO] [quark/]: Loading Module Gold Bars
+[13Dec2021 03:50:01.841] [main/INFO] [quark/]: Loading Module Grate
+[13Dec2021 03:50:01.841] [main/INFO] [quark/]: Loading Module Hedges
+[13Dec2021 03:50:01.841] [main/INFO] [quark/]: Loading Module Iron Plates
+[13Dec2021 03:50:01.841] [main/INFO] [quark/]: Loading Module Item Frames
+[13Dec2021 03:50:01.842] [main/INFO] [quark/]: Loading Module Leaf Carpet
+[13Dec2021 03:50:01.842] [main/INFO] [quark/]: Loading Module Lit Lamp
+[13Dec2021 03:50:01.842] [main/INFO] [quark/]: Loading Module Midori
+[13Dec2021 03:50:01.842] [main/INFO] [quark/]: Loading Module More Brick Types
+[13Dec2021 03:50:01.842] [main/INFO] [quark/]: Loading Module More Potted Plants
+[13Dec2021 03:50:01.842] [main/INFO] [quark/]: Loading Module More Stone Variants
+[13Dec2021 03:50:01.842] [main/INFO] [quark/]: Loading Module Nether Brick Fence Gate
+[13Dec2021 03:50:01.843] [main/INFO] [quark/]: Loading Module Paper Decor
+[13Dec2021 03:50:01.843] [main/INFO] [quark/]: Loading Module Quilted Wool
+[13Dec2021 03:50:01.843] [main/INFO] [quark/]: Loading Module Rope
+[13Dec2021 03:50:01.843] [main/INFO] [quark/]: Loading Module Shallow Dirt
+[13Dec2021 03:50:01.844] [main/INFO] [quark/]: Loading Module Shingles
+[13Dec2021 03:50:01.845] [main/INFO] [quark/]: Loading Module Soul Sandstone
+[13Dec2021 03:50:01.845] [main/INFO] [quark/]: Loading Module Stained Planks
+[13Dec2021 03:50:01.845] [main/INFO] [quark/]: Loading Module Stools
+[13Dec2021 03:50:01.846] [main/INFO] [quark/]: Loading Module Sturdy Stone
+[13Dec2021 03:50:01.846] [main/INFO] [quark/]: Loading Module Tallow And Candles
+[13Dec2021 03:50:01.849] [main/INFO] [quark/]: Loading Module Thatch
+[13Dec2021 03:50:01.849] [main/INFO] [quark/]: Loading Module Tie Leads To Fences
+[13Dec2021 03:50:01.850] [main/INFO] [quark/]: Loading Module Turf
+[13Dec2021 03:50:01.850] [main/INFO] [quark/]: Loading Module Variant Bookshelves
+[13Dec2021 03:50:01.850] [main/INFO] [quark/]: Loading Module Variant Chests
+[13Dec2021 03:50:01.856] [main/INFO] [quark/]: Loading Module Variant Ladders
+[13Dec2021 03:50:01.856] [main/INFO] [quark/]: Loading Module Vertical Planks
+[13Dec2021 03:50:01.856] [main/INFO] [quark/]: Loading Module Vertical Slabs
+[13Dec2021 03:50:01.857] [main/INFO] [quark/]: Loading Module Wooden Posts
+[13Dec2021 03:50:01.857] [main/INFO] [quark/]: Loading Module Chests In Boats
+[13Dec2021 03:50:01.857] [main/INFO] [quark/]: Loading Module Easy Transfering
+[13Dec2021 03:50:01.857] [main/INFO] [quark/]: Loading Module Hotbar Changer
+[13Dec2021 03:50:01.858] [main/INFO] [quark/]: Loading Module Inventory Sorting
+[13Dec2021 03:50:01.858] [main/INFO] [quark/]: Loading Module Item Sharing
+[13Dec2021 03:50:01.858] [main/INFO] [quark/]: Loading Module Right Click Armor
+[13Dec2021 03:50:01.858] [main/INFO] [quark/]: Loading Module Shulker Box Right Click
+[13Dec2021 03:50:01.859] [main/INFO] [quark/]: Loading Module Endermosh Music Disc
+[13Dec2021 03:50:01.859] [main/INFO] [quark/]: Loading Module Abacus
+[13Dec2021 03:50:01.860] [main/INFO] [quark/]: Loading Module Ambient Discs
+[13Dec2021 03:50:01.860] [main/INFO] [quark/]: Loading Module Ancient Tomes
+[13Dec2021 03:50:01.860] [main/INFO] [quark/]: Loading Module Bottled Cloud
+[13Dec2021 03:50:01.862] [main/INFO] [quark/]: Loading Module Camera
+[13Dec2021 03:50:01.862] [main/INFO] [quark/]: Loading Module Color Runes
+[13Dec2021 03:50:01.863] [main/INFO] [quark/]: Loading Module Pathfinder Maps
+[13Dec2021 03:50:01.863] [main/INFO] [quark/]: Loading Module Pickarang
+[13Dec2021 03:50:01.864] [main/INFO] [quark/]: Loading Module Seed Pouch
+[13Dec2021 03:50:01.865] [main/INFO] [quark/]: Loading Module Slime In A Bucket
+[13Dec2021 03:50:01.866] [main/INFO] [quark/]: Loading Module Trowel
+[13Dec2021 03:50:01.866] [main/INFO] [quark/]: Loading Module Skull Pikes
+[13Dec2021 03:50:01.872] [main/INFO] [quark/]: Loading Module Armed Armor Stands
+[13Dec2021 03:50:01.872] [main/INFO] [quark/]: Loading Module Automatic Recipe Unlock
+[13Dec2021 03:50:01.873] [main/INFO] [quark/]: Loading Module Axe Leaf Harvesting
+[13Dec2021 03:50:01.873] [main/INFO] [quark/]: Loading Module Better Elytra Rocket
+[13Dec2021 03:50:01.874] [main/INFO] [quark/]: Loading Module Campfires Boost Elytra
+[13Dec2021 03:50:01.874] [main/INFO] [quark/]: Loading Module Compasses Work Everywhere
+[13Dec2021 03:50:01.875] [main/INFO] [quark/]: Loading Module Dirt To Path
+[13Dec2021 03:50:01.876] [main/INFO] [quark/]: Loading Module Double Door Opening
+[13Dec2021 03:50:01.876] [main/INFO] [quark/]: Loading Module Dragon Scales
+[13Dec2021 03:50:01.876] [main/INFO] [quark/]: Loading Module Emotes
+[13Dec2021 03:50:01.877] [main/INFO] [quark/]: Loading Module Enhanced Ladders
+[13Dec2021 03:50:01.877] [main/INFO] [quark/]: Loading Module Glass Shard
+[13Dec2021 03:50:01.878] [main/INFO] [quark/]: Loading Module Hoe Harvesting
+[13Dec2021 03:50:01.878] [main/INFO] [quark/]: Loading Module Improved Sleeping
+[13Dec2021 03:50:01.879] [main/INFO] [quark/]: Loading Module Infinity Bucket
+[13Dec2021 03:50:01.880] [main/INFO] [quark/]: Loading Module Lava Bucket As Trash
+[13Dec2021 03:50:01.881] [main/INFO] [quark/]: Loading Module Lock Rotation
+[13Dec2021 03:50:01.882] [main/INFO] [quark/]: Loading Module More Banner Layers
+[13Dec2021 03:50:01.883] [main/INFO] [quark/]: Loading Module Note Block Mob Sounds
+[13Dec2021 03:50:01.885] [main/INFO] [quark/]: Loading Module Pat The Dogs
+[13Dec2021 03:50:01.886] [main/INFO] [quark/]: Loading Module Poison Potato Usage
+[13Dec2021 03:50:01.888] [main/INFO] [quark/]: Loading Module Reacharound Placing
+[13Dec2021 03:50:01.889] [main/INFO] [quark/]: Loading Module Replace Scaffolding
+[13Dec2021 03:50:01.890] [main/INFO] [quark/]: Loading Module Sign Editing
+[13Dec2021 03:50:01.890] [main/INFO] [quark/]: Loading Module Simple Harvest
+[13Dec2021 03:50:01.892] [main/INFO] [quark/]: Loading Module Snow Golem Player Heads
+[13Dec2021 03:50:01.894] [main/INFO] [quark/]: Loading Module Springy Slime
+[13Dec2021 03:50:01.897] [main/INFO] [quark/]: Loading Module Utility Recipes
+[13Dec2021 03:50:01.898] [main/INFO] [quark/]: Loading Module Villagers Follow Emeralds
+[13Dec2021 03:50:01.898] [main/INFO] [quark/]: Loading Module Big Dungeon
+[13Dec2021 03:50:01.899] [main/INFO] [quark/]: Loading Module Big Stone Clusters
+[13Dec2021 03:50:01.900] [main/INFO] [quark/]: Loading Module Biotite
+[13Dec2021 03:50:01.901] [main/INFO] [quark/]: Loading Module Blossom Trees
+[13Dec2021 03:50:01.902] [main/INFO] [quark/]: Loading Module Cave Roots
+[13Dec2021 03:50:01.903] [main/INFO] [quark/]: Loading Module Chorus Vegetation
+[13Dec2021 03:50:01.903] [main/INFO] [quark/]: Loading Module Crevices
+[13Dec2021 03:50:01.903] [main/INFO] [quark/]: Loading Module Deepslate
+[13Dec2021 03:50:01.903] [main/INFO] [quark/]: Loading Module Fairy Rings
+[13Dec2021 03:50:01.903] [main/INFO] [quark/]: Loading Module Mega Caves
+[13Dec2021 03:50:01.903] [main/INFO] [quark/]: Loading Module Monster Box
+[13Dec2021 03:50:01.903] [main/INFO] [quark/]: Loading Module Nether Obsidian Spikes
+[13Dec2021 03:50:01.903] [main/INFO] [quark/]: Loading Module New Stone Types
+[13Dec2021 03:50:01.904] [main/INFO] [quark/]: Loading Module Realistic World Gen
+[13Dec2021 03:50:01.904] [main/INFO] [quark/]: Loading Module Speleothems
+[13Dec2021 03:50:01.904] [main/INFO] [quark/]: Loading Module Spiral Spires
+[13Dec2021 03:50:01.905] [main/INFO] [quark/]: Loading Module Underground Clay
+[13Dec2021 03:50:01.905] [main/INFO] [quark/]: Loading Module Brimstone Underground Biome
+[13Dec2021 03:50:01.905] [main/INFO] [quark/]: Loading Module Cave Crystal Underground Biome
+[13Dec2021 03:50:01.905] [main/INFO] [quark/]: Loading Module Elder Prismarine Underground Biome
+[13Dec2021 03:50:01.905] [main/INFO] [quark/]: Loading Module Glowshroom Underground Biome
+[13Dec2021 03:50:01.905] [main/INFO] [quark/]: Loading Module Lush Underground Biome
+[13Dec2021 03:50:01.905] [main/INFO] [quark/]: Loading Module Overgrown Underground Biome
+[13Dec2021 03:50:01.905] [main/INFO] [quark/]: Loading Module Permafrost Underground Biome
+[13Dec2021 03:50:01.905] [main/INFO] [quark/]: Loading Module Sandstone Underground Biome
+[13Dec2021 03:50:01.906] [main/INFO] [quark/]: Loading Module Slime Underground Biome
+[13Dec2021 03:50:01.906] [main/INFO] [quark/]: Loading Module Spider Nest Underground Biome
+[13Dec2021 03:50:01.907] [main/INFO] [quark/]: Loading Module Crabs
+[13Dec2021 03:50:01.908] [main/INFO] [quark/]: Loading Module Forgotten
+[13Dec2021 03:50:01.908] [main/INFO] [quark/]: Loading Module Foxhound
+[13Dec2021 03:50:01.909] [main/INFO] [quark/]: Loading Module Frogs
+[13Dec2021 03:50:01.909] [main/INFO] [quark/]: Loading Module Stonelings
+[13Dec2021 03:50:01.910] [main/INFO] [quark/]: Loading Module Toretoise
+[13Dec2021 03:50:01.910] [main/INFO] [quark/]: Loading Module Wraith
+[13Dec2021 03:50:01.910] [main/INFO] [quark/]: Loading Module Auto Walk Keybind
+[13Dec2021 03:50:01.910] [main/INFO] [quark/]: Loading Module Back Button Keybind
+[13Dec2021 03:50:01.910] [main/INFO] [quark/]: Loading Module Chest Searching
+[13Dec2021 03:50:01.910] [main/INFO] [quark/]: Loading Module Greener Grass
+[13Dec2021 03:50:01.910] [main/INFO] [quark/]: Loading Module Improved Mount Hud
+[13Dec2021 03:50:01.910] [main/INFO] [quark/]: Loading Module Improved Tooltips
+[13Dec2021 03:50:01.910] [main/INFO] [quark/]: Loading Module Usage Ticker
+[13Dec2021 03:50:01.910] [main/INFO] [quark/]: Loading Module Variant Animal Textures
+[13Dec2021 03:50:01.910] [main/INFO] [quark/]: Loading Module Backpack
+[13Dec2021 03:50:01.911] [main/INFO] [quark/]: Loading Module Crate
+[13Dec2021 03:50:01.911] [main/INFO] [quark/]: Loading Module Magnets
+[13Dec2021 03:50:01.911] [main/INFO] [quark/]: Loading Module Matrix Enchanting
+[13Dec2021 03:50:01.912] [main/INFO] [quark/]: Loading Module Pipes
+[13Dec2021 03:50:01.912] [main/INFO] [quark/]: Loading Module Totem Of Holding
+[13Dec2021 03:50:01.912] [main/INFO] [quark/]: Loading Module Adjustable Chat
+[13Dec2021 03:50:01.913] [main/INFO] [quark/]: Loading Module Custom Underground Biome
+[13Dec2021 03:50:01.913] [main/INFO] [quark/]: Loading Module Game Nerfs
+[13Dec2021 03:50:01.913] [main/INFO] [quark/]: Loading Module Microcrafting Helper
+[13Dec2021 03:50:01.913] [main/INFO] [quark/]: Loading Module Narrator Readout
+[13Dec2021 03:50:01.913] [main/INFO] [quark/]: Loading Module Overlay Shader
+[13Dec2021 03:50:01.913] [main/INFO] [quark/]: Loading Module Pallet
+[13Dec2021 03:50:01.913] [main/INFO] [quark/]: Loading Module Shiba
+[13Dec2021 03:50:02.316] [modloading-worker-0/INFO] [Mekanism/]: Version 10.0.24 initializing...
+[13Dec2021 03:50:02.350] [modloading-worker-1/INFO] [Dungeon Crawl/]: Common Setup
+[13Dec2021 03:50:02.358] [modloading-worker-1/INFO] [Dungeon Crawl/]: Whitelisted Dimensions:
+[13Dec2021 03:50:02.358] [modloading-worker-1/INFO] [Dungeon Crawl/]: minecraft:overworld
+[13Dec2021 03:50:02.472] [modloading-worker-2/INFO] [Mekanism/]: Loaded 'Mekanism Generators' module.
+[13Dec2021 03:50:02.507] [modloading-worker-2/INFO] [com.dynamic_view.DynView/]: Zooming chunks initiated!
+[13Dec2021 03:50:02.611] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cgm] Starting version check at https://raw.githubusercontent.com/MrCrayfish/ModUpdates/master/cgm/update.json
+[13Dec2021 03:50:02.617] [modloading-worker-0/INFO] [Mekanism/]: Fake player readout: UUID = 46e82cd0-d480-3d48-800a-77431ede078e, name = [Mekanism]
+[13Dec2021 03:50:02.647] [modloading-worker-0/INFO] [Mekanism/]: Loading complete.
+[13Dec2021 03:50:02.647] [modloading-worker-0/INFO] [Mekanism/]: Mod loaded.
+[13Dec2021 03:50:02.734] [Immersive Engineering Contributors Thread/INFO] [immersiveengineering/]: Attempting to download special revolvers from GitHub
+[13Dec2021 03:50:02.862] [AstralSorcery Patreon Effect Loader/WARN] [Astral Sorcery/]: Skipped 1 patreon effects during loading due to malformed data!
+[13Dec2021 03:50:02.863] [AstralSorcery Patreon Effect Loader/INFO] [Astral Sorcery/]: Patreon effect loading finished.
+[13Dec2021 03:50:02.880] [modloading-worker-2/INFO] [Mekanism/]: Loaded 'Mekanism: Additions' module.
+[13Dec2021 03:50:02.947] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cgm] Found status: BETA Current: 1.0.1 Target: null
+[13Dec2021 03:50:02.947] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [attributefix] Starting version check at https://updates.blamejared.com/get?n=attributefix&gv=1.16.5
+[13Dec2021 03:50:03.141] [modloading-worker-0/INFO] [net.minecraft.world.biome.Biome/]: Performant2 loaded, lag begone!
+[13Dec2021 03:50:03.175] [modloading-worker-3/INFO] [Spartan Weaponry/]: Setting up Spartan Weaponry!
+[13Dec2021 03:50:03.210] [modloading-worker-1/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for quark:toretoise, use EntityAttributeCreationEvent instead.
+[13Dec2021 03:50:03.228] [modloading-worker-1/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for quark:leash_knot_fake, use EntityAttributeCreationEvent instead.
+[13Dec2021 03:50:03.228] [modloading-worker-1/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for quark:forgotten, use EntityAttributeCreationEvent instead.
+[13Dec2021 03:50:03.238] [modloading-worker-0/INFO] [STDOUT/]: [com.hollingsworth.arsnouveau.common.capability.ManaCapability:register:62]: Finished Registering ManaCapability
+[13Dec2021 03:50:03.242] [modloading-worker-0/INFO] [STDOUT/]: [com.hollingsworth.arsnouveau.api.familiar.FamiliarCap:register:97]: Finished Registering FamiliarCap
+[13Dec2021 03:50:03.245] [modloading-worker-1/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for quark:wrapped, use EntityAttributeCreationEvent instead.
+[13Dec2021 03:50:03.247] [modloading-worker-1/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for quark:wraith, use EntityAttributeCreationEvent instead.
+[13Dec2021 03:50:03.256] [modloading-worker-0/INFO] [STDOUT/]: [com.hollingsworth.arsnouveau.common.network.Networking:registerMessages:27]: Registering packets!!
+[13Dec2021 03:50:03.263] [modloading-worker-1/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for quark:foxhound, use EntityAttributeCreationEvent instead.
+[13Dec2021 03:50:03.265] [modloading-worker-1/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for quark:frog, use EntityAttributeCreationEvent instead.
+[13Dec2021 03:50:03.266] [modloading-worker-1/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for quark:stoneling, use EntityAttributeCreationEvent instead.
+[13Dec2021 03:50:03.268] [modloading-worker-1/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for quark:shiba, use EntityAttributeCreationEvent instead.
+[13Dec2021 03:50:03.288] [modloading-worker-1/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for quark:crab, use EntityAttributeCreationEvent instead.
+[13Dec2021 03:50:03.444] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [attributefix] Found status: BETA_OUTDATED Current: 10.1.2 Target: 10.1.3
+[13Dec2021 03:50:03.444] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [clumps] Starting version check at https://updates.blamejared.com/get?n=clumps&gv=1.16.5
+[13Dec2021 03:50:03.481] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for boss_tools:alien, use EntityAttributeCreationEvent instead.
+[13Dec2021 03:50:03.552] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [clumps] Found status: BETA Current: 6.0.0.27 Target: 6.0.0.27
+[13Dec2021 03:50:03.552] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [christmasfestivity] Starting version check at https://raw.githubusercontent.com/TheMillman/ChristmasFestivity/main/update.json
+[13Dec2021 03:50:03.659] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [christmasfestivity] Found status: OUTDATED Current: 1.4.5-1.16.5-forge Target: 1.4.6
+[13Dec2021 03:50:03.659] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[13Dec2021 03:50:03.789] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for mekanism:robit, use EntityAttributeCreationEvent instead.
+[13Dec2021 03:50:03.792] [main/INFO] [Dungeon Crawl/]: Registering Structure Piece Types
+[13Dec2021 03:50:03.801] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 36.2.8 Target: 36.2.20
+[13Dec2021 03:50:03.801] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [twilightforest] Starting version check at https://raw.githubusercontent.com/TeamTwilight/twilightforest/1.16.x/update.json
+[13Dec2021 03:50:03.809] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [twilightforest] Found status: BETA Current: NONE Target: null
+[13Dec2021 03:50:03.815] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cofh_core] Starting version check at https://raw.github.com/cofh/version/master/cofh_core/update.json
+[13Dec2021 03:50:03.840] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for mutantbeasts:creeper_minion, use EntityAttributeCreationEvent instead.
+[13Dec2021 03:50:03.842] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for mutantbeasts:endersoul_clone, use EntityAttributeCreationEvent instead.
+[13Dec2021 03:50:03.843] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for mutantbeasts:mutant_creeper, use EntityAttributeCreationEvent instead.
+[13Dec2021 03:50:03.844] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for mutantbeasts:mutant_enderman, use EntityAttributeCreationEvent instead.
+[13Dec2021 03:50:03.845] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for mutantbeasts:mutant_skeleton, use EntityAttributeCreationEvent instead.
+[13Dec2021 03:50:03.845] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for mutantbeasts:mutant_snow_golem, use EntityAttributeCreationEvent instead.
+[13Dec2021 03:50:03.846] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for mutantbeasts:mutant_zombie, use EntityAttributeCreationEvent instead.
+[13Dec2021 03:50:03.847] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for mutantbeasts:spider_pig, use EntityAttributeCreationEvent instead.
+[13Dec2021 03:50:03.865] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cofh_core] Found status: OUTDATED Current: 1.3.1 Target: 1.4.0
+[13Dec2021 03:50:03.867] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [thermal] Starting version check at https://raw.github.com/cofh/version/master/thermal/update.json
+[13Dec2021 03:50:03.880] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [thermal] Found status: OUTDATED Current: 1.3.2 Target: 1.4.0
+[13Dec2021 03:50:03.881] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwbridges] Starting version check at https://raw.githubusercontent.com/sketchmacaw/macawsmods/master/bridges.json
+[13Dec2021 03:50:03.887] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwbridges] Found status: UP_TO_DATE Current: 2.0.0 Target: null
+[13Dec2021 03:50:03.887] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [immersiveengineering] Starting version check at https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.16.5/changelog.json
+[13Dec2021 03:50:03.914] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [immersiveengineering] Found status: UP_TO_DATE Current: 1.16.5-5.0.5-140 Target: null
+[13Dec2021 03:50:03.914] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [silentlib] Starting version check at https://raw.githubusercontent.com/SilentChaos512/SilentLib/1.14/update.json
+[13Dec2021 03:50:03.923] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [silentlib] Found status: BETA Current: 4.10.0 Target: null
+[13Dec2021 03:50:03.923] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [inventoryhud] Starting version check at https://raw.githubusercontent.com/DmitryLovin/pluginUpdate/master/invupdate.json
+[13Dec2021 03:50:03.928] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [inventoryhud] Found status: UP_TO_DATE Current: 3.4.1 Target: null
+[13Dec2021 03:50:03.928] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [obfuscate] Starting version check at https://mrcrayfish.com/modupdatejson?id=obfuscate
+[13Dec2021 03:50:03.934] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for mekanismadditions:baby_creeper, use EntityAttributeCreationEvent instead.
+[13Dec2021 03:50:03.934] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for mekanismadditions:baby_enderman, use EntityAttributeCreationEvent instead.
+[13Dec2021 03:50:03.934] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for mekanismadditions:baby_skeleton, use EntityAttributeCreationEvent instead.
+[13Dec2021 03:50:03.935] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for mekanismadditions:baby_stray, use EntityAttributeCreationEvent instead.
+[13Dec2021 03:50:03.935] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for mekanismadditions:baby_wither_skeleton, use EntityAttributeCreationEvent instead.
+[13Dec2021 03:50:04.156] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [obfuscate] Found status: BETA Current: 0.6.2 Target: 0.6.2
+[13Dec2021 03:50:04.156] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cfm] Starting version check at https://mrcrayfish.com/modupdatejson?id=cfm
+[13Dec2021 03:50:04.229] [main/INFO] [STDOUT/]: [elucent.eidolon.Registry:addBrewingRecipes:402]: calling addBrewingRecipes
+[13Dec2021 03:50:04.237] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for eidolon:zombie_brute, use EntityAttributeCreationEvent instead.
+[13Dec2021 03:50:04.237] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for eidolon:wraith, use EntityAttributeCreationEvent instead.
+[13Dec2021 03:50:04.237] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for eidolon:necromancer, use EntityAttributeCreationEvent instead.
+[13Dec2021 03:50:04.246] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cfm] Found status: BETA Current: 7.0.0-pre22 Target: 7.0.0-pre22
+[13Dec2021 03:50:04.274] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for theabyss:abyssspider, use EntityAttributeCreationEvent instead.
+[13Dec2021 03:50:04.275] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for theabyss:abysscreeper, use EntityAttributeCreationEvent instead.
+[13Dec2021 03:50:04.275] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for theabyss:abysscorruptedcow, use EntityAttributeCreationEvent instead.
+[13Dec2021 03:50:04.275] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for theabyss:abyssguard, use EntityAttributeCreationEvent instead.
+[13Dec2021 03:50:04.276] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for theabyss:netherscorpion, use EntityAttributeCreationEvent instead.
+[13Dec2021 03:50:04.276] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for theabyss:endspider, use EntityAttributeCreationEvent instead.
+[13Dec2021 03:50:04.276] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for theabyss:soulguard, use EntityAttributeCreationEvent instead.
+[13Dec2021 03:50:04.276] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for theabyss:night_hunter, use EntityAttributeCreationEvent instead.
+[13Dec2021 03:50:04.276] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for theabyss:abyss_forest_zombie, use EntityAttributeCreationEvent instead.
+[13Dec2021 03:50:04.277] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for theabyss:eyelie_entity, use EntityAttributeCreationEvent instead.
+[13Dec2021 03:50:04.277] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for theabyss:phantom_abyss_entity, use EntityAttributeCreationEvent instead.
+[13Dec2021 03:50:04.277] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for theabyss:soul_lizard, use EntityAttributeCreationEvent instead.
+[13Dec2021 03:50:04.278] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for theabyss:abyss_elder, use EntityAttributeCreationEvent instead.
+[13Dec2021 03:50:04.278] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for theabyss:the_lurker, use EntityAttributeCreationEvent instead.
+[13Dec2021 03:50:04.278] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for theabyss:soul_lizard_jungle, use EntityAttributeCreationEvent instead.
+[13Dec2021 03:50:04.278] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for theabyss:the_abyss_wolf, use EntityAttributeCreationEvent instead.
+[13Dec2021 03:50:04.279] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for theabyss:the_roka, use EntityAttributeCreationEvent instead.
+[13Dec2021 03:50:04.279] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for theabyss:the_abyss_dire_wolf, use EntityAttributeCreationEvent instead.
+[13Dec2021 03:50:04.280] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for theabyss:fire_fly, use EntityAttributeCreationEvent instead.
+[13Dec2021 03:50:04.280] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for theabyss:abyss_tag, use EntityAttributeCreationEvent instead.
+[13Dec2021 03:50:04.281] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for theabyss:abyss_spider_lv_l_2, use EntityAttributeCreationEvent instead.
+[13Dec2021 03:50:04.281] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for theabyss:abyss_forest_zombie_lv_l_3, use EntityAttributeCreationEvent instead.
+[13Dec2021 03:50:04.282] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for theabyss:soul_guard_lv_l_4, use EntityAttributeCreationEvent instead.
+[13Dec2021 03:50:04.283] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for theabyss:abyss_guard_lv_l_4, use EntityAttributeCreationEvent instead.
+[13Dec2021 03:50:04.283] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for theabyss:nether_scorpion_lv_l_4, use EntityAttributeCreationEvent instead.
+[13Dec2021 03:50:04.284] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for theabyss:abyss_guard_lv_l_1, use EntityAttributeCreationEvent instead.
+[13Dec2021 03:50:04.285] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for theabyss:abyss_forest_zombie_lv_l_4, use EntityAttributeCreationEvent instead.
+[13Dec2021 03:50:04.285] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for theabyss:abyss_spider_lv_l_3, use EntityAttributeCreationEvent instead.
+[13Dec2021 03:50:04.286] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for theabyss:phantom_abyss_entity_lv_l_3, use EntityAttributeCreationEvent instead.
+[13Dec2021 03:50:04.286] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for theabyss:slime_spider, use EntityAttributeCreationEvent instead.
+[13Dec2021 03:50:04.287] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for theabyss:the_roka_end_boss, use EntityAttributeCreationEvent instead.
+[13Dec2021 03:50:04.287] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for theabyss:light_fish, use EntityAttributeCreationEvent instead.
+[13Dec2021 03:50:04.288] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for theabyss:jungle_light_fish, use EntityAttributeCreationEvent instead.
+[13Dec2021 03:50:04.288] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for theabyss:jungle_light_fish_green, use EntityAttributeCreationEvent instead.
+[13Dec2021 03:50:04.289] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for theabyss:abyss_guard_protect, use EntityAttributeCreationEvent instead.
+[13Dec2021 03:50:04.289] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for theabyss:abyss_raptor, use EntityAttributeCreationEvent instead.
+[13Dec2021 03:50:04.290] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for theabyss:eot_light_fish, use EntityAttributeCreationEvent instead.
+[13Dec2021 03:50:04.360] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for theabyss:eot_light_fish_2, use EntityAttributeCreationEvent instead.
+[13Dec2021 03:50:04.360] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for theabyss:eot_light_fish_3, use EntityAttributeCreationEvent instead.
+[13Dec2021 03:50:04.360] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for theabyss:eot_light_fish_4, use EntityAttributeCreationEvent instead.
+[13Dec2021 03:50:04.362] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for theabyss:ice_skeleton, use EntityAttributeCreationEvent instead.
+[13Dec2021 03:50:04.362] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for theabyss:ice_knight, use EntityAttributeCreationEvent instead.
+[13Dec2021 03:50:04.362] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for theabyss:seeker, use EntityAttributeCreationEvent instead.
+[13Dec2021 03:50:04.362] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for theabyss:meramus, use EntityAttributeCreationEvent instead.
+[13Dec2021 03:50:04.363] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for theabyss:silvia, use EntityAttributeCreationEvent instead.
+[13Dec2021 03:50:04.363] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for theabyss:meramus_end_fight, use EntityAttributeCreationEvent instead.
+[13Dec2021 03:50:04.363] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for theabyss:silvia_end_fight, use EntityAttributeCreationEvent instead.
+[13Dec2021 03:50:04.363] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for theabyss:markus, use EntityAttributeCreationEvent instead.
+[13Dec2021 03:50:04.364] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for theabyss:the_abyss_golem, use EntityAttributeCreationEvent instead.
+[13Dec2021 03:50:04.364] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for theabyss:stephen, use EntityAttributeCreationEvent instead.
+[13Dec2021 03:50:04.364] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for theabyss:lorenzo, use EntityAttributeCreationEvent instead.
+[13Dec2021 03:50:04.365] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for theabyss:eot_phantom, use EntityAttributeCreationEvent instead.
+[13Dec2021 03:50:04.365] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for theabyss:the_roka_end_ally, use EntityAttributeCreationEvent instead.
+[13Dec2021 03:50:04.365] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for theabyss:nosaj_boss, use EntityAttributeCreationEvent instead.
+[13Dec2021 03:50:04.366] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for theabyss:carlos, use EntityAttributeCreationEvent instead.
+[13Dec2021 03:50:04.366] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for theabyss:jackson, use EntityAttributeCreationEvent instead.
+[13Dec2021 03:50:04.367] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for theabyss:jackson_end_fight, use EntityAttributeCreationEvent instead.
+[13Dec2021 03:50:04.368] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for theabyss:stephen_end_fight, use EntityAttributeCreationEvent instead.
+[13Dec2021 03:50:04.368] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for theabyss:lorenzo_end_fight, use EntityAttributeCreationEvent instead.
+[13Dec2021 03:50:04.369] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for theabyss:markus_end_fight, use EntityAttributeCreationEvent instead.
+[13Dec2021 03:50:04.370] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for theabyss:carlos_end_fight, use EntityAttributeCreationEvent instead.
+[13Dec2021 03:50:04.371] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for theabyss:nosaj_end_fight, use EntityAttributeCreationEvent instead.
+[13Dec2021 03:50:04.371] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for theabyss:soldier_end_fight, use EntityAttributeCreationEvent instead.
+[13Dec2021 03:50:04.372] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for theabyss:ice_knight_end_game, use EntityAttributeCreationEvent instead.
+[13Dec2021 03:50:04.372] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for theabyss:spectral_entity, use EntityAttributeCreationEvent instead.
+[13Dec2021 03:50:04.410] [modloading-worker-2/INFO] [xaero.common.server.XaeroMinimapServer/]: Loading Xaero's Minimap - Stage 1/2 (Server)
+[13Dec2021 03:50:04.411] [modloading-worker-1/INFO] [xaero.map.server.WorldMapServer/]: Loading Xaero's World Map - Stage 1/2 (Server)
+[13Dec2021 03:50:04.413] [main/INFO] [xaero.common.server.XaeroMinimapServer/]: Loading Xaero's Minimap - Stage 2/2 (Server)
+[13Dec2021 03:50:04.424] [main/INFO] [xaero.map.server.WorldMapServer/]: Loading Xaero's World Map - Stage 2/2 (Server)
+[13Dec2021 03:50:04.443] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for mowziesmobs:foliaath, use EntityAttributeCreationEvent instead.
+[13Dec2021 03:50:04.443] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for mowziesmobs:baby_foliaath, use EntityAttributeCreationEvent instead.
+[13Dec2021 03:50:04.443] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for mowziesmobs:ferrous_wroughtnaut, use EntityAttributeCreationEvent instead.
+[13Dec2021 03:50:04.443] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for mowziesmobs:barakoana, use EntityAttributeCreationEvent instead.
+[13Dec2021 03:50:04.444] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for mowziesmobs:barakoaya, use EntityAttributeCreationEvent instead.
+[13Dec2021 03:50:04.444] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for mowziesmobs:barakoan_player, use EntityAttributeCreationEvent instead.
+[13Dec2021 03:50:04.444] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for mowziesmobs:barakoa_sunblocker_player, use EntityAttributeCreationEvent instead.
+[13Dec2021 03:50:04.444] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for mowziesmobs:barakoan_barakoana, use EntityAttributeCreationEvent instead.
+[13Dec2021 03:50:04.444] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for mowziesmobs:barakoa_sunblocker, use EntityAttributeCreationEvent instead.
+[13Dec2021 03:50:04.444] [modloading-worker-0/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class com.bobmowzie.mowziesmobs.server.entity.barakoa.EntityBarakoaVillager from class com.bobmowzie.mowziesmobs.server.entity.barakoa.EntityBarako
+[13Dec2021 03:50:04.444] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for mowziesmobs:barako, use EntityAttributeCreationEvent instead.
+[13Dec2021 03:50:04.445] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for mowziesmobs:frostmaw, use EntityAttributeCreationEvent instead.
+[13Dec2021 03:50:04.445] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for mowziesmobs:naga, use EntityAttributeCreationEvent instead.
+[13Dec2021 03:50:04.445] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for mowziesmobs:lantern, use EntityAttributeCreationEvent instead.
+[13Dec2021 03:50:04.445] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for mowziesmobs:grottol, use EntityAttributeCreationEvent instead.
+[13Dec2021 03:50:04.511] [modloading-worker-2/INFO] [Waila/]: Registered plugin at mekanism.common.integration.lookingat.hwyla.MekanismHwylaPlugin
+[13Dec2021 03:50:04.513] [modloading-worker-2/INFO] [Waila/]: Registered plugin at net.blay09.mods.waystones.compat.WailaProvider
+[13Dec2021 03:50:04.530] [modloading-worker-2/INFO] [Waila/]: Registered plugin at mcp.mobius.waila.addons.minecraft.PluginMinecraft
+[13Dec2021 03:50:04.551] [modloading-worker-2/INFO] [Waila/]: Registered plugin at team.chisel.common.integration.waila.ChiselDataHandler
+[13Dec2021 03:50:18.397] [main/ERROR] [net.minecraft.util.registry.WorldSettingsImport/]: Error adding element: Spread too big: 8 > 5
+[13Dec2021 03:50:18.398] [main/ERROR] [net.minecraft.util.registry.WorldSettingsImport/]: Error adding element: Spread too big: 6 > 5
+[13Dec2021 03:50:19.169] [main/ERROR] [net.minecraft.world.biome.BiomeGenerationSettings/]: Feature: Not a JSON object: "minecraft:red_mushroom_taiga"; Not a JSON object: "minecraft:brown_mushroom_taiga"; Not a JSON object: "minecraft:patch_grass_taiga_2"; Not a JSON object: "minecraft:patch_pumpkin"; Not a JSON object: "minecraft:patch_sugar_cane"; Not a JSON object: "minecraft:patch_tall_grass"
+[13Dec2021 03:50:19.547] [main/ERROR] [net.minecraft.world.biome.BiomeGenerationSettings/]: Feature: Not a JSON object: "minecraft:patch_dead_bush_2"
+[13Dec2021 03:50:20.304] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[13Dec2021 03:50:21.015] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [c, coupling, add, cart1] and [c, coupling, add, carts] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[13Dec2021 03:50:21.020] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [c, coupling, add, carts] and [c, coupling, add, cart1] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[13Dec2021 03:50:21.022] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [cofh, ignite, duration] and [cofh, ignite, targets] with inputs: [0, -123, 123]
+[13Dec2021 03:50:21.023] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [cofh, ignite, targets] and [cofh, ignite, duration] with inputs: [0123]
+[13Dec2021 03:50:21.024] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [cofh, invis, flag] and [cofh, invis, targets] with inputs: [true, false]
+[13Dec2021 03:50:21.025] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [cofh, invuln, flag] and [cofh, invuln, targets] with inputs: [true, false]
+[13Dec2021 03:50:21.026] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [c, coupling, add, cart1] and [c, coupling, add, carts] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[13Dec2021 03:50:21.027] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [c, coupling, add, carts] and [c, coupling, add, cart1] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[13Dec2021 03:50:21.038] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[13Dec2021 03:50:21.040] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[13Dec2021 03:50:21.041] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[13Dec2021 03:50:21.043] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[13Dec2021 03:50:21.044] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[13Dec2021 03:50:21.064] [main/INFO] [net.minecraft.resources.SimpleReloadableResourceManager/]: Reloading ResourceManager: Default, QuarkOddities-1.16.3.jar, mowziesmobs-1.5.19.jar, astralsorcery-1.16-1.16.5-1.13.12.jar, cgm-1.0.1-1.16.3.jar, DungeonsArtifactsV.0.1.3.jar, jei-1.16.5-7.7.1.137.jar, AttributeFix-1.16.5-10.1.2.jar, Pehkui-3.0.0+1.16.5-forge.jar, Mekanism-1.16.5-10.0.24.453.jar, Space-Bosstools-1.16.5-5.4.jar, Neat+1.7-27.jar, Waystones_1.16.5-7.6.4.jar, Clumps-6.0.0.27.jar, XaerosWorldMap_1.18.3_Forge_1.16.5.jar, christmasfestivity-1.4.5-1.16.5-forge.jar, citadel-1.8.1-1.16.5.jar, alexsmobs-1.12.1.jar, Artifacts-1.16.5-2.10.3.jar, DungeonCrawl-1.16.5-2.3.4.jar, MekanismGenerators-1.16.5-10.0.24.453.jar, Hwyla-forge-1.10.11-B78_1.16.2.jar, dynviewdist-2.0.jar, forge-1.16.5-36.2.8-universal.jar, BloodMagic-1.16.4-3.1.6-26.jar, twilightforest-1.16.5-4.0.546-universal.jar, betterendforge-1.16.5-1.6.3.jar, chococraft-1.16.5-0.2.1.jar, cofh_core-1.16.5-1.3.1.jar, thermal_foundation-1.16.5-1.3.2.jar, TConstruct-1.16.5-3.2.1.296.jar, mcw-bridges-2.0.0-mc1.16.5.jar, thermal_innovation-1.16.5-1.3.0.jar, ImmersiveEngineering-1.16.5-5.0.5-140.jar, silent-lib-1.16.5-4.10.0.jar, BiomesOPlenty-1.16.5-13.1.0.482-universal.jar, MekanismAdditions-1.16.5-10.0.24.453.jar, Botania-1.16.5-420.jar, flywheel-1.16-0.2.5.jar, create-mc1.16.5_v0.3.2g.jar, curios-forge-1.16.5-4.0.5.3.jar, eidolon-0.2.7.jar, Patchouli-1.16.4-53.2.jar, Mantle-1.16.5-1.6.127.jar, Xaeros_Minimap_21.22.2_Forge_1.16.5.jar, polymorph-forge-1.16.5-0.33.jar, AutoRegLib-1.6-49.jar, Quark-r2.4-321.jar, performant-1.16.2-5-3.76m.jar, thermal_expansion-1.16.5-1.3.0.jar, elevatorid-1.16.5-1.7.13.jar, InventoryHud_[1.16.2-1.16.5].forge-3.4.1.jar, obfuscate-0.6.2-1.16.3.jar, TheAbyss2+1.9.7+1.16.5.jar, SpartanWeaponry-1.16.4-2.1.0-beta-4.jar, cfm-7.0.0pre22-1.16.3.jar, ferritecore-2.1.0-forge.jar, AI-Improvements-1.16.5-0.4.0.jar, observerlib-1.16.5-1.5.3.jar, The_Undergarden-1.16.5-0.5.5.jar, ScalingHealth-1.16.5-4.0.5+5.jar, expandability-2.0.1-forge.jar, geckolib-forge-1.16.5-3.0.56.jar, ars_nouveau-1.16.5-1.24.6.jar, CTM-MC1.16.1-1.1.2.6.jar, MutantBeasts-1.16.4-1.1.3.jar, ImprovedBackpacks-1.6.2.0.jar, Chisel-MC1.16.5-2.0.1-alpha.4.jar
+[13Dec2021 03:50:25.183] [Worker-Main-6/INFO] [net.minecraft.item.crafting.RecipeManager/]: Loaded 126 recipes
+[13Dec2021 03:50:25.567] [Worker-Main-6/INFO] [Spartan Weaponry/]: Adding Diamond Weapons to the End City Treasure Loot Table!
+[13Dec2021 03:50:26.796] [Worker-Main-6/INFO] [Spartan Weaponry/]: Adding Iron Weapons to the Village Weaponsmith Loot Table!
+[13Dec2021 03:50:26.992] [Worker-Main-6/WARN] [net.minecraft.loot.LootTableManager/]: Found validation problem in {alexsmobs:gameplay/seal_reward}.pools[0].entries[1].functions[0]: Parameters [<parameter minecraft:origin>] are not provided in this context
+[13Dec2021 03:50:27.151] [Worker-Main-6/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement twilightforest:alt/compat/tconstruct: Unknown item id 'tconstruct:book'
+[13Dec2021 03:50:27.238] [Worker-Main-6/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 5293 advancements
+[13Dec2021 03:50:27.271] [Worker-Main-6/INFO] [Astral Sorcery/]: Built PerkTree with 417 perks!
+[13Dec2021 03:50:27.271] [Worker-Main-6/INFO] [Dungeon Crawl/]: Loading data...
+[13Dec2021 03:50:28.546] [Worker-Main-6/INFO] [Dungeon Crawl/]: Done.
+[13Dec2021 03:50:28.972] [Worker-Main-6/INFO] [immersiveengineering/]: Couldn't fully analyze 1 cestus_studded, missing knowledge for {1 cestus=1.0}
+[13Dec2021 03:50:28.972] [Worker-Main-6/INFO] [immersiveengineering/]: Couldn't fully analyze 1 club_studded, missing knowledge for {1 club_wood=1.0}
+[13Dec2021 03:50:28.972] [Worker-Main-6/INFO] [immersiveengineering/]: Finished recipe profiler for Arc Recycling, took 397 milliseconds
+[13Dec2021 03:50:29.179] [Worker-Main-6/INFO] [slimeknights.tconstruct.library.materials.definition.MaterialManager/]: 38 materials loaded
+[13Dec2021 03:50:29.257] [Worker-Main-6/INFO] [slimeknights.tconstruct.library.materials.stats.MaterialStatsManager/]: 108 stats loaded for 40 materials
+[13Dec2021 03:50:29.399] [Worker-Main-6/INFO] [immersiveengineering/]: Recipes for potions: minecraft:long_invisibility, undergarden:long_glowing, minecraft:regeneration, alexsmobs:speed_iii, minecraft:strong_poison, quark:long_danger_sight, minecraft:long_leaping, ars_nouveau:spell_damage_long, minecraft:invisibility, ars_nouveau:mana_regen_potion, undergarden:long_brittleness, minecraft:healing, alexsmobs:lava_vision, undergarden:long_featherweight, alexsmobs:long_lava_vision, minecraft:slow_falling, minecraft:strong_harming, minecraft:weakness, alexsmobs:soulsteal, undergarden:glowing, alexsmobs:poison_resistance, alexsmobs:long_poison_resistance, alexsmobs:knockback_resistance, minecraft:mundane, mowziesmobs:long_poison_resist, minecraft:long_fire_resistance, minecraft:strong_leaping, eidolon:chilled, alexsmobs:clinging, alexsmobs:long_knockback_resistance, undergarden:strong_brittleness, minecraft:turtle_master, minecraft:strong_healing, ars_nouveau:mana_regen_potion_strong, eidolon:long_anchored, minecraft:long_slowness, undergarden:long_virulent_resistance, quark:long_resistance, quark:resilience, minecraft:long_night_vision, minecraft:strength, quark:resistance, minecraft:night_vision, undergarden:featherweight, quark:long_resilience, minecraft:long_turtle_master, minecraft:long_weakness, minecraft:swiftness, undergarden:brittleness, minecraft:slowness, minecraft:long_swiftness, minecraft:long_water_breathing, minecraft:strong_slowness, minecraft:strong_regeneration, minecraft:strong_swiftness, minecraft:thick, minecraft:fire_resistance, minecraft:leaping, alexsmobs:long_bug_pheromones, alexsmobs:strong_soulsteal, alexsmobs:bug_pheromones, quark:danger_sight, minecraft:long_slow_falling, ars_nouveau:spell_damage, minecraft:water_breathing, minecraft:long_poison, minecraft:strong_turtle_master, minecraft:water, undergarden:strong_featherweight, minecraft:long_regeneration, quark:strong_resilience, mowziesmobs:poison_resist, minecraft:long_strength, eidolon:long_chilled, eidolon:anchored, undergarden:virulent_resistance, ars_nouveau:spell_damage_strong, minecraft:poison, minecraft:awkward, minecraft:harming, alexsmobs:strong_knockback_resistance, alexsmobs:long_clinging, ars_nouveau:mana_regen_potion_long, minecraft:strong_strength, quark:strong_resistance, alexsmobs:long_soulsteal
+[13Dec2021 03:50:43.045] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.16.5
+[13Dec2021 03:50:43.045] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[13Dec2021 03:50:43.045] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[13Dec2021 03:50:43.046] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[13Dec2021 03:50:43.121] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on 172.31.16.117:25565
+[13Dec2021 03:50:43.151] [Server thread/INFO] [net.minecraft.network.NetworkSystem/]: Using epoll channel type
+[13Dec2021 03:50:43.282] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[13Dec2021 03:50:43.282] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[13Dec2021 03:50:43.283] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[13Dec2021 03:50:43.283] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[13Dec2021 03:50:43.416] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "AHHHHHHHHHHHHHHHHHHHHHHHH"
+[13Dec2021 03:50:43.443] [Botania Contributor Fanciness Thread/INFO] [net.minecraftforge.coremod.CoreMod.astralsorcery/COREMODLOG]: Adding 'add_enchantment_helper_levels' ASM patch...
+[13Dec2021 03:50:43.445] [Botania Contributor Fanciness Thread/INFO] [net.minecraftforge.coremod.CoreMod.astralsorcery/COREMODLOG]: Added 'add_enchantment_helper_levels' ASM patch!
+[13Dec2021 03:50:43.447] [Botania Contributor Fanciness Thread/INFO] [net.minecraftforge.coremod.CoreMod.astralsorcery/COREMODLOG]: Adding 'add_enchantment_helper_enchantments' ASM patch...
+[13Dec2021 03:50:43.447] [Botania Contributor Fanciness Thread/INFO] [net.minecraftforge.coremod.CoreMod.astralsorcery/COREMODLOG]: Added 'add_enchantment_helper_enchantments' ASM patch!
+[13Dec2021 03:50:43.450] [Botania Contributor Fanciness Thread/INFO] [net.minecraftforge.coremod.CoreMod.astralsorcery/COREMODLOG]: Adding 'add_enchantment_helper_apply_modifier' ASM patch...
+[13Dec2021 03:50:43.451] [Botania Contributor Fanciness Thread/INFO] [net.minecraftforge.coremod.CoreMod.astralsorcery/COREMODLOG]: Added 'add_enchantment_helper_apply_modifier' ASM patch!
+[13Dec2021 03:50:43.645] [Server thread/INFO] [ObserverLib/]: Load CachedWorldData 'gateway-cache' for world minecraft:overworld
+[13Dec2021 03:50:43.651] [Server thread/INFO] [ObserverLib/]: Loading of 'gateway-cache' for world minecraft:overworld finished.
+[13Dec2021 03:50:44.414] [Server thread/INFO] [ObserverLib/]: Load CachedWorldData 'gateway-cache' for world minecraft:the_nether
+[13Dec2021 03:50:44.416] [Server thread/INFO] [ObserverLib/]: Loading of 'gateway-cache' for world minecraft:the_nether finished.
+[13Dec2021 03:50:44.541] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[13Dec2021 03:50:45.079] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[13Dec2021 03:50:45.081] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[13Dec2021 03:50:45.596] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[13Dec2021 03:50:46.321] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Time elapsed: 1779 ms
+[13Dec2021 03:50:46.322] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (3.018s)! For help, type "help"
+[13Dec2021 03:50:46.415] [Server thread/INFO] [Spartan Weaponry/]: Starting up Server for Spartan Weaponry!
+[13Dec2021 03:50:46.457] [Server thread/INFO] [Astral Sorcery/]: Loaded PerkTree!
+[13Dec2021 03:50:46.531] [Server thread/INFO] [ObserverLib/]: Load CachedWorldData 'lightnetwork' for world minecraft:overworld
+[13Dec2021 03:50:46.611] [Server thread/INFO] [ObserverLib/]: Loading of 'lightnetwork' for world minecraft:overworld finished.
+[13Dec2021 03:50:47.024] [Server thread/INFO] [ObserverLib/]: Load CachedWorldData 'structure_buffer' for world minecraft:overworld
+[13Dec2021 03:50:47.025] [Server thread/INFO] [ObserverLib/]: Loading of 'structure_buffer' for world minecraft:overworld finished.
+[13Dec2021 03:50:49.084] [Server thread/INFO] [net.minecraftforge.coremod.CoreMod.astralsorcery/COREMODLOG]: Adding 'add_custom_voxel_collision' ASM patch...
+[13Dec2021 03:50:49.098] [Server thread/INFO] [net.minecraftforge.coremod.CoreMod.astralsorcery/COREMODLOG]: Added 'add_custom_voxel_collision' ASM patch!
+[13Dec2021 03:50:49.102] [Server thread/INFO] [net.minecraftforge.coremod.CoreMod.astralsorcery/COREMODLOG]: Adding 'add_custom_collision_flag' ASM patch...
+[13Dec2021 03:50:49.104] [Server thread/INFO] [net.minecraftforge.coremod.CoreMod.astralsorcery/COREMODLOG]: Added 'add_custom_collision_flag' ASM patch!
+[13Dec2021 03:51:12.176] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.advancements.PlayerAdvancements@147c97cb
+[13Dec2021 03:51:12.436] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: Perderas[/181.51.32.123:11830] logged in with entity id 83 at (-72.81318684605777, 63.0, 479.1575093428065)
+[13Dec2021 03:51:12.478] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Perderas joined the game
+[13Dec2021 03:51:12.636] [Server thread/INFO] [Waila/]: Syncing config to Perderas (906dbf12-84da-33e8-ba56-868e0dca6162)
+[13Dec2021 03:51:12.694] [Server thread/INFO] [Scaling Health/]: Sending login packet to player ServerPlayerEntity['Perderas'/83, l='ServerLevel[AHHHHHHHHHHHHHHHHHHHHHHHH]', x=-72.81, y=63.00, z=479.16]
+[13Dec2021 03:51:12.695] [Server thread/INFO] [Scaling Health/]: Updating stats for null
+[13Dec2021 03:51:16.472] [Server thread/INFO] [com.dynamic_view.DynView/]: Mean tick: 6ms increasing chunk view distance to: 6
+[13Dec2021 03:51:31.469] [Server thread/INFO] [com.dynamic_view.DynView/]: Mean tick: 7ms increasing chunk view distance to: 7
+[13Dec2021 03:51:46.471] [Server thread/INFO] [com.dynamic_view.DynView/]: Mean tick: 4ms increasing chunk view distance to: 8
+[13Dec2021 03:52:01.469] [Server thread/INFO] [com.dynamic_view.DynView/]: Mean tick: 5ms increasing chunk view distance to: 9
+[13Dec2021 03:52:06.362] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.WhenDieInAbyssHandlerProcedure:executeProcedure:66]: java.io.FileNotFoundException: config/TheAbyss2.json (No such file or directory)
+[13Dec2021 03:52:06.363] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.WhenDieInAbyssHandlerProcedure:executeProcedure:66]: 	at java.io.FileInputStream.open0(Native Method)
+[13Dec2021 03:52:06.363] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.WhenDieInAbyssHandlerProcedure:executeProcedure:66]: 	at java.io.FileInputStream.open(FileInputStream.java:195)
+[13Dec2021 03:52:06.363] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.WhenDieInAbyssHandlerProcedure:executeProcedure:66]: 	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+[13Dec2021 03:52:06.363] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.WhenDieInAbyssHandlerProcedure:executeProcedure:66]: 	at java.io.FileReader.<init>(FileReader.java:72)
+[13Dec2021 03:52:06.363] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.WhenDieInAbyssHandlerProcedure:executeProcedure:66]: 	at net.yezon.theabyss.procedures.WhenDieInAbyssHandlerProcedure.executeProcedure(WhenDieInAbyssHandlerProcedure.java:56)
+[13Dec2021 03:52:06.363] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.WhenDieInAbyssHandlerProcedure:executeProcedure:66]: 	at net.yezon.theabyss.procedures.WhenDieInAbyssHandlerProcedure.onPlayerInBed(WhenDieInAbyssHandlerProcedure.java:114)
+[13Dec2021 03:52:06.363] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.WhenDieInAbyssHandlerProcedure:executeProcedure:66]: 	at net.minecraftforge.eventbus.ASMEventHandler_1318_WhenDieInAbyssHandlerProcedure_onPlayerInBed_PlayerSleepInBedEvent.invoke(.dynamic)
+[13Dec2021 03:52:06.364] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.WhenDieInAbyssHandlerProcedure:executeProcedure:66]: 	at net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:85)
+[13Dec2021 03:52:06.364] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.WhenDieInAbyssHandlerProcedure:executeProcedure:66]: 	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:302)
+[13Dec2021 03:52:06.364] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.WhenDieInAbyssHandlerProcedure:executeProcedure:66]: 	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:283)
+[13Dec2021 03:52:06.364] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.WhenDieInAbyssHandlerProcedure:executeProcedure:66]: 	at net.minecraftforge.event.ForgeEventFactory.onPlayerSleepInBed(ForgeEventFactory.java:475)
+[13Dec2021 03:52:06.364] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.WhenDieInAbyssHandlerProcedure:executeProcedure:66]: 	at net.minecraft.entity.player.ServerPlayerEntity.func_213819_a(ServerPlayerEntity.java:755)
+[13Dec2021 03:52:06.364] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.WhenDieInAbyssHandlerProcedure:executeProcedure:66]: 	at net.minecraft.block.BedBlock.func_225533_a_(SourceFile:115)
+[13Dec2021 03:52:06.364] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.WhenDieInAbyssHandlerProcedure:executeProcedure:66]: 	at net.minecraft.block.AbstractBlock$AbstractBlockState.func_227031_a_(AbstractBlock.java:640)
+[13Dec2021 03:52:06.364] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.WhenDieInAbyssHandlerProcedure:executeProcedure:66]: 	at net.minecraft.server.management.PlayerInteractionManager.func_219441_a(PlayerInteractionManager.java:338)
+[13Dec2021 03:52:06.365] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.WhenDieInAbyssHandlerProcedure:executeProcedure:66]: 	at net.minecraft.network.play.ServerPlayNetHandler.func_184337_a(ServerPlayNetHandler.java:958)
+[13Dec2021 03:52:06.365] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.WhenDieInAbyssHandlerProcedure:executeProcedure:66]: 	at net.minecraft.network.play.client.CPlayerTryUseItemOnBlockPacket.func_148833_a(SourceFile:36)
+[13Dec2021 03:52:06.365] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.WhenDieInAbyssHandlerProcedure:executeProcedure:66]: 	at net.minecraft.network.play.client.CPlayerTryUseItemOnBlockPacket.func_148833_a(SourceFile:10)
+[13Dec2021 03:52:06.365] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.WhenDieInAbyssHandlerProcedure:executeProcedure:66]: 	at net.minecraft.network.PacketThreadUtil.func_225383_a(SourceFile:21)
+[13Dec2021 03:52:06.365] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.WhenDieInAbyssHandlerProcedure:executeProcedure:66]: 	at net.minecraft.util.concurrent.TickDelayedTask.run(SourceFile:18)
+[13Dec2021 03:52:06.365] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.WhenDieInAbyssHandlerProcedure:executeProcedure:66]: 	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213166_h(SourceFile:144)
+[13Dec2021 03:52:06.365] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.WhenDieInAbyssHandlerProcedure:executeProcedure:66]: 	at net.minecraft.util.concurrent.RecursiveEventLoop.func_213166_h(SourceFile:23)
+[13Dec2021 03:52:06.365] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.WhenDieInAbyssHandlerProcedure:executeProcedure:66]: 	at net.minecraft.server.MinecraftServer.func_213166_h(MinecraftServer.java:734)
+[13Dec2021 03:52:06.366] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.WhenDieInAbyssHandlerProcedure:executeProcedure:66]: 	at net.minecraft.server.MinecraftServer.func_213166_h(MinecraftServer.java:159)
+[13Dec2021 03:52:06.366] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.WhenDieInAbyssHandlerProcedure:executeProcedure:66]: 	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213168_p(SourceFile:118)
+[13Dec2021 03:52:06.366] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.WhenDieInAbyssHandlerProcedure:executeProcedure:66]: 	at net.minecraft.server.MinecraftServer.func_213205_aW(MinecraftServer.java:717)
+[13Dec2021 03:52:06.366] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.WhenDieInAbyssHandlerProcedure:executeProcedure:66]: 	at net.minecraft.server.MinecraftServer.func_213168_p(MinecraftServer.java:711)
+[13Dec2021 03:52:06.366] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.WhenDieInAbyssHandlerProcedure:executeProcedure:66]: 	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213161_c(SourceFile:127)
+[13Dec2021 03:52:06.366] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.WhenDieInAbyssHandlerProcedure:executeProcedure:66]: 	at net.minecraft.server.MinecraftServer.func_213202_o(MinecraftServer.java:697)
+[13Dec2021 03:52:06.366] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.WhenDieInAbyssHandlerProcedure:executeProcedure:66]: 	at net.minecraft.server.MinecraftServer.func_240802_v_(MinecraftServer.java:646)
+[13Dec2021 03:52:06.366] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.WhenDieInAbyssHandlerProcedure:executeProcedure:66]: 	at net.minecraft.server.MinecraftServer.func_240783_a_(MinecraftServer.java:232)
+[13Dec2021 03:52:06.367] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.WhenDieInAbyssHandlerProcedure:executeProcedure:66]: 	at java.lang.Thread.run(Thread.java:748)
+[13Dec2021 03:52:16.470] [Server thread/INFO] [com.dynamic_view.DynView/]: Mean tick: 5ms increasing chunk view distance to: 10
+[13Dec2021 03:52:31.470] [Server thread/INFO] [com.dynamic_view.DynView/]: Mean tick: 6ms increasing chunk view distance to: 11
+[13Dec2021 03:52:32.906] [Server thread/WARN] [Scaling Health/]: Another mod seems to have canceled healing from a heart container (player TextComponent{text='Perderas', siblings=[], style=Style{ color=null, bold=null, italic=null, underlined=null, strikethrough=null, obfuscated=null, clickEvent=null, hoverEvent=null, insertion=null, font=minecraft:default}})
+[13Dec2021 03:52:46.469] [Server thread/INFO] [com.dynamic_view.DynView/]: Mean tick: 5ms increasing chunk view distance to: 12
+[13Dec2021 03:53:01.471] [Server thread/INFO] [com.dynamic_view.DynView/]: Mean tick: 4ms increasing chunk view distance to: 13
+[13Dec2021 03:53:16.470] [Server thread/INFO] [com.dynamic_view.DynView/]: Mean tick: 5ms increasing chunk view distance to: 14
+[13Dec2021 03:53:31.470] [Server thread/INFO] [com.dynamic_view.DynView/]: Mean tick: 5ms increasing chunk view distance to: 15
+[13Dec2021 03:53:46.470] [Server thread/INFO] [com.dynamic_view.DynView/]: Mean tick: 5ms increasing chunk view distance to: 16
+[13Dec2021 03:54:01.473] [Server thread/INFO] [com.dynamic_view.DynView/]: Mean tick: 6ms increasing chunk view distance to: 17
+[13Dec2021 03:54:16.470] [Server thread/INFO] [com.dynamic_view.DynView/]: Mean tick: 6ms increasing chunk view distance to: 18
+[13Dec2021 03:54:31.471] [Server thread/INFO] [com.dynamic_view.DynView/]: Mean tick: 6ms increasing chunk view distance to: 19
+[13Dec2021 03:54:46.470] [Server thread/INFO] [com.dynamic_view.DynView/]: Mean tick: 6ms increasing chunk view distance to: 20
+[13Dec2021 04:02:32.070] [Server thread/INFO] [ObserverLib/]: Load CachedWorldData 'structure_buffer' for world minecraft:the_nether
+[13Dec2021 04:02:32.071] [Server thread/INFO] [ObserverLib/]: Loading of 'structure_buffer' for world minecraft:the_nether finished.
+[13Dec2021 04:08:38.177] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Perderas was slain by Mutant Skeleton
+[13Dec2021 04:08:40.737] [Server thread/INFO] [Scaling Health/]: Player lost 0.00 heart crystal(s)
+[13Dec2021 04:08:40.738] [Server thread/INFO] [Scaling Health/]: Player lost -11.13 difficulty
+[13Dec2021 04:08:42.476] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.WhenDieInAbyssHandlerProcedure:executeProcedure:66]: java.io.FileNotFoundException: config/TheAbyss2.json (No such file or directory)
+[13Dec2021 04:08:42.476] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.WhenDieInAbyssHandlerProcedure:executeProcedure:66]: 	at java.io.FileInputStream.open0(Native Method)
+[13Dec2021 04:08:42.479] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.WhenDieInAbyssHandlerProcedure:executeProcedure:66]: 	at java.io.FileInputStream.open(FileInputStream.java:195)
+[13Dec2021 04:08:42.479] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.WhenDieInAbyssHandlerProcedure:executeProcedure:66]: 	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+[13Dec2021 04:08:42.479] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.WhenDieInAbyssHandlerProcedure:executeProcedure:66]: 	at java.io.FileReader.<init>(FileReader.java:72)
+[13Dec2021 04:08:42.479] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.WhenDieInAbyssHandlerProcedure:executeProcedure:66]: 	at net.yezon.theabyss.procedures.WhenDieInAbyssHandlerProcedure.executeProcedure(WhenDieInAbyssHandlerProcedure.java:56)
+[13Dec2021 04:08:42.479] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.WhenDieInAbyssHandlerProcedure:executeProcedure:66]: 	at net.yezon.theabyss.procedures.WhenDieInAbyssHandlerProcedure.onPlayerInBed(WhenDieInAbyssHandlerProcedure.java:114)
+[13Dec2021 04:08:42.479] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.WhenDieInAbyssHandlerProcedure:executeProcedure:66]: 	at net.minecraftforge.eventbus.ASMEventHandler_1318_WhenDieInAbyssHandlerProcedure_onPlayerInBed_PlayerSleepInBedEvent.invoke(.dynamic)
+[13Dec2021 04:08:42.479] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.WhenDieInAbyssHandlerProcedure:executeProcedure:66]: 	at net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:85)
+[13Dec2021 04:08:42.479] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.WhenDieInAbyssHandlerProcedure:executeProcedure:66]: 	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:302)
+[13Dec2021 04:08:42.480] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.WhenDieInAbyssHandlerProcedure:executeProcedure:66]: 	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:283)
+[13Dec2021 04:08:42.480] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.WhenDieInAbyssHandlerProcedure:executeProcedure:66]: 	at net.minecraftforge.event.ForgeEventFactory.onPlayerSleepInBed(ForgeEventFactory.java:475)
+[13Dec2021 04:08:42.480] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.WhenDieInAbyssHandlerProcedure:executeProcedure:66]: 	at net.minecraft.entity.player.ServerPlayerEntity.func_213819_a(ServerPlayerEntity.java:755)
+[13Dec2021 04:08:42.480] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.WhenDieInAbyssHandlerProcedure:executeProcedure:66]: 	at net.minecraft.block.BedBlock.func_225533_a_(SourceFile:115)
+[13Dec2021 04:08:42.480] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.WhenDieInAbyssHandlerProcedure:executeProcedure:66]: 	at net.minecraft.block.AbstractBlock$AbstractBlockState.func_227031_a_(AbstractBlock.java:640)
+[13Dec2021 04:08:42.480] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.WhenDieInAbyssHandlerProcedure:executeProcedure:66]: 	at net.minecraft.server.management.PlayerInteractionManager.func_219441_a(PlayerInteractionManager.java:338)
+[13Dec2021 04:08:42.480] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.WhenDieInAbyssHandlerProcedure:executeProcedure:66]: 	at net.minecraft.network.play.ServerPlayNetHandler.func_184337_a(ServerPlayNetHandler.java:958)
+[13Dec2021 04:08:42.480] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.WhenDieInAbyssHandlerProcedure:executeProcedure:66]: 	at net.minecraft.network.play.client.CPlayerTryUseItemOnBlockPacket.func_148833_a(SourceFile:36)
+[13Dec2021 04:08:42.480] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.WhenDieInAbyssHandlerProcedure:executeProcedure:66]: 	at net.minecraft.network.play.client.CPlayerTryUseItemOnBlockPacket.func_148833_a(SourceFile:10)
+[13Dec2021 04:08:42.480] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.WhenDieInAbyssHandlerProcedure:executeProcedure:66]: 	at net.minecraft.network.PacketThreadUtil.func_225383_a(SourceFile:21)
+[13Dec2021 04:08:42.480] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.WhenDieInAbyssHandlerProcedure:executeProcedure:66]: 	at net.minecraft.util.concurrent.TickDelayedTask.run(SourceFile:18)
+[13Dec2021 04:08:42.480] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.WhenDieInAbyssHandlerProcedure:executeProcedure:66]: 	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213166_h(SourceFile:144)
+[13Dec2021 04:08:42.481] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.WhenDieInAbyssHandlerProcedure:executeProcedure:66]: 	at net.minecraft.util.concurrent.RecursiveEventLoop.func_213166_h(SourceFile:23)
+[13Dec2021 04:08:42.481] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.WhenDieInAbyssHandlerProcedure:executeProcedure:66]: 	at net.minecraft.server.MinecraftServer.func_213166_h(MinecraftServer.java:734)
+[13Dec2021 04:08:42.481] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.WhenDieInAbyssHandlerProcedure:executeProcedure:66]: 	at net.minecraft.server.MinecraftServer.func_213166_h(MinecraftServer.java:159)
+[13Dec2021 04:08:42.481] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.WhenDieInAbyssHandlerProcedure:executeProcedure:66]: 	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213168_p(SourceFile:118)
+[13Dec2021 04:08:42.481] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.WhenDieInAbyssHandlerProcedure:executeProcedure:66]: 	at net.minecraft.server.MinecraftServer.func_213205_aW(MinecraftServer.java:717)
+[13Dec2021 04:08:42.481] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.WhenDieInAbyssHandlerProcedure:executeProcedure:66]: 	at net.minecraft.server.MinecraftServer.func_213168_p(MinecraftServer.java:711)
+[13Dec2021 04:08:42.481] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.WhenDieInAbyssHandlerProcedure:executeProcedure:66]: 	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213161_c(SourceFile:127)
+[13Dec2021 04:08:42.481] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.WhenDieInAbyssHandlerProcedure:executeProcedure:66]: 	at net.minecraft.server.MinecraftServer.func_213202_o(MinecraftServer.java:697)
+[13Dec2021 04:08:42.482] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.WhenDieInAbyssHandlerProcedure:executeProcedure:66]: 	at net.minecraft.server.MinecraftServer.func_240802_v_(MinecraftServer.java:646)
+[13Dec2021 04:08:42.482] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.WhenDieInAbyssHandlerProcedure:executeProcedure:66]: 	at net.minecraft.server.MinecraftServer.func_240783_a_(MinecraftServer.java:232)
+[13Dec2021 04:08:42.482] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.WhenDieInAbyssHandlerProcedure:executeProcedure:66]: 	at java.lang.Thread.run(Thread.java:748)
+[13Dec2021 04:09:21.437] [Server thread/WARN] [net.minecraft.network.play.ServerPlayNetHandler/]: Perderas moved too quickly! -9.072229444743698,-0.7491326388584127,4.829267190419785
+[13Dec2021 04:43:14.371] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Perderas lost connection: Timed out
+[13Dec2021 04:43:14.371] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Perderas left the game
+[13Dec2021 04:43:14.461] [Server thread/WARN] [net.minecraft.network.NetworkManager/]: handleDisconnection() called twice
+[13Dec2021 04:48:32.763] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.advancements.PlayerAdvancements@2ac96ac3
+[13Dec2021 04:48:32.950] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: Perderas[/181.51.32.123:10048] logged in with entity id 7382 at (-81.49699612296152, 63.0, 485.23750001192093)
+[13Dec2021 04:48:32.958] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Perderas joined the game
+[13Dec2021 04:48:32.983] [Server thread/INFO] [Waila/]: Syncing config to Perderas (906dbf12-84da-33e8-ba56-868e0dca6162)
+[13Dec2021 04:48:32.993] [Server thread/INFO] [Scaling Health/]: Sending login packet to player ServerPlayerEntity['Perderas'/7382, l='ServerLevel[AHHHHHHHHHHHHHHHHHHHHHHHH]', x=-81.50, y=63.00, z=485.24]
+[13Dec2021 04:48:32.994] [Server thread/INFO] [Scaling Health/]: Updating stats for null
+[13Dec2021 05:13:33.668] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Perderas lost connection: Disconnected
+[13Dec2021 05:13:33.669] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Perderas left the game
+[13Dec2021 21:10:02.260] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.advancements.PlayerAdvancements@7e32862d
+[13Dec2021 21:10:02.454] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: Perderas[/181.51.32.123:11813] logged in with entity id 8111 at (-94.0741167725105, 67.75, 486.15828218977396)
+[13Dec2021 21:10:02.462] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Perderas joined the game
+[13Dec2021 21:10:02.489] [Server thread/INFO] [Waila/]: Syncing config to Perderas (906dbf12-84da-33e8-ba56-868e0dca6162)
+[13Dec2021 21:10:02.495] [Server thread/INFO] [Scaling Health/]: Sending login packet to player ServerPlayerEntity['Perderas'/8111, l='ServerLevel[AHHHHHHHHHHHHHHHHHHHHHHHH]', x=-94.07, y=67.75, z=486.16]
+[13Dec2021 21:10:02.495] [Server thread/INFO] [Scaling Health/]: Updating stats for null
+[13Dec2021 21:35:45.469] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Perderas has made the advancement [Spooky Scary Skeleton]
+[13Dec2021 21:40:15.773] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.WhenDieInAbyssHandlerProcedure:executeProcedure:66]: java.io.FileNotFoundException: config/TheAbyss2.json (No such file or directory)
+[13Dec2021 21:40:15.774] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.WhenDieInAbyssHandlerProcedure:executeProcedure:66]: 	at java.io.FileInputStream.open0(Native Method)
+[13Dec2021 21:40:15.774] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.WhenDieInAbyssHandlerProcedure:executeProcedure:66]: 	at java.io.FileInputStream.open(FileInputStream.java:195)
+[13Dec2021 21:40:15.774] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.WhenDieInAbyssHandlerProcedure:executeProcedure:66]: 	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+[13Dec2021 21:40:15.774] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.WhenDieInAbyssHandlerProcedure:executeProcedure:66]: 	at java.io.FileReader.<init>(FileReader.java:72)
+[13Dec2021 21:40:15.774] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.WhenDieInAbyssHandlerProcedure:executeProcedure:66]: 	at net.yezon.theabyss.procedures.WhenDieInAbyssHandlerProcedure.executeProcedure(WhenDieInAbyssHandlerProcedure.java:56)
+[13Dec2021 21:40:15.774] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.WhenDieInAbyssHandlerProcedure:executeProcedure:66]: 	at net.yezon.theabyss.procedures.WhenDieInAbyssHandlerProcedure.onPlayerInBed(WhenDieInAbyssHandlerProcedure.java:114)
+[13Dec2021 21:40:15.774] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.WhenDieInAbyssHandlerProcedure:executeProcedure:66]: 	at net.minecraftforge.eventbus.ASMEventHandler_1318_WhenDieInAbyssHandlerProcedure_onPlayerInBed_PlayerSleepInBedEvent.invoke(.dynamic)
+[13Dec2021 21:40:15.774] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.WhenDieInAbyssHandlerProcedure:executeProcedure:66]: 	at net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:85)
+[13Dec2021 21:40:15.774] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.WhenDieInAbyssHandlerProcedure:executeProcedure:66]: 	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:302)
+[13Dec2021 21:40:15.774] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.WhenDieInAbyssHandlerProcedure:executeProcedure:66]: 	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:283)
+[13Dec2021 21:40:15.774] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.WhenDieInAbyssHandlerProcedure:executeProcedure:66]: 	at net.minecraftforge.event.ForgeEventFactory.onPlayerSleepInBed(ForgeEventFactory.java:475)
+[13Dec2021 21:40:15.775] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.WhenDieInAbyssHandlerProcedure:executeProcedure:66]: 	at net.minecraft.entity.player.ServerPlayerEntity.func_213819_a(ServerPlayerEntity.java:755)
+[13Dec2021 21:40:15.775] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.WhenDieInAbyssHandlerProcedure:executeProcedure:66]: 	at net.minecraft.block.BedBlock.func_225533_a_(SourceFile:115)
+[13Dec2021 21:40:15.775] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.WhenDieInAbyssHandlerProcedure:executeProcedure:66]: 	at net.minecraft.block.AbstractBlock$AbstractBlockState.func_227031_a_(AbstractBlock.java:640)
+[13Dec2021 21:40:15.775] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.WhenDieInAbyssHandlerProcedure:executeProcedure:66]: 	at net.minecraft.server.management.PlayerInteractionManager.func_219441_a(PlayerInteractionManager.java:338)
+[13Dec2021 21:40:15.775] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.WhenDieInAbyssHandlerProcedure:executeProcedure:66]: 	at net.minecraft.network.play.ServerPlayNetHandler.func_184337_a(ServerPlayNetHandler.java:958)
+[13Dec2021 21:40:15.775] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.WhenDieInAbyssHandlerProcedure:executeProcedure:66]: 	at net.minecraft.network.play.client.CPlayerTryUseItemOnBlockPacket.func_148833_a(SourceFile:36)
+[13Dec2021 21:40:15.775] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.WhenDieInAbyssHandlerProcedure:executeProcedure:66]: 	at net.minecraft.network.play.client.CPlayerTryUseItemOnBlockPacket.func_148833_a(SourceFile:10)
+[13Dec2021 21:40:15.775] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.WhenDieInAbyssHandlerProcedure:executeProcedure:66]: 	at net.minecraft.network.PacketThreadUtil.func_225383_a(SourceFile:21)
+[13Dec2021 21:40:15.775] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.WhenDieInAbyssHandlerProcedure:executeProcedure:66]: 	at net.minecraft.util.concurrent.TickDelayedTask.run(SourceFile:18)
+[13Dec2021 21:40:15.775] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.WhenDieInAbyssHandlerProcedure:executeProcedure:66]: 	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213166_h(SourceFile:144)
+[13Dec2021 21:40:15.775] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.WhenDieInAbyssHandlerProcedure:executeProcedure:66]: 	at net.minecraft.util.concurrent.RecursiveEventLoop.func_213166_h(SourceFile:23)
+[13Dec2021 21:40:15.775] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.WhenDieInAbyssHandlerProcedure:executeProcedure:66]: 	at net.minecraft.server.MinecraftServer.func_213166_h(MinecraftServer.java:734)
+[13Dec2021 21:40:15.776] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.WhenDieInAbyssHandlerProcedure:executeProcedure:66]: 	at net.minecraft.server.MinecraftServer.func_213166_h(MinecraftServer.java:159)
+[13Dec2021 21:40:15.776] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.WhenDieInAbyssHandlerProcedure:executeProcedure:66]: 	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213168_p(SourceFile:118)
+[13Dec2021 21:40:15.776] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.WhenDieInAbyssHandlerProcedure:executeProcedure:66]: 	at net.minecraft.server.MinecraftServer.func_213205_aW(MinecraftServer.java:717)
+[13Dec2021 21:40:15.776] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.WhenDieInAbyssHandlerProcedure:executeProcedure:66]: 	at net.minecraft.server.MinecraftServer.func_213168_p(MinecraftServer.java:711)
+[13Dec2021 21:40:15.776] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.WhenDieInAbyssHandlerProcedure:executeProcedure:66]: 	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213161_c(SourceFile:127)
+[13Dec2021 21:40:15.776] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.WhenDieInAbyssHandlerProcedure:executeProcedure:66]: 	at net.minecraft.server.MinecraftServer.func_213202_o(MinecraftServer.java:697)
+[13Dec2021 21:40:15.776] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.WhenDieInAbyssHandlerProcedure:executeProcedure:66]: 	at net.minecraft.server.MinecraftServer.func_240802_v_(MinecraftServer.java:646)
+[13Dec2021 21:40:15.776] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.WhenDieInAbyssHandlerProcedure:executeProcedure:66]: 	at net.minecraft.server.MinecraftServer.func_240783_a_(MinecraftServer.java:232)
+[13Dec2021 21:40:15.776] [Server thread/INFO] [STDERR/]: [net.yezon.theabyss.procedures.WhenDieInAbyssHandlerProcedure:executeProcedure:66]: 	at java.lang.Thread.run(Thread.java:748)
+[13Dec2021 23:38:17.768] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Perderas lost connection: Disconnected
+[13Dec2021 23:38:17.768] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Perderas left the game

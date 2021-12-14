@@ -22766,6 +22766,12 @@
     },
     "done": true
   },
+  "minecraft:nether/get_wither_skull": {
+    "criteria": {
+      "wither_skull": "2021-12-13 21:35:45 +0000"
+    },
+    "done": true
+  },
   "biomesoplenty:recipes/redstone/redwood_pressure_plate": {
     "criteria": {
       "has_the_recipe": "2021-12-09 00:12:53 +0000"
@@ -26278,6 +26284,7 @@
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
       "baked_potato": "2021-12-09 00:16:48 +0000",
+      "pumpkin_pie": "2021-12-13 04:50:00 +0000",
       "bread": "2021-12-12 06:12:33 +0000",
       "golden_carrot": "2021-12-09 04:18:01 +0000",
       "carrot": "2021-12-12 00:35:06 +0000"

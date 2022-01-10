@@ -4202,12 +4202,15 @@
       "minecraft:spider": "2021-12-08 22:06:34 +0000",
       "minecraft:piglin_brute": "2021-12-09 03:45:09 +0000",
       "minecraft:creeper": "2021-12-10 05:23:36 +0000",
+      "minecraft:slime": "2021-12-15 16:32:05 +0000",
       "minecraft:phantom": "2021-12-10 01:03:01 +0000",
       "minecraft:zombified_piglin": "2021-12-09 05:32:26 +0000",
       "minecraft:witch": "2021-12-08 20:48:17 +0000",
+      "minecraft:wither_skeleton": "2021-12-16 02:55:27 +0000",
       "minecraft:cave_spider": "2021-12-09 00:47:04 +0000",
       "minecraft:piglin": "2021-12-09 03:44:56 +0000",
       "minecraft:stray": "2021-12-12 05:22:37 +0000",
+      "minecraft:enderman": "2021-12-18 04:39:58 +0000",
       "minecraft:zombie": "2021-12-08 20:15:14 +0000",
       "minecraft:drowned": "2021-12-12 03:47:14 +0000",
       "minecraft:zombie_villager": "2021-12-10 21:59:08 +0000"
@@ -4259,6 +4262,12 @@
   "biomesoplenty:recipes/redstone/dead_pressure_plate": {
     "criteria": {
       "has_the_recipe": "2021-12-08 20:12:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/voluntary_exile": {
+    "criteria": {
+      "voluntary_exile": "2021-12-15 22:02:24 +0000"
     },
     "done": true
   },
@@ -6104,6 +6113,12 @@
     },
     "done": true
   },
+  "mowziesmobs:kill_grottol": {
+    "criteria": {
+      "grottol": "2021-12-15 22:44:59 +0000"
+    },
+    "done": true
+  },
   "betterendforge:recipes/betterendforge/terminite_sword_smithing": {
     "criteria": {
       "has_the_recipe": "2021-12-08 20:12:37 +0000"
@@ -6251,6 +6266,12 @@
   "tconstruct:recipes/tconstruct/gadgets/gadgets/throwball/glow_ball": {
     "criteria": {
       "has_the_recipe": "2021-12-08 20:12:31 +0000"
+    },
+    "done": true
+  },
+  "mowziesmobs:kill_grottol_fortune": {
+    "criteria": {
+      "steal_crystal": "2021-12-15 22:44:59 +0000"
     },
     "done": true
   },
@@ -6569,6 +6590,12 @@
   "botania:recipes/botania/metamorphic_taiga_bricks_wall": {
     "criteria": {
       "has_the_recipe": "2021-12-08 20:12:33 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/ol_betsy": {
+    "criteria": {
+      "shot_crossbow": "2021-12-15 22:24:38 +0000"
     },
     "done": true
   },
@@ -7494,7 +7521,8 @@
     "criteria": {
       "sky": "2021-12-08 20:26:10 +0000",
       "magma_cream": "2021-12-09 04:03:59 +0000",
-      "earth": "2021-12-08 20:26:03 +0000"
+      "earth": "2021-12-08 20:26:03 +0000",
+      "ichor": "2021-12-15 22:55:29 +0000"
     },
     "done": false
   },
@@ -14232,6 +14260,12 @@
     },
     "done": true
   },
+  "astralsorcery:perk_level_medium": {
+    "criteria": {
+      "gain_perk_level_medium": "2021-12-15 22:24:53 +0000"
+    },
+    "done": true
+  },
   "minecraft:story/obtain_armor": {
     "criteria": {
       "iron_leggings": "2021-12-08 20:37:55 +0000"
@@ -20880,6 +20914,12 @@
     },
     "done": true
   },
+  "astralsorcery:find_minor_constellation": {
+    "criteria": {
+      "minor_constellation_discovered": "2021-12-15 16:50:26 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/iron_sword": {
     "criteria": {
       "has_the_recipe": "2021-12-08 20:12:37 +0000"
@@ -25720,12 +25760,14 @@
       "minecraft:birch_forest": "2021-12-08 20:17:51 +0000",
       "minecraft:jungle_hills": "2021-12-12 05:18:18 +0000",
       "minecraft:snowy_beach": "2021-12-12 05:19:09 +0000",
+      "minecraft:bamboo_jungle": "2021-12-18 04:46:02 +0000",
       "minecraft:beach": "2021-12-09 22:26:25 +0000",
       "minecraft:dark_forest": "2021-12-08 20:22:31 +0000",
       "minecraft:river": "2021-12-08 20:16:46 +0000",
       "minecraft:snowy_taiga": "2021-12-12 05:19:12 +0000",
       "minecraft:birch_forest_hills": "2021-12-08 20:18:24 +0000",
       "minecraft:wooded_mountains": "2021-12-08 20:32:56 +0000",
+      "minecraft:bamboo_jungle_hills": "2021-12-18 04:47:24 +0000",
       "minecraft:wooded_hills": "2021-12-08 20:43:39 +0000",
       "minecraft:stone_shore": "2021-12-09 00:58:03 +0000",
       "minecraft:giant_tree_taiga_hills": "2021-12-09 23:22:51 +0000",
@@ -26463,6 +26505,7 @@
       "golden_apple": "2021-12-09 21:54:36 +0000",
       "rotten_flesh": "2021-12-08 20:15:23 +0000",
       "golden_carrot": "2021-12-09 04:05:14 +0000",
+      "cooked_chicken": "2021-12-18 05:02:42 +0000",
       "carrot": "2021-12-08 20:31:47 +0000"
     },
     "done": false

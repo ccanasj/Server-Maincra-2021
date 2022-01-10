@@ -18,10 +18,10 @@
 	groupAreaBonus = "1 + 0.05 * (areaPlayerCount - 1)"
 	#Message displayed to the player when sleeping, assuming it would change their difficulty.
 	#If left empty, the default message is pulled from the translation file.
-	sleepWarningMessage = "Ojito que dormir lo hace mas dificil"
+	sleepWarningMessage = "El que duerma es gei"
 	#Every second, this value is added to player and dimension difficulty.
 	#Enter a negative number to subtract difficulty instead.
-	changePerSecond = 0.0011575
+	changePerSecond = 0.001
 	#These players will not gain difficulty. Use either name or UUID.
 	#Note: if non-exempt players are nearby, mobs will still be stronger.
 	exemptPlayers = []
@@ -52,7 +52,7 @@
 
 	[difficulty.afk]
 		#Multiplier for changePerSecond when the player is not moving. A negative value will then decrease difficulty.
-		multiplier = 0.05
+		multiplier = 0.1
 		#Time in seconds before afk change kicks in
 		time = 120.0
 		#If true, a comment will appear to notify when you are considered afk
@@ -62,19 +62,19 @@
 	#putting in -difficulty- produces no change, putting 0 will reset difficulty after this action
 	[difficulty.mutators]
 		#EvalEx expression: A player sleeps in a bed
-		onPlayerSleep = "difficulty + 0.1"
+		onPlayerSleep = "difficulty + 30.0"
 		#EvalEx expression: A player dies
-		onPlayerDeath = "0"
+		onPlayerDeath = "difficulty - 50.0"
 		#EvalEx expression: A normal hostile mob is killed by a player
-		onHostileKilled = "difficulty + 0.001"
+		onHostileKilled = "difficulty + 5.0"
 		#EvalEx expression: A player killed another player
-		onPlayerKilled = "difficulty + 5.0"
+		onPlayerKilled = "difficulty + 40.0"
 		#EvalEx expression: A boss is killed by a player
-		onBossKilled = "difficulty + 10.0"
+		onBossKilled = "difficulty + 50.0"
 		#EvalEx expression: A blight is killed by a player
-		onBlightKilled = "difficulty + 1.0"
+		onBlightKilled = "difficulty + 20.0"
 		#EvalEx expression: A peaceful mob is killed by a player
-		onPeacefulKilled = "difficulty"
+		onPeacefulKilled = "difficulty + 1.0"
 
 		[[difficulty.mutators.byEntity]]
 			types = ["minecraft:villager"]
@@ -102,16 +102,16 @@
 		#The maximum extra attack damage a mob can receive
 		maxBoost = 6.0
 		#How rapidly mob attack damage rises with difficulty (0 = no damage boost)
-		boostScale = 0.1
+		boostScale = 0.05
 
 	#Chance for mobs to receive a random potion effect (assuming their difficulty is high enough)
 	[mob.potionChance]
-		hostile = 0.575
+		hostile = 0.8
 		peaceful = 0.025
 
 	[mob.xp]
 		#Xp scaling multiplied by difficulty - xp scale of 0.1 with difficulty 10 will give about 11x more xp
-		Boost = 0.03
+		Boost = 0.02
 
 	#Mob health settings
 	[mob.health]
@@ -126,14 +126,14 @@
 		modifierMode = "MULTI_HALF"
 
 		[mob.health.multiplier]
-			hostile = 0.275
-			passive = 0.175
+			hostile = 0.2
+			passive = 0.1
 
 	[mob.blight]
 		#Chance that the mob has of becoming a blight - 0 will effectively deactivate blight
 		#The equation is : chance * difficulty/maxDifficulty
 		#meaning at 20% of maxDiff there is chance/5 chances of the mob being blight 1% using default value
-		chance = 0.1
+		chance = 0.3
 		#Xp scaling for blights, 3 will give 3 more times more xp then another mob on the same difficulty
 		maxBoost = 3.0
 		#Notify everyone that a blight died in combat
@@ -185,7 +185,7 @@
 
 	[[mob.randomPotionEffects]]
 		potion = "minecraft:fire_resistance"
-		minDifficulty = 10
+		minDifficulty = 50
 		level = 1
 		durationInMinutes = 10.0
 
@@ -205,20 +205,20 @@
 
 	[item.heart_crystal]
 		#The number of levels required to use a heart crystal.
-		levelCost = 10
+		levelCost = 20
 		#The amount of additional health restored by heart crystals.
 		#Heart crystals always restore the amount of health they add, this is a bonus
-		healthRestored = 5.0
+		healthRestored = 15.0
 		#How much hearts a player will gain using a heart crystal.
 		healthBoost = 1
 
 	[item.enchanted_heart]
 		#Change in difficulty when an enchanted heart is used
-		change = -10.0
+		change = -100.0
 
 	[item.power_crystal]
 		#The number of levels required to use a power crystal.
-		levelCost = 10
+		levelCost = 15
 		#How much more damage a player deals after using a power crystal.
 		damageBoost = 0.3
 
@@ -227,7 +227,7 @@
 		#For a value n, a chance heart has 1 in 2n + 1 chance of being cursed
 		#In that case, n difficulty is added (n = 10, 1 in 21 chance to get +10)
 		#There's a 2 in 2n + 1 chance for 1 to n difficulty to be subtracted (n = 3, 2 in 7 chance of getting -1, -2, or -3
-		change = 10.0
+		change = 0.5
 
 	[item.cursed_heart]
 		#Change in difficulty when a cursed heart is used
@@ -247,7 +247,7 @@
 	#Does damage scaling affect peaceful mobs (animals)?
 	affectPeacefuls = false
 	#How sharply damage scales with difficulty.
-	difficultyWeight = 0.02
+	difficultyWeight = 0.01
 	#give the modid of a mod to negate ALL damage scaling in the mod
 	blacklistMods = ["modid", "othermodid"]
 	#Does damage scaling affect hostile mobs?
@@ -272,13 +272,13 @@
 	#maxHealth -- Maximum health at which regen will be active
 	[player.regen]
 		minFood = 10
-		exhaustion = 0.1
+		exhaustion = 0.5
 		minHealth = 0
 		maxHealth = 2147483647
 		proportionalToMaxHealth = false
-		initialDelay = 20.0
+		initialDelay = 30.0
 		maxFood = 2147483647
-		tickDelay = 5.0
+		tickDelay = 10.0
 		enabled = true
 
 	[player.health]
@@ -290,7 +290,7 @@
 		minHealth = 2
 		#The highest max health a player can reach, not considering the vanilla
 		# health cap and modifiers from other sources. 0 means 'unlimited'.
-		maxHealth = 60
+		maxHealth = 160
 
 		#settings for hp scaling by xp level
 		[player.health.xp]

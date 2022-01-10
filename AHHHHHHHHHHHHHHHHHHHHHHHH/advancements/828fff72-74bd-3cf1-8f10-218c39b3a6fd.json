@@ -9484,6 +9484,12 @@
     },
     "done": true
   },
+  "create:deployer": {
+    "criteria": {
+      "0": "2021-12-16 02:56:38 +0000"
+    },
+    "done": true
+  },
   "betterendforge:recipes/betterendforge/terminite_nugget_from_blasting": {
     "criteria": {
       "has_the_recipe": "2021-12-02 03:04:25 +0000"
@@ -9949,6 +9955,12 @@
   "immersiveengineering:recipes/immersiveengineering/crafting/gunpowder_barrel": {
     "criteria": {
       "has_the_recipe": "2021-12-02 03:04:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:end/enter_end_gateway": {
+    "criteria": {
+      "entered_end_gateway": "2021-12-22 00:54:11 +0000"
     },
     "done": true
   },
@@ -11168,6 +11180,12 @@
   "tconstruct:recipes/tconstruct/general/common/materials/copper_ingot_from_block": {
     "criteria": {
       "has_the_recipe": "2021-12-02 03:04:30 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/follow_ender_eye": {
+    "criteria": {
+      "in_stronghold": "2021-12-21 04:49:27 +0000"
     },
     "done": true
   },
@@ -13609,6 +13627,7 @@
   },
   "tconstruct:smeltery/tool_forge": {
     "criteria": {
+      "excavator": "2021-12-21 03:26:43 +0000",
       "sledge_hammer": "2021-12-09 18:13:55 +0000"
     },
     "done": false
@@ -13676,6 +13695,12 @@
   "minecraft:recipes/building_blocks/cut_red_sandstone_slab_from_cut_red_sandstone_stonecutting": {
     "criteria": {
       "has_the_recipe": "2021-12-02 03:04:30 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/enter_the_end": {
+    "criteria": {
+      "entered_end": "2021-12-21 05:16:36 +0000"
     },
     "done": true
   },
@@ -14259,6 +14284,12 @@
   "minecraft:recipes/building_blocks/end_stone_brick_stairs_from_end_stone_brick_stonecutting": {
     "criteria": {
       "has_the_recipe": "2021-12-02 03:04:23 +0000"
+    },
+    "done": true
+  },
+  "artifacts:chest_slayer": {
+    "criteria": {
+      "kill_mimic": "2021-12-22 06:51:19 +0000"
     },
     "done": true
   },
@@ -16984,6 +17015,12 @@
     },
     "done": true
   },
+  "create:electron_tube": {
+    "criteria": {
+      "0": "2021-12-16 02:53:12 +0000"
+    },
+    "done": true
+  },
   "biomesoplenty:recipes/building_blocks/chiseled_orange_sandstone_from_orange_sandstone_stonecutting": {
     "criteria": {
       "has_the_recipe": "2021-12-02 03:04:25 +0000"
@@ -17301,6 +17338,13 @@
       "has_the_recipe": "2021-12-02 03:04:27 +0000"
     },
     "done": true
+  },
+  "undergarden:undergarden/all_undergarden_biomes": {
+    "criteria": {
+      "gronglegrowth": "2021-12-22 07:33:46 +0000",
+      "forgotten_field": "2021-12-22 07:33:47 +0000"
+    },
+    "done": false
   },
   "botania:recipes/botania/spark_upgrade_isolated": {
     "criteria": {
@@ -18064,6 +18108,12 @@
     },
     "done": true
   },
+  "minecraft:end/dragon_breath": {
+    "criteria": {
+      "dragon_breath": "2021-12-21 05:18:25 +0000"
+    },
+    "done": true
+  },
   "immersiveengineering:recipes/immersiveengineering/crafting/treated_wood_horizontal_to_slab": {
     "criteria": {
       "has_the_recipe": "2021-12-02 03:04:29 +0000"
@@ -18130,6 +18180,12 @@
     },
     "done": true
   },
+  "create:fan": {
+    "criteria": {
+      "0": "2021-12-16 02:41:52 +0000"
+    },
+    "done": true
+  },
   "create:recipes/create.base/crafting/kinetics/water_wheel": {
     "criteria": {
       "has_the_recipe": "2021-12-02 03:04:24 +0000"
@@ -18163,6 +18219,12 @@
   "create:recipes/create.palettes/dark_scoria_cobblestone_from_dark_scoria_stonecutting": {
     "criteria": {
       "has_the_recipe": "2021-12-02 03:04:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/enchant_item": {
+    "criteria": {
+      "enchanted_item": "2021-12-22 02:15:13 +0000"
     },
     "done": true
   },
@@ -23171,6 +23233,12 @@
     },
     "done": true
   },
+  "alexsmobs:alexsmobs/grizzly_bear": {
+    "criteria": {
+      "killed_by": "2021-12-22 00:25:21 +0000"
+    },
+    "done": true
+  },
   "betterendforge:recipes/betterendforge/iron_bulb_lantern_black": {
     "criteria": {
       "has_the_recipe": "2021-12-02 03:04:28 +0000"
@@ -25259,6 +25327,12 @@
     },
     "done": true
   },
+  "minecraft:end/root": {
+    "criteria": {
+      "entered_end": "2021-12-21 05:16:36 +0000"
+    },
+    "done": true
+  },
   "betterendforge:recipes/betterendforge/mossy_glowshroom_sign": {
     "criteria": {
       "has_the_recipe": "2021-12-02 03:04:25 +0000"
@@ -25274,6 +25348,12 @@
   "tconstruct:recipes/tconstruct/general/common/materials/rose_gold_ingot_from_block": {
     "criteria": {
       "has_the_recipe": "2021-12-02 03:04:28 +0000"
+    },
+    "done": true
+  },
+  "undergarden:undergarden/enter_undergarden": {
+    "criteria": {
+      "enter_undergarden": "2021-12-22 07:33:46 +0000"
     },
     "done": true
   },
@@ -25899,6 +25979,7 @@
       "minecraft:jungle": "2021-12-02 05:34:03 +0000",
       "minecraft:birch_forest": "2021-12-02 03:52:13 +0000",
       "minecraft:jungle_hills": "2021-12-07 04:16:52 +0000",
+      "minecraft:bamboo_jungle": "2021-12-21 04:48:44 +0000",
       "minecraft:deep_lukewarm_ocean": "2021-12-07 04:22:58 +0000",
       "minecraft:beach": "2021-12-02 17:06:25 +0000",
       "minecraft:dark_forest": "2021-12-02 04:03:44 +0000",
@@ -25906,6 +25987,7 @@
       "minecraft:lukewarm_ocean": "2021-12-07 04:22:50 +0000",
       "minecraft:birch_forest_hills": "2021-12-02 03:53:06 +0000",
       "minecraft:wooded_mountains": "2021-12-02 04:58:35 +0000",
+      "minecraft:bamboo_jungle_hills": "2021-12-21 04:48:43 +0000",
       "minecraft:wooded_hills": "2021-12-02 03:18:30 +0000",
       "minecraft:swamp": "2021-12-02 17:29:03 +0000",
       "minecraft:plains": "2021-12-02 03:04:31 +0000"
@@ -26628,6 +26710,8 @@
       "apple": "2021-12-02 03:36:14 +0000",
       "poisonous_potato": "2021-12-03 16:40:07 +0000",
       "bread": "2021-12-03 00:57:32 +0000",
+      "rotten_flesh": "2021-12-22 07:49:44 +0000",
+      "cooked_rabbit": "2021-12-21 04:39:45 +0000",
       "cooked_chicken": "2021-12-10 05:53:25 +0000"
     },
     "done": false

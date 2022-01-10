@@ -4153,6 +4153,7 @@
     "criteria": {
       "minecraft:blaze": "2021-12-09 17:42:31 +0000",
       "minecraft:skeleton": "2021-12-09 02:03:08 +0000",
+      "minecraft:ghast": "2021-12-15 23:26:42 +0000",
       "minecraft:magma_cube": "2021-12-09 04:04:02 +0000",
       "minecraft:spider": "2021-12-09 00:53:41 +0000",
       "minecraft:piglin_brute": "2021-12-09 03:45:32 +0000",
@@ -4165,7 +4166,8 @@
       "minecraft:enderman": "2021-12-09 03:38:55 +0000",
       "minecraft:silverfish": "2021-12-09 22:11:55 +0000",
       "minecraft:stray": "2021-12-12 05:23:54 +0000",
-      "minecraft:zombie": "2021-12-09 02:32:58 +0000"
+      "minecraft:zombie": "2021-12-09 02:32:58 +0000",
+      "minecraft:zombie_villager": "2021-12-15 21:24:17 +0000"
     },
     "done": false
   },
@@ -9326,6 +9328,12 @@
   "cfm:recipes/cfm/lime_cooler": {
     "criteria": {
       "has_the_recipe": "2021-12-09 00:12:54 +0000"
+    },
+    "done": true
+  },
+  "create:deployer": {
+    "criteria": {
+      "0": "2021-12-16 03:04:08 +0000"
     },
     "done": true
   },
@@ -17895,6 +17903,12 @@
     },
     "done": true
   },
+  "minecraft:story/enchant_item": {
+    "criteria": {
+      "enchanted_item": "2021-12-15 05:09:47 +0000"
+    },
+    "done": true
+  },
   "create:recipes/create.palettes/fancy_dark_scoria_bricks_wall_from_fancy_dark_scoria_bricks_stonecutting": {
     "criteria": {
       "has_the_recipe": "2021-12-09 00:12:51 +0000"
@@ -19062,6 +19076,12 @@
   "biomesoplenty:recipes/redstone/magic_button": {
     "criteria": {
       "has_the_recipe": "2021-12-09 00:12:53 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/green_dye": {
+    "criteria": {
+      "has_cactus": "2021-12-15 06:05:01 +0000"
     },
     "done": true
   },
@@ -24500,6 +24520,12 @@
     },
     "done": true
   },
+  "minecraft:nether/return_to_sender": {
+    "criteria": {
+      "killed_ghast": "2021-12-16 03:18:53 +0000"
+    },
+    "done": true
+  },
   "betterendforge:recipes/betterendforge/leather_to_stripes": {
     "criteria": {
       "has_the_recipe": "2021-12-09 00:12:52 +0000"
@@ -26414,6 +26440,12 @@
   "immersiveengineering:recipes/immersiveengineering/crafting/wooden_grip": {
     "criteria": {
       "has_the_recipe": "2021-12-09 00:12:53 +0000"
+    },
+    "done": true
+  },
+  "create:its_alive": {
+    "criteria": {
+      "0": "2021-12-16 03:48:01 +0000"
     },
     "done": true
   },
